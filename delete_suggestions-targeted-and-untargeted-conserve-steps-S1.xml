@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-9"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>486</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1031</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted user with no profile should not be charged for sending HELP message-4"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>931</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1031</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <diff-then-steps-usage-aggregate>304</diff-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <diff-then-steps-usage-aggregate>319</diff-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <diff-then-steps-usage-aggregate>224</diff-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <diff-then-steps-usage-aggregate>319</diff-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>500</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1031</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>489</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1031</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>490</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1031</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <diff-then-steps-usage-aggregate>253</diff-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <diff-then-steps-usage-aggregate>319</diff-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <diff-then-steps-usage-aggregate>253</diff-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <diff-then-steps-usage-aggregate>319</diff-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>489</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1040</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code-9"/>
+      <in feature="Campaign test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>485</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>953</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send pre_launch_text_key reply when a non-user sends the PRE-LAUNCH text-4"/>
+      <in feature="Campaign test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>533</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>953</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Creating requested profile for the user-3"/>
+      <in feature="Campaign test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>486</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>953</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-9"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>691</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>706</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <diff-given-steps-usage-aggregate>691</diff-given-steps-usage-aggregate>
+      <or/>
+      <delete-scenario-with title="Do not charge subscribed user for the teaser-4-H2"/>
+      <in feature="Charge test cases"/>
+      <diff-given-steps-usage-aggregate>691</diff-given-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <diff-given-then-steps-usage-aggregate>508</diff-given-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <diff-given-then-steps-usage-aggregate>702</diff-given-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>508</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>706</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>507</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>706</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>509</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>794</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>773</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>794</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>509</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>794</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>510</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>794</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser-9"/>
+      <in feature="Content teaser test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>854</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1023</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>540</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1023</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>581</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>1005</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+      <diff-given-when-then-steps-usage-aggregate>500</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code"/>
+      <in feature="FP"/>
+      <diff-given-when-then-steps-usage-aggregate>1031</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends mo with SCORE to free short code-9-5"/>
+      <in feature="Keywords test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>612</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="No profile user sends mo with SCORE to free short code-keywords"/>
+      <in feature="Keywords test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>852</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>485</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>662</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Invalid subscription-3"/>
+      <in feature="Keywords test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>488</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>662</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <diff-when-then-steps-usage-aggregate>134</diff-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <diff-when-then-steps-usage-aggregate>332</diff-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>486</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>968</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with value 1  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <diff-when-then-steps-usage-aggregate>134</diff-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <diff-when-then-steps-usage-aggregate>323</diff-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Request of subscription information by a subscribed user.-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>485</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>955</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A subscribed user sends a free short code messages-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>484</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>968</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Free short code messages is sent by a subscribed user-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>483</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="A Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>939</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile sends an sms for unsubscription-15"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>457</diff-given-when-then-steps-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="No profile customer sends optout keyword with active subscription-target-output"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <diff-given-when-then-steps-usage-aggregate>964</diff-given-when-then-steps-usage-aggregate>
+   </suggestion>
+</suggestions>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>61</keyword-count>
+      <keywords>br com netshoes http back com create gmail name november ns softbox surname user 3232 34 9191 back cellphone change friday gender name netshoes phone surname 123 change login logout netshoes password 06460 908 add address cep shipping 004 244 6866 address another bone cart icon nike pf product produto put shipping boleto buy pf delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>68</keyword-count>
+      <keywords>access br com netshoes http account back com email gmail name new november ns register softbox surname account backfriday name netshoes surname update 06460 3232 34 908 9191 add address cellphone cep female gender information like phone shipping 123 account add netshoes password security login logout address another choose pf shipping 004 244 6866 boleto bone buy icon nike pf product produto delete one shipping done previous steps</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>58</keyword-count>
+      <keywords>br com netshoes http create da joao name pitbull silva surname user 3232 34 9191 cellphone change florentina gender maria name phone surname 123 change login logout netshoes password 06460 908 add address cep shipping 004 244 6866 address another bone cart icon nike pf product produto put shipping boleto buy pf delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>64</keyword-count>
+      <keywords>access address br com netshoes web http da first joao last name pitbull register silva 3232 34 9191 cellphone change first florentina gender last maria name phone 123 netshoes passwort reset login logout 06460 908 add address cep missing shipping 004 244 6866 add address another bone cart chose icon nike pf product produto ship sku boleto pf purchase delete one shipping done previous</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>58</keyword-count>
+      <keywords>br com netshoes http create da joao name pitbull silva surname user 3232 34 9191 cellphone change florentina gender maria name phone surname 123 change login logout netshoes password 06460 908 add address cep shipping 004 244 6866 address another bone cart icon nike pf product produto put shipping boleto buy pf delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>63</keyword-count>
+      <keywords>br com netshoes site http account da joao name pitbull register silva surname 3232 34 9191 contact female florentina gender maria mobile name new particulars surname telephone update 123 account have login netshoes password sign 06460 908 address cep register shipping 004 244 6866 address another bone icon item nike pf produto purchase boleto make pf purchase use have one shipping previous success</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>56</keyword-count>
+      <keywords>access have internet br com netshoes http company create fadiga fantasia nome qualquercoisa razao social sports 06460 908 add cep shipping 1010 3232 34 99300 cellphone fantasia fitness nome outracoisa phone razao social trincado update update'razao 0087 150 509 acte address another cart pj product produto put rolo shipping sports boleto buy pj done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>62</keyword-count>
+      <keywords>br com netshoes http company create fadiga fantasia nome qualquercoisa razao social sports 1010 3232 34 99300 cellphone change fantasia fitness nome outracoisa phone razao social trincado 123 change company login logout netshoes password 06460 908 add cep shipping 0087 150 509 acte address another cart pj product produto put rolo shipping sports boleto buy pj delete one shipping done previous steps</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>62</keyword-count>
+      <keywords>br com netshoes http company create fadiga fantasia nome qualquercoisa razao social sports 1010 3232 34 99300 cellphone change fantasia fitness nome outracoisa phone razao social trincado 123 change company login logout netshoes password 06460 908 add cep shipping 0087 150 509 acte address another cart pj product produto put rolo shipping sports boleto buy pj delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>68</keyword-count>
+      <keywords>access address br com netshoes web http fadiga fantasia nome qualquercoisa razao register social sports 1010 3232 34 99300 cellphone change fantasia fitness maria nome phone razao social trincado 123 change company netshoes password reset login logout 06460 908 add address cep missing shipping 0087 150 509 acte add address another cart chose pj product produto rolo ship sku sports boleto pj purchase delete one shipping done previous</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>62</keyword-count>
+      <keywords>br com netshoes http company create fadiga fantasia nome qualquercoisa razao social sports 1010 3232 34 99300 cellphone change fantasia fitness nome outracoisa phone razao social trincado 123 change company login logout netshoes password 06460 908 add cep shipping 0087 150 509 acte address another cart pj product produto put rolo shipping sports boleto buy pj delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>64</keyword-count>
+      <keywords>br com netshoes site http fadiga fantasia nome qualquercoisa razao register respectively social sports 1010 3232 34 99300 contact fantasia fitness mobile modify new nome number outracoisa phone razao social trincado 123 company have netshoes passcode re sign 06460 908 provide shipping 0087 150 509 acte add address cart different item pj produto rolo sports boleto make pj purchase use have one shipping previous</keywords>
+   </suggestion>
+</suggestions>

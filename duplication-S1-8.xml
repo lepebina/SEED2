@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<duplicates>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Send &#34;pre_launch_text_key&#34; reply when a non-user sends the “PRE-LAUNCH” text-4"/>
+      <in feature="Campaign test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="No profile user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Send “subscription_1_invalidt”reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="No profile user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Send “subscription_1_invalidt”reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with value &#34;1&#34;  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with value &#34;1&#34;  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with value &#34;1&#34;  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with value &#34;1&#34;  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with value &#34;1&#34;  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="A subscribed user sends a free short code messages-15"/>
+      <in feature="Keywords aliases test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="A Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Free short code messages is sent by a subscribed user-15"/>
+      <in feature="Keywords aliases test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="No profile customer sends optout keyword with active subscription"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="User with no profile sends an sms for unsubscription-15"/>
+      <in feature="Subscription Opt-out test cases"/>
+   </duplicate>
+</duplicates>

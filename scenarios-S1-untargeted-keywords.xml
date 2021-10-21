@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+  <scenario feature="Keywords test cases" title="No profile user sends mo with HELP to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006710001" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006710001</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "HELP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>help</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "INVALID" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "RESPONSE_SUBSCRIPTION_SERVICE" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>respons</keyword>
+        <keyword>subscript</keyword>
+        <keyword>servic</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "subscription_1_invalid" text from free short code for "RESPONSE_SUBSCRIPTION_SERVICE" reply</step>
+      <step-keywords>
+        <keyword>subscript</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>1</keyword>
+        <keyword>invalid</keyword>
+        <keyword>text</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>respons</keyword>
+        <keyword>servic</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Keywords test cases" title="Subscribed user sends mo with HELP (incorrect case) to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006710013" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006710013</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User sends sms with input "hElP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>help</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "SUBSCRIPTION_HELP" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>subscript</keyword>
+        <keyword>help</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "RESPONSE_SUBSCRIPTION_SERVICE" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>respons</keyword>
+        <keyword>subscript</keyword>
+        <keyword>servic</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "subscription_1_help" text from free short code for "RESPONSE_SUBSCRIPTION_SERVICE" reply</step>
+      <step-keywords>
+        <keyword>subscript</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>1</keyword>
+        <keyword>help</keyword>
+        <keyword>text</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>respons</keyword>
+        <keyword>servic</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+</scenarios>

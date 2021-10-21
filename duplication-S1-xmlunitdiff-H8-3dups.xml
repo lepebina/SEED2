@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<duplicates>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <is-duplicate-of/>
+      <hit scenario="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+   </duplicate>
+</duplicates>

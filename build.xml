@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="test" name="SEED2" xmlns:ivy="antlib:org.apache.ivy.ant" xmlns:jacoco="antlib:org.jacoco.ant">
+
+<!-- What follows immediately are properties and targets for SEED2-->
+ 
+<property name="src.dir" value="src" />
+<property name="stepdefs.dir" value="specifications/stepdefs" />
+<property name="features.dir" value="specifications/features" />
+    <property name="features.development.dir" value="specifications/features/with_suspected_duplication/development" />
+<property name="features.experimental.dir" value="/home/leonard/eclipse-workspace/SPSServicesCucumberTest/src/test/resources"/>
+<property name="build.dir" value="build" />
+<property name="class.dir" value="${build.dir}/bin" />
+<property name="stepdefs.class.dir" value="${class.dir}" />
+<property name="ivy.results.dir" value="${build.dir}/ivy-report" />
+<property name="cuke.results.dir" value="${build.dir}/cucumber-report" />
+<property name="steps.package" value="uk.ac.manchester.cs.img.seed.stepdefinitions" />
+<property name="steps.development.package" value="uk.ac.manchester.cs.img.seed.development.feature.stepdefinitions" />
+<property name="steps.experimental.package" value="com.scholastic.test" />
+<property name="debuglevel" value="source,lines,vars" />
+<property name="target" value="1.8" />
+<property name="source" value="1.8" />
+<property name="external.src.dir1" value="/home/leonard/eclipse-workspace/SPSServicesCucumberTest/src/main/java" />
+<property name="external.src.dir2" value="/home/leonard/eclipse-workspace/SPSServicesCucumberTest/src/test/java" />
+<property name="external.prj.deps.dir" value="/home/leonard/eclipse-workspace/SPSServicesCucumberTest/target/dependency" />
+ 
+<taskdef resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties">
+       <classpath>
+           <pathelement location="lib/aspectjtools-1.8.9.jar"/>
+       </classpath>
+</taskdef>
+ 
+<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+ <classpath>
+   <pathelement location="lib/ant-contrib-1.0b3.jar"/>
+ </classpath>
+</taskdef>
+
+ 
+<target name="resolve" description="Download dependencies and setup classpaths">
+<ivy:resolve />
+<ivy:report todir='${ivy.results.dir}' graph='false' xml='false' />
+<ivy:cachepath pathid="default.classpath" />
+    </target>
+ 
+<target name="init">
+<mkdir dir="${build.dir}" />
+<mkdir dir="${class.dir}" />
+    </target>
+
+<target name="clean">
+<delete dir="${build.dir}" />
+</target>
+
+<target name="compile" depends="compile-src, compile-steps" />
+
+<target name="compile-src" depends="resolve, init">
+<iajc debug="true" debuglevel="${debuglevel}" destdir="${class.dir}" source="${source}" target="${target}">
+<src path="${src.dir}" />
+<classpath refid="default.classpath" />
+</iajc>
+</target>
+
+<target name="compile-steps" depends="resolve, init">
+<iajc debug="true" debuglevel="${debuglevel}" destdir="${class.dir}" source="${source}" target="${target}">
+<src path="${stepdefs.dir}" />
+   <src path="${src.dir}" />
+<classpath refid="default.classpath" />
+</iajc>
+</target>
+ 
+<target name="test" depends="run-cukes" />
+ 
+<target name="run-cukes" depends="init, compile">
+<mkdir dir="${cuke.results.dir}" />
+
+<ivy:cachepath organisation="org.jacoco" module="org.jacoco.ant" revision="latest.release" inline="true" pathid="jacoco.path"/>
+
+   <java classname="cucumber.api.cli.Main" fork="true" failonerror="false" resultproperty="cucumber.exitstatus">
+<classpath>
+<path refid="default.classpath" />
+<pathelement location="${class.dir}" />
+</classpath>
+        <arg value="--plugin" />
+    <arg value="junit:${cuke.results.dir}/cucumber-junit-report.xml" />
+    <arg value="--plugin" />
+    <arg value="pretty" />
+    <arg value="--plugin" />
+    <arg value="html:${cuke.results.dir}/cucumber-html-report" />
+    <arg value="--glue" />
+    <arg value="${steps.package}" />
+    <arg value="${features.dir}" />
+</java>
+ 
+<junitreport todir="${cuke.results.dir}">
+<fileset dir="${cuke.results.dir}">
+<include name="cucumber-junit-report.xml" />
+</fileset>
+<report format="frames" todir="${cuke.results.dir}/cucumber-html-report" />
+</junitreport>
+
+<fail message="Cucumber failed">
+<condition>
+<not>
+<equals arg1="${cucumber.exitstatus}" arg2="0" />
+</not>
+</condition>
+</fail>
+</target>
+ 
+<target name="run-dev-cukes" depends="init, compile">
+<mkdir dir="${cuke.results.dir}" />
+
+<ivy:cachepath organisation="org.jacoco" module="org.jacoco.ant" revision="latest.release" inline="true" pathid="jacoco.path"/>
+
+   <java classname="cucumber.api.cli.Main" fork="true" failonerror="false" resultproperty="cucumber.exitstatus">
+<classpath>
+<path refid="default.classpath" />
+<pathelement location="${class.dir}" />
+</classpath>    
+         <arg value="--format" />
+     <arg value="uk.ac.manchester.cs.img.seed.trace.CustomFormatter" />      
+     <arg value="--glue" />
+     <arg value="${steps.development.package}" />
+     <arg value="${features.development.dir}" />              
+</java>
+ 
+<junitreport todir="${cuke.results.dir}">
+<fileset dir="${cuke.results.dir}">
+<include name="cucumber-junit-report.xml" />
+</fileset>
+<report format="frames" todir="${cuke.results.dir}/cucumber-html-report" />
+</junitreport>
+
+<fail message="Cucumber failed">
+<condition>
+<not>
+<equals arg1="${cucumber.exitstatus}" arg2="0" />
+</not>
+</condition>
+</fail>
+</target>
+ 
+<target name="run-dev-cukes-by-tag" depends="init, compile">
+<mkdir dir="${cuke.results.dir}" />
+
+<ivy:cachepath organisation="org.jacoco" module="org.jacoco.ant" revision="latest.release" inline="true" pathid="jacoco.path"/>
+
+   <java classname="cucumber.api.cli.Main" fork="true" failonerror="false" resultproperty="cucumber.exitstatus">
+<classpath>
+<path refid="default.classpath" />
+<pathelement location="${class.dir}" />
+</classpath>    
+         <arg value="--format" />
+     <arg value="uk.ac.manchester.cs.img.seed.trace.CustomFormatter" />
+     <arg value="--tags" />
+    <arg value="@test" />
+     <arg value="--glue" />
+     <arg value="${steps.development.package}" />
+     <arg value="${features.development.dir}" />              
+</java>
+ 
+<junitreport todir="${cuke.results.dir}">
+<fileset dir="${cuke.results.dir}">
+<include name="cucumber-junit-report.xml" />
+</fileset>
+<report format="frames" todir="${cuke.results.dir}/cucumber-html-report" />
+</junitreport>
+
+<fail message="Cucumber failed">
+<condition>
+<not>
+<equals arg1="${cucumber.exitstatus}" arg2="0" />
+</not>
+</condition>
+</fail>
+</target>
+ 
+ 
+<target name="run-unit-tests" depends="compile">
+ 
+ <junit printsummary="yes" haltonfailure="yes">
+ 
+   <classpath>
+   <path refid="default.classpath" />
+   <pathelement location="${class.dir}" />
+   </classpath>
+ 
+   <test name="uk.ac.manchester.cs.img.seed.tests.SeedTest"
+            haltonfailure="no" outfile="result">
+ 
+     <formatter type="plain"/>
+     <formatter type="xml"/>
+ 
+   </test>
+ 
+ </junit>
+</target>
+ 
+<target name="find-duplicates-H1" depends="init, compile">
+         <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationH1" fork="true" failonerror="false">
+              <classpath>
+                  <path refid="default.classpath" />
+                  <pathelement location="${class.dir}" />
+              </classpath>
+          </java>
+
+      </target>
+ 
+<target name="dedup-H6" depends="init, compile">
+         <java classname="uk.ac.manchester.cs.img.seed.reporting.DedupH6" fork="true" failonerror="false">
+              <classpath>
+                  <path refid="default.classpath" />
+                  <pathelement location="${class.dir}" />
+              </classpath>
+          </java>
+
+      </target>
+ 
+<target name="find-duplicates-no-variation-ft-H1" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationNoVariation" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+ 
+<target name="find-duplicates-no-variation-ft-H1-compare-4-et" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationNoVariationCompareFourTraces" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+ 
+<target name="find-duplicates-no-variation-ep-H2" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationNoVariationExecutionPath" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+ 
+<target name="find-duplicates-no-variation-api-H3" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationNoVariationAPICalls" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+ 
+<target name="find-duplicates-no-variation-api-and-internal-H4" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationNoVariationAPIandInternalCalls" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+ 
+<target name="find-duplicates-variations-full-trace-H5" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationFullTraceVariations" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+<target name="find-duplicates-variations-ep-H6" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationExecutionPathVariations" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+ 
+<target name="find-duplicates-variations-api-H7" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationAPICallVariations" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+<target name="find-duplicates-variations-api-and-internal-H8" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationAPIandInternalCallVariations" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+	<target name="find-duplicates-dt--signature-and-stmts" depends="init, compile">
+	     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationOnDefaultTraceSignatureandStatements" fork="true" failonerror="false">
+	          <classpath>
+	              <path refid="default.classpath" />
+	              <pathelement location="${class.dir}" />
+	          </classpath>
+	      </java>
+
+	  </target>
+	<target name="find-duplicates-dt--signature-public-API" depends="init, compile">
+		     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationOnDefaultTraceSignaturePublicAPI" fork="true" failonerror="false">
+		          <classpath>
+		              <path refid="default.classpath" />
+		              <pathelement location="${class.dir}" />
+		          </classpath>
+		      </java>
+
+		  </target>
+	<target name="find-duplicates-dt--signature-public-API-and-internal" depends="init, compile">
+			     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationOnDefaultTraceSignaturePublicAPIandInternal" fork="true" failonerror="false">
+			          <classpath>
+			              <path refid="default.classpath" />
+			              <pathelement location="${class.dir}" />
+			          </classpath>
+			      </java>
+
+			  </target>
+	
+	<target name="find-duplicates-et--signature-and-stmts" depends="init, compile">
+		     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationOnEssentialTraceSignatureandStatements" fork="true" failonerror="false">
+		          <classpath>
+		              <path refid="default.classpath" />
+		              <pathelement location="${class.dir}" />
+		          </classpath>
+		      </java>
+
+		  </target>
+	
+	<target name="find-duplicates-et--signature-public-API" depends="init, compile">
+			     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationOnEssentialTraceSignaturePublicAPI" fork="true" failonerror="false">
+			          <classpath>
+			              <path refid="default.classpath" />
+			              <pathelement location="${class.dir}" />
+			          </classpath>
+			      </java>
+
+			  </target>
+	<target name="find-duplicates-et--signature-public-API-and-internal" depends="init, compile">
+				     <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationOnEssentialTraceSignaturePublicAPIandInternal" fork="true" failonerror="false">
+				          <classpath>
+				              <path refid="default.classpath" />
+				              <pathelement location="${class.dir}" />
+				          </classpath>
+				      </java>
+
+				  </target>
+ 
+<target name="find-duplicates-one" depends="init, compile">
+      <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplication" fork="true" failonerror="false">
+           <classpath>
+               <path refid="default.classpath" />
+               <pathelement location="${class.dir}" />
+           </classpath>
+       </java>
+
+   </target>
+ 
+<target name="find-duplicates-two" depends="init, compile">
+      <java classname="uk.ac.manchester.cs.img.seed.reporting.IdentifyDuplicationAlgorithmTwo" fork="true" failonerror="false">
+           <classpath>
+               <path refid="default.classpath" />
+               <pathelement location="${class.dir}" />
+           </classpath>
+       </java>
+
+   </target>
+ 
+<target name="count-duplicates" depends="init, compile">
+      <java classname="uk.ac.manchester.cs.img.seed.reporting.XQueryDuplicationReport" fork="true" failonerror="false">
+           <classpath>
+               <path refid="default.classpath" />
+               <pathelement location="${class.dir}" />
+           </classpath>
+       </java>
+
+   </target>
+ 
+<!--  What follows immediately are properties and targets for test data in SEED2-->
+ 
+<property name="prod_test_data.src.dir" value="test_data/src"/>
+    <property name="stepdefs_test_data.steps.dir" value="test_data/specification/stepDefinitions"/>
+<property name="build_test_data.dir" value="test_data/build" />
+<property name="class_test_data.dir" value="${build_test_data.dir}/bin" />
+    <property name="test_data_features.dir" value="test_data/specification/features" />
+    <property name="test_data_steps.package" value="test" />
+ 
+<target name="init-test_data" depends="compile-steps">
+<mkdir dir="${build_test_data.dir}" />
+<mkdir dir="${class_test_data.dir}" />
+   </target>
+ 
+<target name="clean-test_data">
+<delete dir="${build_test_data.dir}" />
+</target>
+ 
+<target name="compile-test_data" depends="compile-test_data-src, compile-test_data-steps" />
+
+<target name="compile-test_data-src" depends="compile-steps">
+<iajc debug="true" debuglevel="${debuglevel}" destdir="${class_test_data.dir}" source="${source}" target="${target}">
+   <src path="${prod_test_data.src.dir}" />
+<classpath refid="default.classpath" />
+</iajc>
+</target>
+ 
+<target name="compile-test_data-steps" depends="compile-test_data-src">
+<iajc debug="true" debuglevel="${debuglevel}" destdir="${class_test_data.dir}" source="${source}" target="${target}">
+   <src path="${stepdefs_test_data.steps.dir}" />
+<src path="${prod_test_data.src.dir}" />   
+   <classpath refid="default.classpath" />
+</iajc>
+</target>
+ 
+<target name="run-test_data-cukes" depends="init-test_data, compile-test_data">
+<mkdir dir="${cuke.results.dir}" />
+
+<ivy:cachepath organisation="org.jacoco" module="org.jacoco.ant" revision="latest.release" inline="true" pathid="jacoco.path"/>
+
+   <java classname="cucumber.api.cli.Main" fork="true" failonerror="false" resultproperty="cucumber.exitstatus">
+<classpath>
+<path refid="default.classpath" />
+   <pathelement location="${class_test_data.dir}"/>
+</classpath>
+    <arg value="--format" />
+    <arg value="uk.ac.manchester.cs.img.seed.test.tracing.CustomFormatter" />
+    <arg value="--glue" />
+    <arg value="${test_data_steps.package}" />
+    <arg value="${test_data_features.dir}" />
+</java>
+ 
+<junitreport todir="${cuke.results.dir}">
+<fileset dir="${cuke.results.dir}">
+<include name="cucumber-junit-report.xml" />
+</fileset>
+<report format="frames" todir="${cuke.results.dir}/cucumber-html-report" />
+</junitreport>
+
+<fail message="Cucumber failed">
+<condition>
+<not>
+<equals arg1="${cucumber.exitstatus}" arg2="0" />
+</not>
+</condition>
+</fail>
+</target>
+ 
+<target name="external-build-deps">
+       <ant dir="C:\Users\user\Documents\manchester\phddocs\evaluation\projects\facad_services_cucumber_automated_test/" antfile="build.xml" target="get-deps"/>        
+   </target>
+ 
+<path id="class.path">
+ <fileset dir="${external.prj.deps.dir}">
+   <include name="**/*.jar" />
+ </fileset>
+</path>
+ 
+<target name="compile-target-system">
+<iajc debug="true" debuglevel="${debuglevel}" destdir="${class.dir}" source="${source}" target="${target}">
+ <src path="${external.src.dir1}"/>
+ <src path="${external.src.dir2}"/>
+   <classpath refid="class.path" />        
+</iajc>
+</target>
+ 
+<target name="mvn-build-target-system">
+   <exec dir="C:\Users\user\Documents\manchester\phddocs\evaluation\projects\facad_services_cucumber_automated_test" executable="cmd">
+       <arg line="/c mvn clean install" />
+   </exec>
+</target>
+ 
+<target name="copy-deps">
+   <exec dir="C:\Users\user\Documents\manchester\phddocs\evaluation\projects\facad_services_cucumber_automated_test" executable="cmd">
+       <arg line="/c mvn dependency:copy-dependencies" />
+   </exec>
+</target>
+ 
+<target name="run-experimental-cukes" depends="compile-target-system">
+<mkdir dir="${cuke.results.dir}" />
+
+<ivy:cachepath organisation="org.jacoco" module="org.jacoco.ant" revision="latest.release" inline="true" pathid="jacoco.path"/>
+
+   <java classname="cucumber.api.cli.Main" fork="true" failonerror="false" resultproperty="cucumber.exitstatus">
+<classpath>
+<path refid="class.path" />
+<pathelement location="${class.dir}" />
+</classpath>    
+         <arg value="--format" />
+     <arg value="uk.ac.manchester.cs.img.seed.trace.CustomFormatter" />
+     <arg value="--glue" />
+     <arg value="${steps.experimental.package}" />
+     <arg value="${features.experimental.dir}" />              
+</java>
+ 
+<junitreport todir="${cuke.results.dir}">
+<fileset dir="${cuke.results.dir}">
+<include name="cucumber-junit-report.xml" />
+</fileset>
+<report format="frames" todir="${cuke.results.dir}/cucumber-html-report" />
+</junitreport>
+
+<fail message="Cucumber failed">
+<condition>
+<not>
+<equals arg1="${cucumber.exitstatus}" arg2="0" />
+</not>
+</condition>
+</fail>
+</target>
+ 
+<target name="run-scenario-by-name" depends="compile-target-system">
+<java classname="cucumber.api.cli.Main" fork="true" failonerror="false" resultproperty="cucumber.exitstatus">
+<classpath>
+<path refid="class.path" />
+<pathelement location="${class.dir}" />
+</classpath>
+           <arg value="--format" />
+           <arg value="uk.ac.manchester.cs.img.seed.trace.CustomFormatter" />
+           <arg value="--name" />
+   <arg value="No profile customer sends mo with SCORE to free short code- mbax9ie2" />
+           <arg value="--glue" />
+   <arg value="${steps.experimental.package}" />
+<arg value="${features.experimental.dir}" />        
+                             
+           </java>
+</target>
+ 
+<target name="produce-traces-for-five-runs">
+   <foreach param="param" list="1,2,3,4,5" target="run-scenario-by-tag"/>
+</target>
+
+<target name="find-full-trace-variations-for-five-runs" depends="init, compile, produce-traces-for-five-runs">
+             <java classname="uk.ac.manchester.cs.img.seed.reporting.ProduceEssentialTracesForAllScenariosFullTrace" fork="true" failonerror="false">
+                  <classpath>
+                      <path refid="default.classpath" />
+                      <pathelement location="${class.dir}" />
+                  </classpath>
+              </java>
+          </target>
+ 
+<target name="find-et-for-five-runs-full-trace-variations" depends="init, compile">
+             <java classname="uk.ac.manchester.cs.img.seed.reporting.ProduceEssentialTracesForAllScenariosFullTraceAfterFiveRuns" fork="true" failonerror="false">
+                  <classpath>
+                      <path refid="default.classpath" />
+                      <pathelement location="${class.dir}" />
+                  </classpath>
+              </java>
+          </target>
+
+<target name="dedup-combined-single-trace" depends="init, compile">
+             <java classname="uk.ac.manchester.cs.img.seed.reporting.DedupCombinedSingleTrace" fork="true" failonerror="false">
+                  <classpath>
+                      <path refid="default.classpath" />
+                      <pathelement location="${class.dir}" />
+                  </classpath>
+              </java>
+          </target>
+ 
+<target name="produce-clean-traces">
+   <foreach param="param" list="1,2" target="run-scenario-by-tag"/>
+</target>
+ 
+<target name="produce-clean-and-essential-traces-for-one-scenario" depends="produce-clean-traces, find-essential-trace, copy-traces"/>
+
+ 
+<target name="run-scenario-by-tag" depends="compile-target-system">
+<java classname="cucumber.api.cli.Main" fork="true" failonerror="false" resultproperty="cucumber.exitstatus">
+<classpath>
+<path refid="class.path" />
+<pathelement location="${class.dir}" />
+</classpath>
+          <arg value="--format"/>
+          <arg value="uk.ac.manchester.cs.img.seed.trace.CustomFormatter" />
+          <arg value="--tags" />
+          <arg value="@new-framework"/>
+          <arg value="--glue"/>
+          <arg value="${steps.experimental.package}"/>
+          <arg value="${features.experimental.dir}"/>   
+</java>
+<!--<antcall target="get-trace-per-run"/>-->
+<antcall target="get-full-traces-for-five-runs"/>
+</target>
+ 
+<target name="get-full-traces-for-five-runs" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.GetFullTracesForFiveRuns" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}"/>
+          </classpath>
+      </java>
+  </target>
+
+
+ 
+ 
+ 
+<target name="find-xml-diff" depends="init, compile">
+             <java classname="uk.ac.manchester.cs.img.seed.reporting.XMLComparator" fork="true" failonerror="false">
+                  <classpath>
+                      <path refid="default.classpath" />
+                      <pathelement location="${class.dir}" />
+                  </classpath>
+              </java>
+          </target>
+       
+       <target name="find-essential-trace" depends="init, compile">
+                 <java classname="uk.ac.manchester.cs.img.seed.reporting.ProduceEssentialTraceForOneScenario" fork="true" failonerror="false">
+                      <classpath>
+                          <path refid="default.classpath" />
+                          <pathelement location="${class.dir}" />
+                      </classpath>
+                  </java>
+              </target>
+ 
+<target name="find-combined-essential-traces-for-many-scenarios" depends="init, compile">
+             <java classname="uk.ac.manchester.cs.img.seed.reporting.ProduceEssentialTraceForManyScenarios" fork="true" failonerror="false">
+                  <classpath>
+                      <path refid="default.classpath" />
+                      <pathelement location="${class.dir}" />
+                  </classpath>
+              </java>
+          </target>
+ 
+<target name="get-unique-essential-traces" depends="find-combined-essential-traces-for-many-scenarios">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.RemoveRepeatedScenariosInEssentialTraces" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}"/>
+          </classpath>
+      </java>
+  </target>
+
+
+ 
+<target name="clean-trace" depends="init, compile">
+      <java classname="uk.ac.manchester.cs.img.seed.reporting.RemoveElementsWithEmptyScenarioNames" fork="true" failonerror="false">
+           <classpath>
+               <path refid="default.classpath" />
+               <pathelement location="${class.dir}" />
+           </classpath>
+       </java>
+   </target>
+<target name="copy-traces" depends="init, compile">
+     <java classname="uk.ac.manchester.cs.img.seed.reporting.CopyFiles" fork="true" failonerror="false">
+          <classpath>
+              <path refid="default.classpath" />
+              <pathelement location="${class.dir}" />
+          </classpath>
+      </java>
+
+  </target>
+</project>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>6</keyword-count>
+      <keywords>com com softbox address address choose</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>7</keyword-count>
+      <keywords>com com softbox change change address address</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>5</keyword-count>
+      <keywords>com change change address address</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>6</keyword-count>
+      <keywords>address com change address address ship</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>4</keyword-count>
+      <keywords>com sign address address</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>5</keyword-count>
+      <keywords>com change change address address</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com company address</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>6</keyword-count>
+      <keywords>com company change change company address</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>6</keyword-count>
+      <keywords>com company change change company address</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>8</keyword-count>
+      <keywords>address com change change company address address ship</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>5</keyword-count>
+      <keywords>com modify company sign address</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>6</keyword-count>
+      <keywords>com company change change company address</keywords>
+   </suggestion>
+</suggestions>

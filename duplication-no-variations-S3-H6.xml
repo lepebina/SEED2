@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<duplicates>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <is-duplicate-of/>
+      <hit scenario="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+   </duplicate>
+</duplicates>

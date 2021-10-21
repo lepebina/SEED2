@@ -1,0 +1,3205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<traces>
+  <trace feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile." scenario="Add child user using sps child Service">
+    <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:53</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655187@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:53</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546099655232@sample.com, email=sps_qa1546099655187@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:53</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655239@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:60</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@23bff419</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655584@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=William, lastName=Green, password=passed1, userType=[CONSUMER], userName=sps_qa1546099655590@sample.com, email=sps_qa1546099655584@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655594@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:79</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@42f8285e</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:91</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{readingLevelIds=[100, 200], firstName=Tim, lastName=Green, birthMonth=08, birthDay=26, interestIds=[10], birthYear=2005, grade=05, teacherIds=[null], parentIds=[null]}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Add_Child_Service_End_Point:98</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@26bab2f1</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile." scenario="Use SPS child Service to add child user-10">
+    <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:128</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655622@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:128</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546099655626@sample.com, email=sps_qa1546099655622@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:128</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655630@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:135</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@68ead359</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:146</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655643@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:146</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=William, lastName=Green, password=passed1, userType=[CONSUMER], userName=sps_qa1546099655647@sample.com, email=sps_qa1546099655643@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:146</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655654@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:153</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@340da44c</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Executing_the_Add_Child_Service_End_Point:165</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{readingLevelIds=[100, 200], firstName=Tim, lastName=Green, birthMonth=08, birthDay=26, interestIds=[10], birthYear=2005, grade=05, teacherIds=[null], parentIds=[null]}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile." scenario="Additional of child user through SPS service-8">
+    <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:202</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655668@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:202</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546099655673@sample.com, email=sps_qa1546099655668@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:202</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655676@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:209</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@37052337</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:220</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655689@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:220</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=William, lastName=Green, password=passed1, userType=[CONSUMER], userName=sps_qa1546099655696@sample.com, email=sps_qa1546099655689@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:220</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655701@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:227</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2320fa6f</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:239</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{readingLevelIds=[100, 200], firstName=Tim, lastName=Green, birthMonth=08, birthDay=26, interestIds=[10], birthYear=2005, grade=05, teacherIds=[null], parentIds=[null]}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_start_the_Add_Child_Service_End_Point_process:246</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@7a560583</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile." scenario="Update child user using sps child Service">
+    <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:277</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655726@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:277</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546099655729@sample.com, email=sps_qa1546099655726@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:277</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655732@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:284</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@616fe72b</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:297</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655745@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:297</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=William, lastName=Green, password=passed1, userType=[CONSUMER], userName=sps_qa1546099655748@sample.com, email=sps_qa1546099655745@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:297</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655753@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:304</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@37efd131</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:317</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{readingLevelIds=[100, 200], firstName=Tim, lastName=Green, birthMonth=08, birthDay=26, interestIds=[10], birthYear=2005, grade=05, teacherIds=[null], parentIds=[null]}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Update_Child_Service_End_Point:324</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@7e7b159b</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile." scenario="Delete child user using sps child Service">
+    <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:370</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655773@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:370</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546099655778@sample.com, email=sps_qa1546099655773@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:370</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655783@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:377</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@60957c0f</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:390</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655798@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:390</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=William, lastName=Green, password=passed1, userType=[CONSUMER], userName=sps_qa1546099655803@sample.com, email=sps_qa1546099655798@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:390</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546099655809@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:397</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>createParentResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@293a5f75</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:410</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{readingLevelIds=[100, 200], firstName=Tim, lastName=Green, birthMonth=08, birthDay=26, interestIds=[10], birthYear=2005, grade=05, teacherIds=[null], parentIds=[null]}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsChildServicesTest.i_am_Calling_the_Delete_Child_Service_End_Point:416</statement>
+    <event>
+      <class>StepdefinationSpsChildServicesTest</class>
+      <method>addChildResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@fcb4004</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile." scenario="Add grade class size using sps GradeClassSize Service">
+    <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Add_GradeClassSize_Service_End_Point:47</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101339503@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Add_GradeClassSize_Service_End_Point:47</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546101339571@sample.com, email=sps_qa1546101339503@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Add_GradeClassSize_Service_End_Point:47</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101339584@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Add_GradeClassSize_Service_End_Point:54</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@23bff419</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Add_GradeClassSize_Service_End_Point:67</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizePayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{classSize=25, spsUserId=null, grade=02}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Add_GradeClassSize_Service_End_Point:74</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3724af13</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile." scenario="Use spsGradeClassSize Service to add grade class-10">
+    <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Executing_the_Grade_Class_Size_Service_End_Point:107</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101339946@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Executing_the_Grade_Class_Size_Service_End_Point:107</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546101339951@sample.com, email=sps_qa1546101339946@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Executing_the_Grade_Class_Size_Service_End_Point:107</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101339958@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Executing_the_Grade_Class_Size_Service_End_Point:114</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@6b53bcc2</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Executing_the_Grade_Class_Size_Service_End_Point:127</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizePayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{classSize=25, spsUserId=null, grade=02}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Executing_the_Grade_Class_Size_Service_End_Point:134</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@180da663</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile." scenario="Using SPS GradeClassSize to increase grade class size-8">
+    <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_trigger_Add_GradeClassSize_Service_End_Point:167</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101339987@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_trigger_Add_GradeClassSize_Service_End_Point:167</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546101339993@sample.com, email=sps_qa1546101339987@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_trigger_Add_GradeClassSize_Service_End_Point:167</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101339998@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_trigger_Add_GradeClassSize_Service_End_Point:174</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@424ebba3</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_trigger_Add_GradeClassSize_Service_End_Point:187</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizePayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{classSize=25, spsUserId=null, grade=02}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_trigger_Add_GradeClassSize_Service_End_Point:194</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@4d722ac9</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile." scenario="Update grade class size using sps GradeClassSize Service">
+    <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point:228</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101340029@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point:228</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546101340035@sample.com, email=sps_qa1546101340029@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point:228</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101340041@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point:235</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@77a7cf58</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point:248</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizePayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{classSize=25, spsUserId=null, grade=02}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point:255</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3d97a632</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point:268</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>updateGradeClassSizePayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{classSize=21, spsUserId=null, grade=04}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point:275</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>updateGradeClassSizeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@60957c0f</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile." scenario="Delete grade class size using sps GradeClassSize Service">
+    <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Delete_GradeClassSize_Service_End_Point:310</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101340089@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Delete_GradeClassSize_Service_End_Point:310</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Robert, lastName=Sheehan, password=passed1, schoolId=163392, userType=[TEACHER], userName=sps_qa1546101340096@sample.com, email=sps_qa1546101340089@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Delete_GradeClassSize_Service_End_Point:310</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546101340102@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Delete_GradeClassSize_Service_End_Point:317</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@1dd6d4b7</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Delete_GradeClassSize_Service_End_Point:331</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizePayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{classSize=25, spsUserId=null, grade=02}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Delete_GradeClassSize_Service_End_Point:338</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>createGradeClassSizeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@56e8b606</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Delete_GradeClassSize_Service_End_Point:355</statement>
+    <event>
+      <class>StepdefinationSpsGradeClassSizeServicesTest</class>
+      <method>updateGradeClassSizeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2dd29a59</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all states from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_The_Get_All_States_Service_End_Point:51</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@4d722ac9</arg>
+        <arg>[[Ljava.lang.String;@53f0a4cb</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_The_Get_All_States_Service_End_Point:51</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>createEnumResponseValidator</method>
+      <param-types>String[][]</param-types>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args>
+        <arg>[[Ljava.lang.String;@53f0a4cb</arg>
+      </args>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@7e5d9a50</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_The_Get_All_States_Service_End_Point:51</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@60957c0f</arg>
+        <arg>[[Ljava.lang.String;@53f0a4cb</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_The_Get_All_States_Service_End_Point:51</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getAllStateResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@7e5d9a50</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_The_Get_All_States_Service_End_Point:51</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@293a5f75</arg>
+        <arg>[[Ljava.lang.String;@fcb4004</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_The_Get_All_States_Service_End_Point:51</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>createEnumResponseValidator</method>
+      <param-types>String[][]</param-types>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args>
+        <arg>[[Ljava.lang.String;@fcb4004</arg>
+      </args>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@1dd6d4b7</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_The_Get_All_States_Service_End_Point:51</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@56e8b606</arg>
+        <arg>[[Ljava.lang.String;@fcb4004</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all cities by state from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Cities_by_State_Service_End_Point:71</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@2dd29a59</arg>
+        <arg>[[Ljava.lang.String;@784c3487</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Cities_by_State_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>createEnumResponseValidator</method>
+      <param-types>String[][]</param-types>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args>
+        <arg>[[Ljava.lang.String;@784c3487</arg>
+      </args>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@40dff0b7</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Cities_by_State_Service_End_Point:71</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@7966baa7</arg>
+        <arg>[[Ljava.lang.String;@784c3487</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Cities_by_State_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getAllCityResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@40dff0b7</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Cities_by_State_Service_End_Point:71</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@60975100</arg>
+        <arg>[[Ljava.lang.String;@1253e7cb</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Cities_by_State_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>createEnumResponseValidator</method>
+      <param-types>String[][]</param-types>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args>
+        <arg>[[Ljava.lang.String;@1253e7cb</arg>
+      </args>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2d36e77e</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Cities_by_State_Service_End_Point:71</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@3b0c9195</arg>
+        <arg>[[Ljava.lang.String;@1253e7cb</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all countries from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Countries_Service_End_Point:89</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@366c4480</arg>
+        <arg>[[Ljava.lang.String;@2c7b5824</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Countries_Service_End_Point:89</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>createEnumResponseValidator</method>
+      <param-types>String[][]</param-types>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args>
+        <arg>[[Ljava.lang.String;@2c7b5824</arg>
+      </args>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@5cdd09b1</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Countries_Service_End_Point:89</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@681a8b4e</arg>
+        <arg>[[Ljava.lang.String;@2c7b5824</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Countries_Service_End_Point:89</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getAllCountryResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@5cdd09b1</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Countries_Service_End_Point:89</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@5cbe877d</arg>
+        <arg>[[Ljava.lang.String;@5c08c46a</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Countries_Service_End_Point:89</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>createEnumResponseValidator</method>
+      <param-types>String[][]</param-types>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args>
+        <arg>[[Ljava.lang.String;@5c08c46a</arg>
+      </args>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@4cf8b2dc</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Countries_Service_End_Point:89</statement>
+    <event>
+      <class>com.scholastic.main.SpsLookupServiceSupportClass</class>
+      <method>addKeyValueValidations</method>
+      <param-types>ResponseSpecBuilder, String[][]</param-types>
+      <return-type>void</return-type>
+      <args>
+        <arg>com.jayway.restassured.builder.ResponseSpecBuilder@708400f6</arg>
+        <arg>[[Ljava.lang.String;@5c08c46a</arg>
+      </args>
+      <return-value>null</return-value>
+      <modifier>public static</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all schools by country from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Schools_by_Country_Service_End_Point:107</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getCountrySchoolsResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3cc41abc</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all schools by zipcode from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Schools_by_Zip_Code_Service_End_Point:127</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getSchoolByZipcodeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3668d4</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Using lookup services to get all schools by zipcode-7-1">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.end_Point_Zip_Code_service_issued:146</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getSchoolByZipcodeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2a5b3fee</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Using zip code to search all schools which are looking for the services-6-1.">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.i_am_selecting_search_button_link_of_all_schools_using_zip_code:166</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getSchoolByZipcodeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@333dd51e</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all schools by state and city from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Schools_by_State_and_City_Service_End_Point:184</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getSchoolByCityStateResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2101b44a</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all teachers of a school from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Teachers_Service_End_Point:202</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getAllTeachersResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@7e276594</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="All school teachers querying service-7-2">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.i_am_performing_End_Point_Zip_Code_service:220</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getAllTeachersResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@5066d65f</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all alternate teachers of a school from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Alternate_Teachers_Service_End_Point:240</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getAlternateTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@77d2e85</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get primary School address from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_Primary_Shool_Address_Service_End_Point:292</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getPrimarySchoolAddressResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@58ffcbd7</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get existing shipping address from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_Existing_Shipping_Address_Service_End_Point:311</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getExistingShippingAddressResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@42f33b5d</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get only reading club teachers from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_Only_Reading_Club_Teachers_Service_End_Point:331</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getOnlyTeachersResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@4bd1f8dd</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all greades and class sizes from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Grades_And_Class_Sizes_Service_End_Point:351</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getAllGradeClassSizeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3c989952</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all credit cards in wallet from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Credit_Cards_In_Wallet_Service_End_Point:371</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getCreditCardWalletResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3d3ba765</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="get all existing associated social media accounts from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Existing_Associated_Social_Media_Accounts_Service_End_Point:391</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getExistingAssociatedSocialAccountsResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@793138bd</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a SPS User I want to verify all the lookup services." scenario="Get all child users from the lookup Services">
+    <statement>com.scholastic.test.StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Child_Users_Service_End_Point:412</statement>
+    <event>
+      <class>StepdefinationSpsLookupServicesTest</class>
+      <method>getChildUsersResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@33aeca0b</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." scenario="Capture payment from the payment Services">
+    <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_am_Using_The_Capture_Payment_Service_End_Point:43</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=qatestsample@juno1.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_am_Using_The_Capture_Payment_Service_End_Point:68</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createCapturePaymentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Westland, reqTransactionType=sale, authAvsCodeRaw=Y, signature=zLJKnRRr9QGgyzkAPfLKu1+94JjIG0ClBsdmiaA6I6g=, reqBillToAddressLine1=33241 Creston Street, reqBillToAddressLine2=line2, reqPaymentToken=0001177062611111, authTime=2015-07-07T200912Z, reqCardType=001, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=48186, reqBillToPhone=3024568967, reqBillToAddressCountry=US, authAvsCode=Y, reqAmount=3.21, reqBillToEmail=qatestsample@juno1.com, reasonCode=100, reqBillToForename=Ranvir, signedFieldNames=transaction_id,decision,req_access_key,req_profile_id,req_transaction_uuid,req_transaction_type,req_reference_number,req_amount,req_currency,req_locale,req_payment_method,req_payment_token,req_consumer_id,req_bill_to_forename,req_bill_to_surname,req_bill_to_email,req_bill_to_phone,req_bill_to_address_line1,req_bill_to_address_city,req_bill_to_address_state,req_bill_to_address_country,req_bill_to_address_postal_code,req_card_number,req_card_type,req_card_expiry_date,req_merchant_defined_data32,req_merchant_defined_data35,message,reason_code,auth_avs_code,auth_avs_code_raw,auth_response,auth_amount,auth_code,auth_trans_ref_no,auth_time,bill_trans_ref_no,signed_field_names,signed_date_time, signedDateTime=2015-07-08T17:19:18Z, reqProfileId=MAAWSPSQA1, authTransRefNo=WWNTOBO0Q5QL, reqTransactionUuId=9bef93ae-e783-49bd-bffe-0700834601e0, reqCurrency=USD, authCode=831000, decision=ACCEPT, reqConsumerId=null, reqReferenceNumber=SCH_SPS_MA2_1436297997535, reqMerchantDefinedData32=true, authAmount=3.21, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4362997513055000001MZR, authResponse=00, reqLocale=en, reqBillTransRefNo=11903606, reqBillToAddressState=MI, reqAccessKey=3613e1d4d11c33dbbf5370ee90d188a0, reqCardExpiryDate=03-2017, reqBillToSurname=Singh}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." scenario="Grasp payment from the payment Services-10">
+    <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.the_Capture_Payment_Service_End_Point_is_being_invoked:91</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=qatestsample@juno1.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.the_Capture_Payment_Service_End_Point_is_being_invoked:116</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createCapturePaymentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Westland, reqTransactionType=sale, authAvsCodeRaw=Y, signature=zLJKnRRr9QGgyzkAPfLKu1+94JjIG0ClBsdmiaA6I6g=, reqBillToAddressLine1=33241 Creston Street, reqBillToAddressLine2=line2, reqPaymentToken=0001177062611111, authTime=2015-07-07T200912Z, reqCardType=001, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=48186, reqBillToPhone=3024568967, reqBillToAddressCountry=US, authAvsCode=Y, reqAmount=3.21, reqBillToEmail=qatestsample@juno1.com, reasonCode=100, reqBillToForename=Ranvir, signedFieldNames=transaction_id,decision,req_access_key,req_profile_id,req_transaction_uuid,req_transaction_type,req_reference_number,req_amount,req_currency,req_locale,req_payment_method,req_payment_token,req_consumer_id,req_bill_to_forename,req_bill_to_surname,req_bill_to_email,req_bill_to_phone,req_bill_to_address_line1,req_bill_to_address_city,req_bill_to_address_state,req_bill_to_address_country,req_bill_to_address_postal_code,req_card_number,req_card_type,req_card_expiry_date,req_merchant_defined_data32,req_merchant_defined_data35,message,reason_code,auth_avs_code,auth_avs_code_raw,auth_response,auth_amount,auth_code,auth_trans_ref_no,auth_time,bill_trans_ref_no,signed_field_names,signed_date_time, signedDateTime=2015-07-08T17:19:18Z, reqProfileId=MAAWSPSQA1, authTransRefNo=WWNTOBO0Q5QL, reqTransactionUuId=9bef93ae-e783-49bd-bffe-0700834601e0, reqCurrency=USD, authCode=831000, decision=ACCEPT, reqConsumerId=null, reqReferenceNumber=SCH_SPS_MA2_1436297997535, reqMerchantDefinedData32=true, authAmount=3.21, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4362997513055000001MZR, authResponse=00, reqLocale=en, reqBillTransRefNo=11903606, reqBillToAddressState=MI, reqAccessKey=3613e1d4d11c33dbbf5370ee90d188a0, reqCardExpiryDate=03-2017, reqBillToSurname=Singh}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." scenario="Tracking payment-8">
+    <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.capture_payment_Service_end_point_is_initiated:139</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=qatestsample@juno1.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.capture_payment_Service_end_point_is_initiated:164</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createCapturePaymentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Westland, reqTransactionType=sale, authAvsCodeRaw=Y, signature=zLJKnRRr9QGgyzkAPfLKu1+94JjIG0ClBsdmiaA6I6g=, reqBillToAddressLine1=33241 Creston Street, reqBillToAddressLine2=line2, reqPaymentToken=0001177062611111, authTime=2015-07-07T200912Z, reqCardType=001, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=48186, reqBillToPhone=3024568967, reqBillToAddressCountry=US, authAvsCode=Y, reqAmount=3.21, reqBillToEmail=qatestsample@juno1.com, reasonCode=100, reqBillToForename=Ranvir, signedFieldNames=transaction_id,decision,req_access_key,req_profile_id,req_transaction_uuid,req_transaction_type,req_reference_number,req_amount,req_currency,req_locale,req_payment_method,req_payment_token,req_consumer_id,req_bill_to_forename,req_bill_to_surname,req_bill_to_email,req_bill_to_phone,req_bill_to_address_line1,req_bill_to_address_city,req_bill_to_address_state,req_bill_to_address_country,req_bill_to_address_postal_code,req_card_number,req_card_type,req_card_expiry_date,req_merchant_defined_data32,req_merchant_defined_data35,message,reason_code,auth_avs_code,auth_avs_code_raw,auth_response,auth_amount,auth_code,auth_trans_ref_no,auth_time,bill_trans_ref_no,signed_field_names,signed_date_time, signedDateTime=2015-07-08T17:19:18Z, reqProfileId=MAAWSPSQA1, authTransRefNo=WWNTOBO0Q5QL, reqTransactionUuId=9bef93ae-e783-49bd-bffe-0700834601e0, reqCurrency=USD, authCode=831000, decision=ACCEPT, reqConsumerId=null, reqReferenceNumber=SCH_SPS_MA2_1436297997535, reqMerchantDefinedData32=true, authAmount=3.21, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4362997513055000001MZR, authResponse=00, reqLocale=en, reqBillTransRefNo=11903606, reqBillToAddressState=MI, reqAccessKey=3613e1d4d11c33dbbf5370ee90d188a0, reqCardExpiryDate=03-2017, reqBillToSurname=Singh}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." scenario="Sign in payment from the sign in Payment Services">
+    <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_am_Calling_The_Sign_in_Payment_Service_End_Point:186</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=qatestsample@juno1.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_am_Calling_The_Sign_in_Payment_Service_End_Point:211</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createSignPaymentPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{paymentPartial=3.21, paymentFull=1,133.02, partial=partial, cardNumber=4111111111111111}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." scenario="Add credit card from the subscription Services">
+    <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_am_Calling_Add_Credit_Card_to_Subscription_Service_End_Point:270</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createLogInSubsPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=sps_qa1450453570124@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_am_Calling_Add_Credit_Card_to_Subscription_Service_End_Point:295</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>addCreditCardToSubscriptionPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqBillToAddressCity=South Floral Park, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, reqMerchantDefinedData21=true, reqMerchantDefinedData22=-1, reqMerchantDefinedData23=true, reqBillToAddressPostalCode=11001, reqMerchantDefinedData9=101, reqMerchantDefinedData20=OTC, reqMerchantDefinedData25=ADD, reqMerchantDefinedData27=356, reqBillToEmail=sps_qa1450453570124@sample.com, signedFieldNames=transaction_id,decision,req_access, authTransRefNo=WWNTYDFDFD, reqConsumerId=null, reqMerchantDefinedData10=X, reqMerchantDefinedData11=100260033, reqMerchantDefinedData12=8654438, transactionId=4333XXXXXXXXXX, reqMerchantDefinedData19=5016001, reqBillToAddressState=NY, requestToken=dsfdsfsdfsdfdsfcxvcxvcxvcv, reqCardExpiryDate=03-2017, reqPaymentMethod=card, signature=CC2YUshjdhdsFRdsdds96856565sd656sd5, reqBillToAddressLine1=floral park, reqBillToAddressLine2=line2, reqPaymentToken=01019648212121, authTime=2015-06XXXXX, reqCardType=001, reqCardNumber=411111xxxxxx1111, reqBillToPhone=5163216548, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToForename=KENT, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, reqTransactionUuId=b5sdfsdfdsfdsf, reqCurrency=USD, authCode=831000, decision=ACCEPT, authAmount=0.00, reqMerchantDefinedData35=any data to send, message=request+was+processed+succesfully, reqMerchantDefinedData30=true, authResponse=85, reqLocale=en, reqAccessKey=84854545454564564564, reqBillToSurname=ROBERT}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." scenario="Add credit card from the subscription service-5">
+    <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_add_credit_card_from_the_subscription_services:318</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createLogInSubsPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=sps_qa1450453570124@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_add_credit_card_from_the_subscription_services:343</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>addCreditCardToSubscriptionPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqBillToAddressCity=South Floral Park, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, reqMerchantDefinedData21=true, reqMerchantDefinedData22=-1, reqMerchantDefinedData23=true, reqBillToAddressPostalCode=11001, reqMerchantDefinedData9=101, reqMerchantDefinedData20=OTC, reqMerchantDefinedData25=ADD, reqMerchantDefinedData27=356, reqBillToEmail=sps_qa1450453570124@sample.com, signedFieldNames=transaction_id,decision,req_access, authTransRefNo=WWNTYDFDFD, reqConsumerId=null, reqMerchantDefinedData10=X, reqMerchantDefinedData11=100260033, reqMerchantDefinedData12=8654438, transactionId=4333XXXXXXXXXX, reqMerchantDefinedData19=5016001, reqBillToAddressState=NY, requestToken=dsfdsfsdfsdfdsfcxvcxvcxvcv, reqCardExpiryDate=03-2017, reqPaymentMethod=card, signature=CC2YUshjdhdsFRdsdds96856565sd656sd5, reqBillToAddressLine1=floral park, reqBillToAddressLine2=line2, reqPaymentToken=01019648212121, authTime=2015-06XXXXX, reqCardType=001, reqCardNumber=411111xxxxxx1111, reqBillToPhone=5163216548, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToForename=KENT, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, reqTransactionUuId=b5sdfsdfdsfdsf, reqCurrency=USD, authCode=831000, decision=ACCEPT, authAmount=0.00, reqMerchantDefinedData35=any data to send, message=request+was+processed+succesfully, reqMerchantDefinedData30=true, authResponse=85, reqLocale=en, reqAccessKey=84854545454564564564, reqBillToSurname=ROBERT}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." scenario="The process of adding credit card from the subscription Services-7">
+    <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.called:366</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createLogInSubsPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=sps_qa1450453570124@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.called:391</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>addCreditCardToSubscriptionPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqBillToAddressCity=South Floral Park, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, reqMerchantDefinedData21=true, reqMerchantDefinedData22=-1, reqMerchantDefinedData23=true, reqBillToAddressPostalCode=11001, reqMerchantDefinedData9=101, reqMerchantDefinedData20=OTC, reqMerchantDefinedData25=ADD, reqMerchantDefinedData27=356, reqBillToEmail=sps_qa1450453570124@sample.com, signedFieldNames=transaction_id,decision,req_access, authTransRefNo=WWNTYDFDFD, reqConsumerId=null, reqMerchantDefinedData10=X, reqMerchantDefinedData11=100260033, reqMerchantDefinedData12=8654438, transactionId=4333XXXXXXXXXX, reqMerchantDefinedData19=5016001, reqBillToAddressState=NY, requestToken=dsfdsfsdfsdfdsfcxvcxvcxvcv, reqCardExpiryDate=03-2017, reqPaymentMethod=card, signature=CC2YUshjdhdsFRdsdds96856565sd656sd5, reqBillToAddressLine1=floral park, reqBillToAddressLine2=line2, reqPaymentToken=01019648212121, authTime=2015-06XXXXX, reqCardType=001, reqCardNumber=411111xxxxxx1111, reqBillToPhone=5163216548, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToForename=KENT, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, reqTransactionUuId=b5sdfsdfdsfdsf, reqCurrency=USD, authCode=831000, decision=ACCEPT, authAmount=0.00, reqMerchantDefinedData35=any data to send, message=request+was+processed+succesfully, reqMerchantDefinedData30=true, authResponse=85, reqLocale=en, reqAccessKey=84854545454564564564, reqBillToSurname=ROBERT}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." scenario="Payment services Credit card option">
+    <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_click_credit_card_option:414</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>createLogInSubsPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=sps_qa1450453570124@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsPaymentServicesTest.i_click_credit_card_option:439</statement>
+    <event>
+      <class>StepdefinationSpsPaymentServicesTest</class>
+      <method>addCreditCardToSubscriptionPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqBillToAddressCity=South Floral Park, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, reqMerchantDefinedData21=true, reqMerchantDefinedData22=-1, reqMerchantDefinedData23=true, reqBillToAddressPostalCode=11001, reqMerchantDefinedData9=101, reqMerchantDefinedData20=OTC, reqMerchantDefinedData25=ADD, reqMerchantDefinedData27=356, reqBillToEmail=sps_qa1450453570124@sample.com, signedFieldNames=transaction_id,decision,req_access, authTransRefNo=WWNTYDFDFD, reqConsumerId=null, reqMerchantDefinedData10=X, reqMerchantDefinedData11=100260033, reqMerchantDefinedData12=8654438, transactionId=4333XXXXXXXXXX, reqMerchantDefinedData19=5016001, reqBillToAddressState=NY, requestToken=dsfdsfsdfsdfdsfcxvcxvcxvcv, reqCardExpiryDate=03-2017, reqPaymentMethod=card, signature=CC2YUshjdhdsFRdsdds96856565sd656sd5, reqBillToAddressLine1=floral park, reqBillToAddressLine2=line2, reqPaymentToken=01019648212121, authTime=2015-06XXXXX, reqCardType=001, reqCardNumber=411111xxxxxx1111, reqBillToPhone=5163216548, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToForename=KENT, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, reqTransactionUuId=b5sdfsdfdsfdsf, reqCurrency=USD, authCode=831000, decision=ACCEPT, authAmount=0.00, reqMerchantDefinedData35=any data to send, message=request+was+processed+succesfully, reqMerchantDefinedData30=true, authResponse=85, reqLocale=en, reqAccessKey=84854545454564564564, reqBillToSurname=ROBERT}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="Change existing US domestic school to existing international school using sps edit school services">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893248@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893337@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107893349@sample.com, email=sps_qa1546107893337@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point:71</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893359@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point:78</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@23bff419</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point:94</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point:120</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToInternationalSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{spsId=30152192}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point:141</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToInternationalSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3724af13</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="changing US domestic school to international school using sps school edit services-5">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_query_school_database_using_sps_edit_school_service:252</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893742@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_query_school_database_using_sps_edit_school_service:252</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893747@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_query_school_database_using_sps_edit_school_service:252</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107893753@sample.com, email=sps_qa1546107893747@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_query_school_database_using_sps_edit_school_service:252</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893758@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_query_school_database_using_sps_edit_school_service:259</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@6b53bcc2</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_query_school_database_using_sps_edit_school_service:275</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_query_school_database_using_sps_edit_school_service:301</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToInternationalSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{spsId=30152192}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_query_school_database_using_sps_edit_school_service:321</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToInternationalSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@180da663</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="The use of sps edit to change available US domestic school to available international school-7">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.edit_Domestic_To_International_School_Service_End_Point_called:343</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893794@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.edit_Domestic_To_International_School_Service_End_Point_called:343</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893799@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.edit_Domestic_To_International_School_Service_End_Point_called:343</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107893815@sample.com, email=sps_qa1546107893799@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.edit_Domestic_To_International_School_Service_End_Point_called:343</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893822@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.edit_Domestic_To_International_School_Service_End_Point_called:350</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2320fa6f</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.edit_Domestic_To_International_School_Service_End_Point_called:366</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.edit_Domestic_To_International_School_Service_End_Point_called:392</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToInternationalSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{spsId=30152192}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.edit_Domestic_To_International_School_Service_End_Point_called:412</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToInternationalSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@7a560583</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="Alter school information using school profile in the main page-6">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_selecting_modify_link_in_the_main_menu_of_school_profile:162</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893856@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_selecting_modify_link_in_the_main_menu_of_school_profile:162</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893862@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_selecting_modify_link_in_the_main_menu_of_school_profile:162</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107893867@sample.com, email=sps_qa1546107893862@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_selecting_modify_link_in_the_main_menu_of_school_profile:162</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893873@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_selecting_modify_link_in_the_main_menu_of_school_profile:169</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@53f0a4cb</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_selecting_modify_link_in_the_main_menu_of_school_profile:185</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_selecting_modify_link_in_the_main_menu_of_school_profile:211</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToInternationalSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{spsId=30152192}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_selecting_modify_link_in_the_main_menu_of_school_profile:231</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToInternationalSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@77a7cf58</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="Change existing US domestic school to home School using sps edit school services">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:432</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893908@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:432</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893914@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:432</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107893922@sample.com, email=sps_qa1546107893914@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:432</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107893929@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:439</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@fcb4004</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:453</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createHomeSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{country=, address3=, address2=, city=NYC, address1=568 Broadway, county=, zipcode=10012, poBox=, phone=2123438565, name=Home School Inc. 2015, address5=, address4=, state=NY, reportingSchoolType=HOS}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:460</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createHomeSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2d36e77e</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:473</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:500</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToHomeSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{spsId=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point:520</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToHomeSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3b0c9195</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="Replace current US domestic school to home School utilizing sps edit school services-10">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:540</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894007@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:540</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894017@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:540</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107894024@sample.com, email=sps_qa1546107894017@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:540</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894033@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:547</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2c7b5824</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:561</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createHomeSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{country=, address3=, address2=, city=NYC, address1=568 Broadway, county=, zipcode=10012, poBox=, phone=2123438565, name=Home School Inc. 2015, address5=, address4=, state=NY, reportingSchoolType=HOS}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:568</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createHomeSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@302a07d</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:581</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:608</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToHomeSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{spsId=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.the_Edit_Domestic_To_Home_School_Service_End_Point_is_invoked:628</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToHomeSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@5cdd09b1</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="Renaming existing Domestic school to home school using SPS school services editor-8">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:648</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894089@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:648</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894095@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:648</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107894100@sample.com, email=sps_qa1546107894095@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:648</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894104@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:655</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@7e8dcdaa</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:669</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createHomeSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{country=, address3=, address2=, city=NYC, address1=568 Broadway, county=, zipcode=10012, poBox=, phone=2123438565, name=Home School Inc. 2015, address5=, address4=, state=NY, reportingSchoolType=HOS}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:676</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createHomeSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@681a8b4e</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:689</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:716</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToHomeSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{spsId=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_initiate_the_Edit_Domestic_to_Home_School_Service_End_Point:736</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToHomeSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@5cbe877d</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="Change existing US domestic school to manual School using sps edit school services">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:757</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894151@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:757</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894157@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:757</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107894163@sample.com, email=sps_qa1546107894157@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:757</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894170@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:764</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@4cf8b2dc</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:778</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createManualSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{country=, address3=, address2=, city=NYC, address1=550 Broadway, county=, zipcode=10012, poBox=, phone=2123434535, name=Manual School Inc. 2016, address5=, address4=, state=NY, reportingSchoolType=PS}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:785</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createManualSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@708400f6</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:798</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:824</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToManualSchoolPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{spsId=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point:845</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>changedToManualSchoolResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@5829e4f4</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or" scenario="Send my school info using sps edit school services to send a request to customer service to review my school Info">
+    <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_School_Service_for_Review_End_Point:883</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894236@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_School_Service_for_Review_End_Point:883</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894242@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_School_Service_for_Review_End_Point:883</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Eric, lastName=Jackson, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546107894248@sample.com, email=sps_qa1546107894242@sample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_School_Service_for_Review_End_Point:883</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546107894252@sample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_School_Service_for_Review_End_Point:890</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@4bff64c2</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_School_Service_for_Review_End_Point:904</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_School_Service_for_Review_End_Point:930</statement>
+    <event>
+      <class>StepdefinationSpsSchoolEditServicesTest</class>
+      <method>sendSchoolInfoForReviewPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{country=, groupType=, city=NYC, schoolNote=, uspsTypeCode=0, county=, survivingUcn=, poBox=, addressTypeCode=, internatIonalDomestIcCode=, address5=, address4=, state=NY, schoolUCN=, creditCardState=, createDate=, address3=, address2=, lastModifiedDate=, address1=568 Broadway, borderId=, zipcode=10012, schoolStatus=, createdSource=, phone=2123436100, publicPrivateKey=, spsId=, name=Sch Inc., modifiedDate=, reportingSchoolType=}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile," scenario="Create consumer profile using sps user services">
+    <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Create_Consumer:49</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109428807@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Create_Consumer:49</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Shawn, lastName=Crutz, password=passed1, userType=[CONSUMER], userName=sps_qa1546109428906@tample.com, email=sps_qa1546109428807@tample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Create_Consumer:49</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109428921@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Create_Consumer:56</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@23bff419</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile," scenario="Update consumer profile using sps user services">
+    <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Update_Consumer:84</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429297@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Update_Consumer:84</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Shawn, lastName=Crutz, password=passed1, userType=[CONSUMER], userName=sps_qa1546109429309@tample.com, email=sps_qa1546109429297@tample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Update_Consumer:84</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429321@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Update_Consumer:91</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@44e3a2b2</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Update_Consumer:105</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>updateConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{parentPrimaryRole=2, displayName=RutGut, interesParent=[1, 2]}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Update_Consumer:122</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerUpdateResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@101639ae</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile," scenario="Delete consumer profile using sps user services">
+    <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Delete_Consumer:138</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429376@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Delete_Consumer:138</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Shawn, lastName=Crutz, password=passed1, userType=[CONSUMER], userName=sps_qa1546109429388@tample.com, email=sps_qa1546109429376@tample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Delete_Consumer:138</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429400@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Delete_Consumer:145</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@1d2bd371</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile," scenario="Upgrade consumer profile to teacher using sps user services">
+    <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Upgrade_Consumer:209</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429427@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Upgrade_Consumer:209</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Shawn, lastName=Crutz, password=passed1, userType=[CONSUMER], userName=sps_qa1546109429441@tample.com, email=sps_qa1546109429427@tample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Upgrade_Consumer:209</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429454@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Upgrade_Consumer:216</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3724af13</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Upgrade_Consumer:230</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>upgradeConsumerToEducatorPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{gradesSize={05=21, 98=19}, schoolId=163392, firstYearTeaching=true}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Upgrade_Consumer:249</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerUpgradeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2320fa6f</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile," scenario="Upgrade consumer profile to teacher using sps user service-5">
+    <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_calling_sps_user_upgrade_services:264</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429500@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_calling_sps_user_upgrade_services:264</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Shawn, lastName=Crutz, password=passed1, userType=[CONSUMER], userName=sps_qa1546109429508@tample.com, email=sps_qa1546109429500@tample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_calling_sps_user_upgrade_services:264</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429516@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_calling_sps_user_upgrade_services:271</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@4d722ac9</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_calling_sps_user_upgrade_services:285</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>upgradeConsumerToEducatorPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{gradesSize={05=21, 98=19}, schoolId=163392, firstYearTeaching=true}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_calling_sps_user_upgrade_services:304</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerUpgradeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@53f0a4cb</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile," scenario="Upgrade of  consumer user profile to teacher user profile using sps user services-7">
+    <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.the_Service_End_Point_of_Upgrade_Consumer_has_been_issued:173</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429608@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.the_Service_End_Point_of_Upgrade_Consumer_has_been_issued:173</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Shawn, lastName=Crutz, password=passed1, userType=[CONSUMER], userName=sps_qa1546109429621@tample.com, email=sps_qa1546109429608@tample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.the_Service_End_Point_of_Upgrade_Consumer_has_been_issued:173</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429630@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.the_Service_End_Point_of_Upgrade_Consumer_has_been_issued:180</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@293a5f75</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile," scenario="Update user information using user's profile page-6">
+    <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_click_a_link_update_user_profile:319</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429648@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_click_a_link_update_user_profile:319</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Shawn, lastName=Crutz, password=passed1, userType=[CONSUMER], userName=sps_qa1546109429654@tample.com, email=sps_qa1546109429648@tample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_click_a_link_update_user_profile:319</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429662@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_click_a_link_update_user_profile:326</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@1dd6d4b7</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_click_a_link_update_user_profile:340</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>upgradeConsumerToEducatorPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{gradesSize={05=21, 98=19}, schoolId=163392, firstYearTeaching=true}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_click_a_link_update_user_profile:359</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerUpgradeResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@56e8b606</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile," scenario="Add child to a consumer profile using sps user services">
+    <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Add_Child:375</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429692@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Add_Child:375</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Shawn, lastName=Crutz, password=passed1, userType=[CONSUMER], userName=sps_qa1546109429702@tample.com, email=sps_qa1546109429692@tample.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Add_Child:375</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546109429712@tample.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Add_Child:382</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>createConsumerResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@784c3487</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Add_Child:395</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>addChildPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{readingLevelIds=[100, 200], firstName=George, lastName=Crutz, birthMonth=09, birthDay=22, interestIds=[10], birthYear=2006, grade=04, teacherIds=[83931883], parentIds=[null]}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Add_Child:402</statement>
+    <event>
+      <class>StepdefinationSpsUserConsumerServicesTest</class>
+      <method>addChildResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@53142455</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, and Delete Teacher Profile," scenario="Create teacher using sps user services">
+    <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Create_Teacher_Service_End_Point:33</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546110073390@mobile.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Create_Teacher_Service_End_Point:33</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Top, lastName=Barel, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546110073490@mobile.com, email=sps_qa1546110073390@mobile.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Create_Teacher_Service_End_Point:33</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546110073507@mobile.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Create_Teacher_Service_End_Point:40</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@23bff419</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, and Delete Teacher Profile," scenario="Update teacher profile using sps user services">
+    <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Update_Teacher_Service_End_Point:69</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546110073933@mobile.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Update_Teacher_Service_End_Point:69</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Top, lastName=Barel, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546110073950@mobile.com, email=sps_qa1546110073933@mobile.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Update_Teacher_Service_End_Point:69</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546110073961@mobile.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Update_Teacher_Service_End_Point:76</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@26bab2f1</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Update_Teacher_Service_End_Point:90</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>updateTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{subjectInterest=[5, 6], parentPrimaryRole=2, displayName=TopSecret, interesParent=[1, 2], gradesRecommended=[3, 4]}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Update_Teacher_Service_End_Point:110</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>createTeacherUpdateResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3724af13</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Create, Update, and Delete Teacher Profile," scenario="Delete teacher profile using sps user services">
+    <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Delete_Teacher_Service_End_Point:126</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546110074003@mobile.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Delete_Teacher_Service_End_Point:126</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Top, lastName=Barel, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546110074023@mobile.com, email=sps_qa1546110074003@mobile.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Delete_Teacher_Service_End_Point:126</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546110074030@mobile.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Delete_Teacher_Service_End_Point:133</statement>
+    <event>
+      <class>StepdefinationSpsUserTeacherServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@6b53bcc2</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" scenario="Add credit card to wallet using sps wallet services">
+    <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Add_Credit_Card_to_Wallet_Service_End_Point:56</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546111773403@gamble.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Add_Credit_Card_to_Wallet_Service_End_Point:56</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Alan, lastName=Field, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546111773403@gamble.com, email=sps_qa1546111773403@gamble.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Add_Credit_Card_to_Wallet_Service_End_Point:63</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@23bff419</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Add_Credit_Card_to_Wallet_Service_End_Point:78</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Add_Credit_Card_to_Wallet_Service_End_Point:104</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>addCreditCardToWalletPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Jackson Heights, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, signature=XSDSSDSDFSDFSDFSDFDFDFdffDFDSDF, reqMerchantDefinedData21=true, reqBillToAddressLine1=34-21 70th Street, reqMerchantDefinedData22=-1, reqBillToAddressLine2=line2, reqMerchantDefinedData23=true, reqCardType=001, authTime=2015-06XXXXX, reqPaymentToken=01019648212121, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=11372, reqBillToPhone=7189916545, reqMerchantDefinedData25=ADD, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToEmail=sps_qa1546111773403@gamble.com, reqBillToForename=Alan, signedFieldNames=transaction_id_XXX SET ALL, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, authTransRefNo=WWNTYDFDFD, reqTransactionUuId=b5sdfsdfdsfdsf, authCode=831000, reqCurrency=USD, decision=ACCEPT, reqReferenceNumber=SCH_SDSDSDDS, reqConsumerId=null, reqMerchantDefinedData12=null, authAmount=000, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4333XXXXXXXXXX, authResponse=85, reqLocale=en, accessKey=84854545454564564564public String, reqBillToAddressState=NY, reqCardExpiryDate=03-2017, reqBillToSurname=Field}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" scenario="Get the number of cards in wallet and its Info using sps wallet services">
+    <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Get_Credit_Card_Service_End_Point:128</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546111773995@gamble.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Get_Credit_Card_Service_End_Point:128</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Alan, lastName=Field, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546111773995@gamble.com, email=sps_qa1546111773995@gamble.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Get_Credit_Card_Service_End_Point:135</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@26bab2f1</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Get_Credit_Card_Service_End_Point:149</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Get_Credit_Card_Service_End_Point:175</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>addCreditCardToWalletPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Jackson Heights, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, signature=XSDSSDSDFSDFSDFSDFDFDFdffDFDSDF, reqMerchantDefinedData21=true, reqBillToAddressLine1=34-21 70th Street, reqMerchantDefinedData22=-1, reqBillToAddressLine2=line2, reqMerchantDefinedData23=true, reqCardType=001, authTime=2015-06XXXXX, reqPaymentToken=01019648212121, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=11372, reqBillToPhone=7189916545, reqMerchantDefinedData25=ADD, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToEmail=sps_qa1546111773995@gamble.com, reqBillToForename=Alan, signedFieldNames=transaction_id_XXX SET ALL, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, authTransRefNo=WWNTYDFDFD, reqTransactionUuId=b5sdfsdfdsfdsf, authCode=831000, reqCurrency=USD, decision=ACCEPT, reqReferenceNumber=SCH_SDSDSDDS, reqConsumerId=null, reqMerchantDefinedData12=null, authAmount=000, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4333XXXXXXXXXX, authResponse=85, reqLocale=en, accessKey=84854545454564564564public String, reqBillToAddressState=NY, reqCardExpiryDate=03-2017, reqBillToSurname=Field}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Get_Credit_Card_Service_End_Point:196</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getCreditCardResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@3724af13</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" scenario="retrieve number of cards in a wallet and their info using sps wallet services-5">
+    <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_calling_sps_wallet_service:219</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546111774055@gamble.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_calling_sps_wallet_service:219</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Alan, lastName=Field, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546111774055@gamble.com, email=sps_qa1546111774055@gamble.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_calling_sps_wallet_service:226</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@6b53bcc2</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_calling_sps_wallet_service:240</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_calling_sps_wallet_service:266</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>addCreditCardToWalletPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Jackson Heights, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, signature=XSDSSDSDFSDFSDFSDFDFDFdffDFDSDF, reqMerchantDefinedData21=true, reqBillToAddressLine1=34-21 70th Street, reqMerchantDefinedData22=-1, reqBillToAddressLine2=line2, reqMerchantDefinedData23=true, reqCardType=001, authTime=2015-06XXXXX, reqPaymentToken=01019648212121, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=11372, reqBillToPhone=7189916545, reqMerchantDefinedData25=ADD, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToEmail=sps_qa1546111774055@gamble.com, reqBillToForename=Alan, signedFieldNames=transaction_id_XXX SET ALL, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, authTransRefNo=WWNTYDFDFD, reqTransactionUuId=b5sdfsdfdsfdsf, authCode=831000, reqCurrency=USD, decision=ACCEPT, reqReferenceNumber=SCH_SDSDSDDS, reqConsumerId=null, reqMerchantDefinedData12=null, authAmount=000, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4333XXXXXXXXXX, authResponse=85, reqLocale=en, accessKey=84854545454564564564public String, reqBillToAddressState=NY, reqCardExpiryDate=03-2017, reqBillToSurname=Field}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_calling_sps_wallet_service:287</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getCreditCardResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@424ebba3</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" scenario="The task to Get the number of cards in wallet and its Info using sps wallet services-7">
+    <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_peforming_the_Get_Credit_Card_Service_End_Point:310</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546111774105@gamble.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_peforming_the_Get_Credit_Card_Service_End_Point:310</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Alan, lastName=Field, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546111774105@gamble.com, email=sps_qa1546111774105@gamble.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_peforming_the_Get_Credit_Card_Service_End_Point:317</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@2320fa6f</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_peforming_the_Get_Credit_Card_Service_End_Point:331</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_peforming_the_Get_Credit_Card_Service_End_Point:357</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>addCreditCardToWalletPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Jackson Heights, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, signature=XSDSSDSDFSDFSDFSDFDFDFdffDFDSDF, reqMerchantDefinedData21=true, reqBillToAddressLine1=34-21 70th Street, reqMerchantDefinedData22=-1, reqBillToAddressLine2=line2, reqMerchantDefinedData23=true, reqCardType=001, authTime=2015-06XXXXX, reqPaymentToken=01019648212121, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=11372, reqBillToPhone=7189916545, reqMerchantDefinedData25=ADD, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToEmail=sps_qa1546111774105@gamble.com, reqBillToForename=Alan, signedFieldNames=transaction_id_XXX SET ALL, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, authTransRefNo=WWNTYDFDFD, reqTransactionUuId=b5sdfsdfdsfdsf, authCode=831000, reqCurrency=USD, decision=ACCEPT, reqReferenceNumber=SCH_SDSDSDDS, reqConsumerId=null, reqMerchantDefinedData12=null, authAmount=000, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4333XXXXXXXXXX, authResponse=85, reqLocale=en, accessKey=84854545454564564564public String, reqBillToAddressState=NY, reqCardExpiryDate=03-2017, reqBillToSurname=Field}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_peforming_the_Get_Credit_Card_Service_End_Point:378</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getCreditCardResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@7a560583</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" scenario="User cards details-6">
+    <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_requesting_user_cards:401</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546111774166@gamble.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_requesting_user_cards:401</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Alan, lastName=Field, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546111774166@gamble.com, email=sps_qa1546111774166@gamble.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_requesting_user_cards:408</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@616fe72b</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_requesting_user_cards:422</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_requesting_user_cards:448</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>addCreditCardToWalletPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Jackson Heights, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, signature=XSDSSDSDFSDFSDFSDFDFDFdffDFDSDF, reqMerchantDefinedData21=true, reqBillToAddressLine1=34-21 70th Street, reqMerchantDefinedData22=-1, reqBillToAddressLine2=line2, reqMerchantDefinedData23=true, reqCardType=001, authTime=2015-06XXXXX, reqPaymentToken=01019648212121, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=11372, reqBillToPhone=7189916545, reqMerchantDefinedData25=ADD, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToEmail=sps_qa1546111774166@gamble.com, reqBillToForename=Alan, signedFieldNames=transaction_id_XXX SET ALL, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, authTransRefNo=WWNTYDFDFD, reqTransactionUuId=b5sdfsdfdsfdsf, authCode=831000, reqCurrency=USD, decision=ACCEPT, reqReferenceNumber=SCH_SDSDSDDS, reqConsumerId=null, reqMerchantDefinedData12=null, authAmount=000, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4333XXXXXXXXXX, authResponse=85, reqLocale=en, accessKey=84854545454564564564public String, reqBillToAddressState=NY, reqCardExpiryDate=03-2017, reqBillToSurname=Field}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_requesting_user_cards:469</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getCreditCardResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@60957c0f</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+<trace feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" scenario="Delete a credit card from the wallet using sps wallet services">
+    <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Delete_Credit_Card_Service_End_Point:493</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>getEmail</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>sps_qa1546111774215@gamble.com</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Delete_Credit_Card_Service_End_Point:493</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{firstName=Alan, lastName=Field, password=passed1, schoolId=453926, userType=[TEACHER], userName=sps_qa1546111774215@gamble.com, email=sps_qa1546111774215@gamble.com}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Delete_Credit_Card_Service_End_Point:500</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createTeacherResponseValidator</method>
+      <param-types/>
+      <return-type>interface com.jayway.restassured.specification.ResponseSpecification</return-type>
+      <args/>
+      <return-value>com.jayway.restassured.internal.ResponseSpecificationImpl@fcb4004</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Delete_Credit_Card_Service_End_Point:515</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>createLogInPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{userForWS=false, password=passed1, addCookie=true, addExpiration=true, singleToken=true, user=null}</return-value>
+      <modifier>public</modifier>
+    </event>
+  <statement>com.scholastic.test.StepdefinationSpsWalletServicesTest.i_am_Calling_the_Delete_Credit_Card_Service_End_Point:541</statement>
+    <event>
+      <class>StepdefinationSpsWalletServicesTest</class>
+      <method>addCreditCardToWalletPayload</method>
+      <param-types/>
+      <return-type>interface java.util.Map</return-type>
+      <args/>
+      <return-value>{reqPaymentMethod=card, reqBillToAddressCity=Jackson Heights, reqTransactionType=create_payment_token, authAvsCodeRaw=Y, signature=XSDSSDSDFSDFSDFSDFDFDFdffDFDSDF, reqMerchantDefinedData21=true, reqBillToAddressLine1=34-21 70th Street, reqMerchantDefinedData22=-1, reqBillToAddressLine2=line2, reqMerchantDefinedData23=true, reqCardType=001, authTime=2015-06XXXXX, reqPaymentToken=01019648212121, reqCardNumber=411111xxxxxx1111, reqBillToAddressPostalCode=11372, reqBillToPhone=7189916545, reqMerchantDefinedData25=ADD, reqBillToAddressCountry=US, authAvsCode=Y, reasonCode=100, reqBillToEmail=sps_qa1546111774215@gamble.com, reqBillToForename=Alan, signedFieldNames=transaction_id_XXX SET ALL, signedDateTime=2015-06-09T21:17:33Z, reqProfileId=MAAWSQA1, authTransRefNo=WWNTYDFDFD, reqTransactionUuId=b5sdfsdfdsfdsf, authCode=831000, reqCurrency=USD, decision=ACCEPT, reqReferenceNumber=SCH_SDSDSDDS, reqConsumerId=null, reqMerchantDefinedData12=null, authAmount=000, reqMerchantDefinedData35=anythingelse, message=request+was+processed+succesfully, transactionId=4333XXXXXXXXXX, authResponse=85, reqLocale=en, accessKey=84854545454564564564public String, reqBillToAddressState=NY, reqCardExpiryDate=03-2017, reqBillToSurname=Field}</return-value>
+      <modifier>public</modifier>
+    </event>
+  </trace>
+</traces>

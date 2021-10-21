@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+  <scenario feature="Multiple Subscriptions test cases" title="User multiple with profile sends optin keyword with active subscription with free week">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> Sms free subscription short code is "55588"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>subscript</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55588</keyword>
+      </step-keywords>
+      <step> User has "355066712002" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355066712002</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has "355066989802" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355066989802</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "SUBSCRIBE" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>subscrib</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "SUBSCRIPTION_WELCOME" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>welcom</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "SUBSCRIPTION_WELCOME" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>welcom</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "SUBSCRIBE" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>subscrib</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "SUBSCRIPTION_WELCOME" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>welcom</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES1" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>yes1</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "SUBSCRIPTION_WELCOME" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>welcom</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+</scenarios>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>52</keyword-count>
+      <keywords>br com netshoes back com create gmail name november ns softbox surname user back cellphone change friday gender name netshoes phone surname change login logout netshoes password add address cep shipping address another bone cart icon nike pf product produto put sb shipping boleto buy pf delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>59</keyword-count>
+      <keywords>access br com netshoes account back com email gmail name new november ns register softbox surname account backfriday name netshoes surname update add address cellphone cep female gender information like phone shipping account add netshoes password security login logout address another choose pf shipping boleto bone buy icon nike pf product produto sb delete one shipping done previous steps</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>49</keyword-count>
+      <keywords>br com netshoes create da joao name pitbull silva surname user cellphone change florentina gender maria name phone surname change login logout netshoes password add address cep shipping address another bone cart icon nike pf product produto put sb shipping boleto buy pf delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>55</keyword-count>
+      <keywords>access address br com netshoes web da first joao last name pitbull register silva cellphone change first florentina gender last maria name phone netshoes passwort reset login logout add address cep missing shipping add address another bone cart chose icon nike pf product produto sb ship sku boleto pf purchase delete one shipping done previous</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>49</keyword-count>
+      <keywords>br com netshoes create da joao name pitbull silva surname user cellphone change florentina gender maria name phone surname change login logout netshoes password add address cep shipping address another bone cart icon nike pf product produto put sb shipping boleto buy pf delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>52</keyword-count>
+      <keywords>br com netshoes site account da joao name pitbull register silva surname contact female florentina gender maria mobile name new particulars surname telephone update account login netshoes password sign address cep register shipping address another bone icon item nike pf produto purchase sb boleto make pf purchase use one shipping previous success</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>44</keyword-count>
+      <keywords>access internet br com netshoes company create fadiga fantasia nome qualquercoisa razao social sports add cep shipping cellphone fantasia fitness nome outracoisa phone razao social trincado update acte address another cart pj product produto put rolo shipping sports boleto buy pj done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>51</keyword-count>
+      <keywords>br com netshoes company create fadiga fantasia nome qualquercoisa razao social sports cellphone change fantasia fitness nome outracoisa phone razao social trincado change company login logout netshoes password add cep shipping acte address another cart pj product produto put rolo shipping sports boleto buy pj delete one shipping done previous steps</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>51</keyword-count>
+      <keywords>br com netshoes company create fadiga fantasia nome qualquercoisa razao social sports cellphone change fantasia fitness nome outracoisa phone razao social trincado change company login logout netshoes password add cep shipping acte address another cart pj product produto put rolo shipping sports boleto buy pj delete one shipping done previous steps</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>57</keyword-count>
+      <keywords>access address br com netshoes web fadiga fantasia nome qualquercoisa razao register social sports cellphone change fantasia fitness maria nome phone razao social trincado change company netshoes password reset login logout add address cep missing shipping acte add address another cart chose pj product produto rolo ship sku sports boleto pj purchase delete one shipping done previous</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>51</keyword-count>
+      <keywords>br com netshoes company create fadiga fantasia nome qualquercoisa razao social sports cellphone change fantasia fitness nome outracoisa phone razao social trincado change company login logout netshoes password add cep shipping acte address another cart pj product produto put rolo shipping sports boleto buy pj delete one shipping done previous steps</keywords>
+      <or/>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>51</keyword-count>
+      <keywords>br com netshoes site fadiga fantasia nome qualquercoisa razao register respectively social sports contact fantasia fitness mobile modify new nome number outracoisa phone razao social trincado company netshoes passcode re sign provide shipping acte add address cart different item pj produto rolo sports boleto make pj purchase use one shipping previous</keywords>
+   </suggestion>
+</suggestions>

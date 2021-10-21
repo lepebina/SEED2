@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-9"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription help</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Blacklisted user with no profile should not be charged for sending HELP message-4"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription help</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription help</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+      <or/>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+      <or/>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <or/>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code-9"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Send pre_launch_text_key reply when a non-user sends the PRE-LAUNCH text-4"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Creating requested profile for the user-3"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-9"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Do not charge subscribed user for the teaser-4-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="User with no profile does not receives free content teaser-9"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code"/>
+      <in feature="FP"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+      <or/>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends mo with SCORE to free short code-9-5"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends mo with SCORE to free short code-keywords"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription subscription subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Invalid subscription-3"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>5</keyword-count>
+      <keywords>subscription subscription subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>subscription help help subscription subscription help subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>subscription help help subscription subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscribed user sends mo with value 1  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Request of subscription information by a subscribed user.-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>5</keyword-count>
+      <keywords>subscription help subscription help subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>6</keyword-count>
+      <keywords>subscription help subscription subscription help subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A subscribed user sends a free short code messages-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>2</keyword-count>
+      <keywords>subscription subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Free short code messages is sent by a subscribed user-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>1</keyword-count>
+      <keywords>subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile sends an sms for unsubscription-15"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>3</keyword-count>
+      <keywords>subscription subscription subscription</keywords>
+      <and/>
+      <keep-scenario-with title="No profile customer sends optout keyword with active subscription-target-output"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>4</keyword-count>
+      <keywords>subscription subscription subscription subscription</keywords>
+   </suggestion>
+</suggestions>

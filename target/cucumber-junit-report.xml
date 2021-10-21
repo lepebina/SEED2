@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.193695">
+<testcase classname="User should be able to see current customer cards, and create new customer cards" name="Displaying current customer cards" time="24.193695">
+<system-out><![CDATA[Given navigate to URL and select BriteErpDemo database......................passed
+And login with valid credentials............................................passed
+When navigate CRM module....................................................passed
+Then go to Customers page...................................................passed
+When Customers header is displayed..........................................passed
+Then customer cards exist on the page.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

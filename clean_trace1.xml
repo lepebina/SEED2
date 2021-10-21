@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<traces>
+   <trace feature="Blacklist test cases"
+          scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist">
+      <class>UserAttributes</class>
+      <method>setMsisdn</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args>
+         <arg>355004567893</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>UserAttributes</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>355004567893</return-value>
+      <class>DeleteEvent</class>
+      <method>setMsisdn</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args>
+         <arg>355004567893</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>DeleteEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/customer</return-value>
+      <class>DeleteEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>DeleteHandlerImpl</class>
+      <method>getUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>http://null:null/ice-app/api/customer/null</return-value>
+      <class>DeleteEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/customer</return-value>
+      <class>DeleteEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>RestClient</class>
+      <method>delete</method>
+      <param-types>String</param-types>
+      <return-type>class org.springframework.http.ResponseEntity</return-type>
+      <args>
+         <arg>http://null:null/ice-app/api/customer/null</arg>
+      </args>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>DeleteHandlerImpl</class>
+      <method>deleteCustomer</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>DeleteEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/customer</return-value>
+      <class>DeleteEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>DeleteHandlerImpl</class>
+      <method>getUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>http://null:null/ice-app/api/customer/null</return-value>
+      <class>DeleteEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/customer</return-value>
+      <class>DeleteEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>RestClient</class>
+      <method>delete</method>
+      <param-types>String</param-types>
+      <return-type>class org.springframework.http.ResponseEntity</return-type>
+      <args>
+         <arg>http://null:null/ice-app/api/customer/null</arg>
+      </args>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>UserAttributes</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>355004567893</return-value>
+      <class>BlacklistEvent</class>
+      <method>setMsisdn</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args>
+         <arg>355004567893</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>BlacklistEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/blacklist</return-value>
+      <class>BlacklistEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>BlacklistHandlerImpl</class>
+      <method>getUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>http://null:null/ice-app/api/blacklist?msisdn=null</return-value>
+      <class>BlacklistEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/blacklist</return-value>
+      <class>BlacklistEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>RestClient</class>
+      <method>put</method>
+      <param-types>String, String</param-types>
+      <return-type>class org.springframework.http.ResponseEntity</return-type>
+      <args>
+         <arg>http://null:null/ice-app/api/blacklist?msisdn=null</arg>
+         <arg>application/json</arg>
+      </args>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>BlacklistHandlerImpl</class>
+      <method>blacklist</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>BlacklistEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/blacklist</return-value>
+      <class>BlacklistEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>BlacklistHandlerImpl</class>
+      <method>getUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>http://null:null/ice-app/api/blacklist?msisdn=null</return-value>
+      <class>BlacklistEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/blacklist</return-value>
+      <class>BlacklistEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>RestClient</class>
+      <method>put</method>
+      <param-types>String, String</param-types>
+      <return-type>class org.springframework.http.ResponseEntity</return-type>
+      <args>
+         <arg>http://null:null/ice-app/api/blacklist?msisdn=null</arg>
+         <arg>application/json</arg>
+      </args>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>MoEvent</class>
+      <method>setMoId</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args>
+         <arg>1524665627091</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getMoId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>1524665627091</return-value>
+      <class>UserAttributes</class>
+      <method>setMsgId</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args>
+         <arg>1524665627091</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>setPayload</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args>
+         <arg>HELP</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>SystemAttributes</class>
+      <method>getFreeShortcode</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>setRecipient</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>UserAttributes</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>setSender</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoHandlerImpl</class>
+      <method>initApiParam</method>
+      <param-types/>
+      <return-type>void</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/mo</return-value>
+      <class>MoEvent</class>
+      <method>getMoId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getSender</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getRecipient</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getPayload</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoHandlerImpl</class>
+      <method>getUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>http://null:null/ice-app/api/mo?moId=null&amp;sender=null&amp;recipient=null&amp;payload=null</return-value>
+      <class>MoEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/mo</return-value>
+      <class>MoEvent</class>
+      <method>getMoId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getSender</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getRecipient</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getPayload</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>RestClient</class>
+      <method>get</method>
+      <param-types>String</param-types>
+      <return-type>class org.springframework.http.ResponseEntity</return-type>
+      <args>
+         <arg>http://null:null/ice-app/api/mo?moId=null&amp;sender=null&amp;recipient=null&amp;payload=null</arg>
+      </args>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>MoHandlerImpl</class>
+      <method>sendDefaultApi</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>MoHandlerImpl</class>
+      <method>initApiParam</method>
+      <param-types/>
+      <return-type>void</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/mo</return-value>
+      <class>MoEvent</class>
+      <method>getMoId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getSender</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getRecipient</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getPayload</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoHandlerImpl</class>
+      <method>getUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>http://null:null/ice-app/api/mo?moId=null&amp;sender=null&amp;recipient=null&amp;payload=null</return-value>
+      <class>MoEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/mo</return-value>
+      <class>MoEvent</class>
+      <method>getMoId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getSender</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getRecipient</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>MoEvent</class>
+      <method>getPayload</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>RestClient</class>
+      <method>get</method>
+      <param-types>String</param-types>
+      <return-type>class org.springframework.http.ResponseEntity</return-type>
+      <args>
+         <arg>http://null:null/ice-app/api/mo?moId=null&amp;sender=null&amp;recipient=null&amp;payload=null</arg>
+      </args>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>UserAttributes</class>
+      <method>getMsgId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>GenericServiceImpl</class>
+      <method>queryByKey</method>
+      <param-types>Object, String, Object</param-types>
+      <return-type>class java.lang.Object</return-type>
+      <args>
+         <arg>com.ice.automation.model.router.IncomingMessage@593e824f</arg>
+         <arg>messageId</arg>
+      </args>
+      <return-value>com.ice.automation.model.router.IncomingMessage@593e824f</return-value>
+      <class>IncomingMessage</class>
+      <method>getRequestType</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>IncomingMessage</class>
+      <method>getRequestType</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>IncomingMessage</class>
+      <method>getChannel</method>
+      <param-types/>
+      <return-type>class com.ice.automation.commons.router.Channel</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>IncomingMessage</class>
+      <method>getChannel</method>
+      <param-types/>
+      <return-type>class com.ice.automation.commons.router.Channel</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>IncomingMessage</class>
+      <method>getRecipient</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>IncomingMessage</class>
+      <method>getRecipient</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>UserAttributes</class>
+      <method>getMsgId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>GenericServiceImpl</class>
+      <method>queryByCompositeKey</method>
+      <param-types>Object, Map</param-types>
+      <return-type>class java.lang.Object</return-type>
+      <args>
+         <arg>{responseType=BLACKLISTED, incomingMessageId=null}</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>UserAttributes</class>
+      <method>getMsgId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>GenericServiceImpl</class>
+      <method>queryByCompositeKey</method>
+      <param-types>Object, Map</param-types>
+      <return-type>class java.lang.Object</return-type>
+      <args>
+         <arg>{responseType=BLACKLISTED, incomingMessageId=null}</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>UserAttributes</class>
+      <method>getMsgId</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>GenericServiceImpl</class>
+      <method>queryByKey</method>
+      <param-types>Object, String, Object</param-types>
+      <return-type>class java.lang.Object</return-type>
+      <args>
+         <arg>com.ice.automation.model.router.IncomingMessage@593e824f</arg>
+         <arg>messageId</arg>
+      </args>
+      <return-value>com.ice.automation.model.router.IncomingMessage@593e824f</return-value>
+      <class>IncomingMessage</class>
+      <method>getCostWeight</method>
+      <param-types/>
+      <return-type>double</return-type>
+      <args/>
+      <return-value>0.0</return-value>
+      <class>IncomingMessage</class>
+      <method>getChannel</method>
+      <param-types/>
+      <return-type>class com.ice.automation.commons.router.Channel</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>IncomingMessage</class>
+      <method>getChannel</method>
+      <param-types/>
+      <return-type>class com.ice.automation.commons.router.Channel</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>UserAttributes</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>355004567893</return-value>
+      <class>BlacklistEvent</class>
+      <method>setMsisdn</method>
+      <param-types>String</param-types>
+      <return-type>void</return-type>
+      <args>
+         <arg>355004567893</arg>
+      </args>
+      <return-value>null</return-value>
+      <class>BlacklistEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/blacklist</return-value>
+      <class>BlacklistEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>BlacklistHandlerImpl</class>
+      <method>getUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>http://null:null/ice-app/api/blacklist?msisdn=null</return-value>
+      <class>BlacklistEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/blacklist</return-value>
+      <class>BlacklistEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>RestClient</class>
+      <method>delete</method>
+      <param-types>String</param-types>
+      <return-type>class org.springframework.http.ResponseEntity</return-type>
+      <args>
+         <arg>http://null:null/ice-app/api/blacklist?msisdn=null</arg>
+      </args>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>BlacklistHandlerImpl</class>
+      <method>unblacklist</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+      <class>BlacklistEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/blacklist</return-value>
+      <class>BlacklistEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>BlacklistHandlerImpl</class>
+      <method>getUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>http://null:null/ice-app/api/blacklist?msisdn=null</return-value>
+      <class>BlacklistEvent</class>
+      <method>getApiUrl</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>ice-app/api/blacklist</return-value>
+      <class>BlacklistEvent</class>
+      <method>getMsisdn</method>
+      <param-types/>
+      <return-type>class java.lang.String</return-type>
+      <args/>
+      <return-value>null</return-value>
+      <class>RestClient</class>
+      <method>delete</method>
+      <param-types>String</param-types>
+      <return-type>class org.springframework.http.ResponseEntity</return-type>
+      <args>
+         <arg>http://null:null/ice-app/api/blacklist?msisdn=null</arg>
+      </args>
+      <return-value>&lt;202 Accepted,{}&gt;</return-value>
+   </trace>
+</traces>

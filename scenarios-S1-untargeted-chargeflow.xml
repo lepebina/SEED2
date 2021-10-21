@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+  <scenario feature="Charge test cases" title="Subscription with free week,subscribed user and success charge request-picked for javaslicer test">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Sms billed short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>bill</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006718006" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006718006</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is subscribed</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>subscrib</keyword>
+      </step-keywords>
+    <step> Wait for "3"s</step>
+      <step-keywords>
+        <keyword>wait</keyword>
+        <keyword>3</keyword>
+        <keyword>s</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> Charge event for "PersonalitySubscription" subscription with charge point "0.5" and status "0" is triggered</step>
+      <step-keywords>
+        <keyword>charg</keyword>
+        <keyword>0</keyword>
+        <keyword>event</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>subscript</keyword>
+        <keyword>point</keyword>
+        <keyword>5</keyword>
+        <keyword>statu</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User does not get charged for the teaser</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>teaser</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Charge test cases" title="Subscription with free week,subscribed user and failed no balance charge request">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Sms billed short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>bill</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006718007" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006718007</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is subscribed</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>subscrib</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> Charge event for "PersonalitySubscription" subscription with charge point "0.5" and status "1" is triggered</step>
+      <step-keywords>
+        <keyword>charg</keyword>
+        <keyword>event</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>subscript</keyword>
+        <keyword>point</keyword>
+        <keyword>0</keyword>
+        <keyword>5</keyword>
+        <keyword>statu</keyword>
+        <keyword>1</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User does not get charged for the teaser</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>teaser</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Charge test cases" title="Subscription with free week,unsubscribed user ,re-optin and then success charge request">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Sms billed short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>bill</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006718009" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006718009</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is subscribed</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>subscrib</keyword>
+      </step-keywords>
+    <step> User sends sms with input "1" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>1</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User sends sms with input "STOP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>stop</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> Charge event for "PersonalitySubscription" subscription with charge point "0.5" and status "0" is triggered</step>
+      <step-keywords>
+        <keyword>charg</keyword>
+        <keyword>0</keyword>
+        <keyword>event</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>subscript</keyword>
+        <keyword>point</keyword>
+        <keyword>5</keyword>
+        <keyword>statu</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> User does not receive subscription content</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>content</keyword>
+      </step-keywords>
+    </When>
+  </scenario>
+<scenario feature="Charge test cases" title="Subscription with no free week,subscribed user and success charge request-chargeflow">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Sms billed short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>bill</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006718000" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006718000</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is subscribed</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>subscrib</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> Charge event for "PersonalitySubscription" subscription with charge point "0.5" and status "0" is triggered</step>
+      <step-keywords>
+        <keyword>charg</keyword>
+        <keyword>0</keyword>
+        <keyword>event</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>subscript</keyword>
+        <keyword>point</keyword>
+        <keyword>5</keyword>
+        <keyword>statu</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> Subscribed user is "CHARGE:SUCCESS" with "0.5" charge point</step>
+      <step-keywords>
+        <keyword>charg</keyword>
+        <keyword>subscrib</keyword>
+        <keyword>user</keyword>
+        <keyword>success</keyword>
+        <keyword>0</keyword>
+        <keyword>5</keyword>
+        <keyword>point</keyword>
+      </step-keywords>
+    <step> User receives subscription content from billed shortcode</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>content</keyword>
+        <keyword>from</keyword>
+        <keyword>bill</keyword>
+        <keyword>shortcod</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Charge test cases" title="Subscription with no free week,unsubscribed user and success charge request">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Sms billed short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>bill</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006718003" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006718003</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is subscribed</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>subscrib</keyword>
+      </step-keywords>
+    <step> User sends sms with input "STOP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>stop</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> Charge event for "PersonalitySubscription" subscription with charge point "0.5" and status "0" is triggered</step>
+      <step-keywords>
+        <keyword>charg</keyword>
+        <keyword>0</keyword>
+        <keyword>event</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>subscript</keyword>
+        <keyword>point</keyword>
+        <keyword>5</keyword>
+        <keyword>statu</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User does not get charged for the teaser</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>teaser</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+</scenarios>

@@ -1,0 +1,2465 @@
+<?xml version="1.0" encoding="UTF-8"?><scenarios>
+  <scenario feature="Manages Pessoa Fisica" title="Pessoa Fisica (account registration)-29">
+    <Given>
+      <step> i access "http://netshoes.com.br"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> i register new account with name as "Softbox", surname as "Back November", and email as "softbox.ns.blackfriday2015@gmail.com"</step>
+      <step-keywords>
+        <keyword>softbox</keyword>
+        <keyword>i</keyword>
+        <keyword>regist</keyword>
+        <keyword>new</keyword>
+        <keyword>account</keyword>
+        <keyword>name</keyword>
+        <keyword>surnam</keyword>
+        <keyword>back</keyword>
+        <keyword>novemb</keyword>
+        <keyword>email</keyword>
+        <keyword>ns</keyword>
+        <keyword>blackfriday2015</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+      </step-keywords>
+    <step> update my account with name as "Netshoes", surname as "BackFriday"</step>
+      <step-keywords>
+        <keyword>updat</keyword>
+        <keyword>my</keyword>
+        <keyword>account</keyword>
+        <keyword>name</keyword>
+        <keyword>netsho</keyword>
+        <keyword>surnam</keyword>
+        <keyword>backfridai</keyword>
+      </step-keywords>
+    <step> add other information like gender as female, phone as "(34) 3232-3232", cellphone as "(34) 9191-9191", and shipping address as CEP "06460-908"</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>add</keyword>
+        <keyword>other</keyword>
+        <keyword>inform</keyword>
+        <keyword>like</keyword>
+        <keyword>gender</keyword>
+        <keyword>femal</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>9191-9191</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+      </step-keywords>
+    <step> add account security by putting password as "netshoeS 123"</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>account</keyword>
+        <keyword>secur</keyword>
+        <keyword>put</keyword>
+        <keyword>password</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+      </step-keywords>
+    <step> logout and login again.</step>
+      <step-keywords>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+    <step> choose another shipping address for PF</step>
+      <step-keywords>
+        <keyword>choos</keyword>
+        <keyword>anoth</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> with boleto PF, buy the product "produto/bone-nike-sb-icon-004-6866-244?"</step>
+      <step-keywords>
+        <keyword>boleto</keyword>
+        <keyword>pf</keyword>
+        <keyword>bui</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>bone-nike-sb-icon-004-6866-244</keyword>
+      </step-keywords>
+    <step> delete one of my shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>my</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> all of my previous steps were done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>my</keyword>
+        <keyword>previou</keyword>
+        <keyword>step</keyword>
+        <keyword>were</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Manages Pessoa Fisica" title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;PF&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I create a user with name "Softbox" and surname "Back November" and "softbox.ns.blackfriday2015@gmail.com"</step>
+      <step-keywords>
+        <keyword>softbox</keyword>
+        <keyword>i</keyword>
+        <keyword>creat</keyword>
+        <keyword>user</keyword>
+        <keyword>name</keyword>
+        <keyword>surnam</keyword>
+        <keyword>back</keyword>
+        <keyword>novemb</keyword>
+        <keyword>ns</keyword>
+        <keyword>blackfriday2015</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+      </step-keywords>
+    <step> change my name to "Netshoes", surname to "Back Friday", gender to "F", phone to "(34) 3232-3232" and cellphone to "(34)9191-9191"</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>chang</keyword>
+        <keyword>my</keyword>
+        <keyword>name</keyword>
+        <keyword>netsho</keyword>
+        <keyword>surnam</keyword>
+        <keyword>back</keyword>
+        <keyword>fridai</keyword>
+        <keyword>gender</keyword>
+        <keyword>f</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>9191-9191</keyword>
+      </step-keywords>
+    <step> change my password to "netshoeS 123#" and do a logout and login again</step>
+      <step-keywords>
+        <keyword>chang</keyword>
+        <keyword>my</keyword>
+        <keyword>password</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+        <keyword>do</keyword>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+    <step> add shipping address to CEP "06460-908"</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+      </step-keywords>
+    <step> put into the cart the product "produto/bone-nike-sb-icon-004-6866-244?" choosing another shipping address for PF</step>
+      <step-keywords>
+        <keyword>put</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>bone-nike-sb-icon-004-6866-244</keyword>
+        <keyword>choos</keyword>
+        <keyword>anoth</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> buy with boleto PF</step>
+      <step-keywords>
+        <keyword>bui</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> delete one of my shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>my</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> all of my previous steps were done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>my</keyword>
+        <keyword>previou</keyword>
+        <keyword>step</keyword>
+        <keyword>were</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+  <scenario feature="Manages Pessoa Fisica" title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)-dup">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;PF&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I create a user with name "Softbox" and surname "Back November" and "softbox.ns.blackfriday2015@gmail.com"</step>
+      <step-keywords>
+        <keyword>softbox</keyword>
+        <keyword>i</keyword>
+        <keyword>creat</keyword>
+        <keyword>user</keyword>
+        <keyword>name</keyword>
+        <keyword>surnam</keyword>
+        <keyword>back</keyword>
+        <keyword>novemb</keyword>
+        <keyword>ns</keyword>
+        <keyword>blackfriday2015</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+      </step-keywords>
+    <step> change my name to "Netshoes", surname to "Back Friday", gender to "F", phone to "(34) 3232-3232" and cellphone to "(34)9191-9191"</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>chang</keyword>
+        <keyword>my</keyword>
+        <keyword>name</keyword>
+        <keyword>netsho</keyword>
+        <keyword>surnam</keyword>
+        <keyword>back</keyword>
+        <keyword>fridai</keyword>
+        <keyword>gender</keyword>
+        <keyword>f</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>9191-9191</keyword>
+      </step-keywords>
+    <step> change my password to "netshoeS 123#" and do a logout and login again</step>
+      <step-keywords>
+        <keyword>chang</keyword>
+        <keyword>my</keyword>
+        <keyword>password</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+        <keyword>do</keyword>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+    <step> add shipping address to CEP "06460-908"</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+      </step-keywords>
+    <step> put into the cart the product "produto/bone-nike-sb-icon-004-6866-244?" choosing another shipping address for PF</step>
+      <step-keywords>
+        <keyword>put</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>bone-nike-sb-icon-004-6866-244</keyword>
+        <keyword>choos</keyword>
+        <keyword>anoth</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> buy with boleto PF</step>
+      <step-keywords>
+        <keyword>bui</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> delete one of my shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>my</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> all of my previous steps were done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>my</keyword>
+        <keyword>previou</keyword>
+        <keyword>step</keyword>
+        <keyword>were</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+  
+<scenario feature="Manages Pessoa Fisica" title="Pessoa Fisica (PF)">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;PF&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I create a user with name "Joao" and surname "Pitbull da Silva"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>creat</keyword>
+        <keyword>user</keyword>
+        <keyword>name</keyword>
+        <keyword>joao</keyword>
+        <keyword>surnam</keyword>
+        <keyword>pitbul</keyword>
+        <keyword>da</keyword>
+        <keyword>silva</keyword>
+      </step-keywords>
+    <step> change my name to "Maria", surname to "Florentina", gender to "F", phone to "(34) 3232-3232" and cellphone to "(34)9191-9191"</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>chang</keyword>
+        <keyword>my</keyword>
+        <keyword>name</keyword>
+        <keyword>maria</keyword>
+        <keyword>surnam</keyword>
+        <keyword>florentina</keyword>
+        <keyword>gender</keyword>
+        <keyword>f</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>9191-9191</keyword>
+      </step-keywords>
+    <step> change my password to "netshoeS 123#" and do a logout and login again</step>
+      <step-keywords>
+        <keyword>chang</keyword>
+        <keyword>my</keyword>
+        <keyword>password</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+        <keyword>do</keyword>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+    <step> add shipping address to CEP "06460-908"</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+      </step-keywords>
+    <step> put into the cart the product "produto/bone-nike-sb-icon-004-6866-244?" choosing another shipping address for PF</step>
+      <step-keywords>
+        <keyword>put</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>bone-nike-sb-icon-004-6866-244</keyword>
+        <keyword>choos</keyword>
+        <keyword>anoth</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> buy with boleto PF</step>
+      <step-keywords>
+        <keyword>bui</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> delete one of my shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>my</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> all of my previous steps were done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>my</keyword>
+        <keyword>previou</keyword>
+        <keyword>step</keyword>
+        <keyword>were</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Manages Pessoa Fisica" title="Pessoa Fisica (PF)-27">
+    <Given>
+      <step> I access web address "http://netshoes.com.br" &lt;PF&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>web</keyword>
+        <keyword>address</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I register with a first name "Joao" and last name "Pitbull da Silva"</step>
+      <step-keywords>
+        <keyword>name</keyword>
+        <keyword>i</keyword>
+        <keyword>regist</keyword>
+        <keyword>first</keyword>
+        <keyword>joao</keyword>
+        <keyword>last</keyword>
+        <keyword>pitbul</keyword>
+        <keyword>da</keyword>
+        <keyword>silva</keyword>
+      </step-keywords>
+    <step> change my first name to "Maria" and last name to "Florentina", gender to "F", phone to phone to "(34) 3232-3232" and cellphone to "(34)9191-9191"</step>
+      <step-keywords>
+        <keyword>name</keyword>
+        <keyword>phone</keyword>
+        <keyword>34</keyword>
+        <keyword>chang</keyword>
+        <keyword>my</keyword>
+        <keyword>first</keyword>
+        <keyword>maria</keyword>
+        <keyword>last</keyword>
+        <keyword>florentina</keyword>
+        <keyword>gender</keyword>
+        <keyword>f</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>9191-9191</keyword>
+      </step-keywords>
+    <step> reset my passwort to "netshoeS 123#"</step>
+      <step-keywords>
+        <keyword>reset</keyword>
+        <keyword>my</keyword>
+        <keyword>passwort</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> I logout and login again</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+    <step> add missing shipping address as  CEP "06460-908"</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>miss</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+      </step-keywords>
+    <step> add to the cart a product with SKU "produto/bone-nike-sb-icon-004-6866-244?" and chose another address to ship for PF</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>sku</keyword>
+        <keyword>produto</keyword>
+        <keyword>bone-nike-sb-icon-004-6866-244</keyword>
+        <keyword>chose</keyword>
+        <keyword>anoth</keyword>
+        <keyword>address</keyword>
+        <keyword>ship</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> purchase with boleto PF</step>
+      <step-keywords>
+        <keyword>purchas</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> delete one of my shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>my</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>
+    <step> all previous actions are done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>previou</keyword>
+        <keyword>action</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Manages Pessoa Fisica" title="Pessoa Fisica (PF)-24">
+    <Given>
+      <step> I am browsing "http://netshoes.com.br" site &lt;PF&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>brows</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>site</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I register an account with "Joao" as the name and "Pitbull da Silva" as the surname</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>regist</keyword>
+        <keyword>account</keyword>
+        <keyword>joao</keyword>
+        <keyword>name</keyword>
+        <keyword>pitbul</keyword>
+        <keyword>da</keyword>
+        <keyword>silva</keyword>
+        <keyword>surnam</keyword>
+      </step-keywords>
+    <step> I update my particulars with new details to "Maria" as the name, "Florentina" as surname, "Female" as gender, "(34)3232-3232" as Telephone and "(34)9191-9191" as mobile contact</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>i</keyword>
+        <keyword>updat</keyword>
+        <keyword>my</keyword>
+        <keyword>particular</keyword>
+        <keyword>new</keyword>
+        <keyword>detail</keyword>
+        <keyword>maria</keyword>
+        <keyword>name</keyword>
+        <keyword>florentina</keyword>
+        <keyword>surnam</keyword>
+        <keyword>femal</keyword>
+        <keyword>gender</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>telephon</keyword>
+        <keyword>9191-9191</keyword>
+        <keyword>mobil</keyword>
+        <keyword>contact</keyword>
+      </step-keywords>
+    <step> have my login password modified to "netshoeS 123#", sign out from the account and then signing in</step>
+      <step-keywords>
+        <keyword>sign</keyword>
+        <keyword>have</keyword>
+        <keyword>my</keyword>
+        <keyword>login</keyword>
+        <keyword>password</keyword>
+        <keyword>modifi</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+        <keyword>out</keyword>
+        <keyword>from</keyword>
+        <keyword>account</keyword>
+      </step-keywords>
+    <step> register CEP "06460-908" as a shipping address</step>
+      <step-keywords>
+        <keyword>regist</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>
+    <step> purchase item "produto/bone-nike-sb-icon-004-6866-244?" to be shipped to another address for PF</step>
+      <step-keywords>
+        <keyword>purchas</keyword>
+        <keyword>item</keyword>
+        <keyword>produto</keyword>
+        <keyword>bone-nike-sb-icon-004-6866-244</keyword>
+        <keyword>ship</keyword>
+        <keyword>anoth</keyword>
+        <keyword>address</keyword>
+        <keyword>pf</keyword>
+      </step-keywords>
+    <step> use boleto PF to make a purchase</step>
+      <step-keywords>
+        <keyword>us</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pf</keyword>
+        <keyword>make</keyword>
+        <keyword>purchas</keyword>
+      </step-keywords>
+    <step> have one of my shipping addresses removed</step>
+      <step-keywords>
+        <keyword>have</keyword>
+        <keyword>on</keyword>
+        <keyword>my</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>remov</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> my previous operations were all completed with success</step>
+      <step-keywords>
+        <keyword>my</keyword>
+        <keyword>previou</keyword>
+        <keyword>oper</keyword>
+        <keyword>were</keyword>
+        <keyword>all</keyword>
+        <keyword>complet</keyword>
+        <keyword>success</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Manages Pessoa Juridica" title="Pessoa Juridica (PJ) - For checking confirmation e-mail (not a random email)">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;PJ&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I create a company with 'razao social' as "Qualquercoisa" and 'nome fantasia' as "Fadiga Sports" and "softbox.ns.pj01@gmail.com"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>creat</keyword>
+        <keyword>compani</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>qualquercoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>fadiga</keyword>
+        <keyword>sport</keyword>
+        <keyword>softbox</keyword>
+        <keyword>ns</keyword>
+        <keyword>pj01</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+      </step-keywords>
+    <step> change 'razao social' to "OutraCoisa", 'nome fantasia' as "Trincado Fitness", phone to "(34) 3232-3232" and cellphone to "(34)99300 - 1010"</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>chang</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>outracoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>trincado</keyword>
+        <keyword>fit</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>99300</keyword>
+        <keyword>0</keyword>
+        <keyword>1010</keyword>
+      </step-keywords>
+    <step> change the company password to "netshoeS 123#" and do a logout and login again</step>
+      <step-keywords>
+        <keyword>chang</keyword>
+        <keyword>compani</keyword>
+        <keyword>password</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+        <keyword>do</keyword>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+    <step> add this CEP "06460-908" for shipping</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+        <keyword>ship</keyword>
+      </step-keywords>
+    <step> put into the cart the product "produto/rolo-p-exercicios-acte-sports-509-0087-150?" choosing another shipping address for PJ</step>
+      <step-keywords>
+        <keyword>put</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>rolo-p-exercicios-acte-sports-509-0087-150</keyword>
+        <keyword>choos</keyword>
+        <keyword>anoth</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+    <step> buy with boleto PJ</step>
+      <step-keywords>
+        <keyword>bui</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+    <step> delete one of the shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> all of the previous steps were done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>previou</keyword>
+        <keyword>step</keyword>
+        <keyword>were</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Manages Pessoa Juridica" title="Pessoa Juridica (PJ)">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;PJ&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I create a company with 'razao social' as "Qualquercoisa" and 'nome fantasia' as "Fadiga Sports"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>creat</keyword>
+        <keyword>compani</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>qualquercoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>fadiga</keyword>
+        <keyword>sport</keyword>
+      </step-keywords>
+      <step> change 'razao social' to "OutraCoisa", 'nome fantasia' as "Trincado Fitness", phone to "(34) 3232-3232" and cellphone to "(34)99300 - 1010"</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>chang</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>outracoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>trincado</keyword>
+        <keyword>fit</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>99300</keyword>
+        <keyword>0</keyword>
+        <keyword>1010</keyword>
+      </step-keywords>
+    <step> change the company password to "netshoeS 123#" and do a logout and login again</step>
+      <step-keywords>
+        <keyword>chang</keyword>
+        <keyword>compani</keyword>
+        <keyword>password</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+        <keyword>do</keyword>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+      <step> add this CEP "06460-908" for shipping</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+        <keyword>ship</keyword>
+      </step-keywords>
+      <step> put into the cart the product "produto/rolo-p-exercicios-acte-sports-509-0087-150?" choosing another shipping address for PJ</step>
+      <step-keywords>
+        <keyword>put</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>rolo-p-exercicios-acte-sports-509-0087-150</keyword>
+        <keyword>choos</keyword>
+        <keyword>anoth</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>    
+    <step> buy with boleto PJ</step>
+      <step-keywords>
+        <keyword>bui</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>    
+    <step> delete one of the shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> all of the previous steps were done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>previou</keyword>
+        <keyword>step</keyword>
+        <keyword>were</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+  <scenario feature="Manages Pessoa Juridica" title="Pessoa Juridica (PJ)-dup">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;PJ&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I create a company with 'razao social' as "Qualquercoisa" and 'nome fantasia' as "Fadiga Sports"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>creat</keyword>
+        <keyword>compani</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>qualquercoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>fadiga</keyword>
+        <keyword>sport</keyword>
+      </step-keywords>
+      <step> change 'razao social' to "OutraCoisa", 'nome fantasia' as "Trincado Fitness", phone to "(34) 3232-3232" and cellphone to "(34)99300 - 1010"</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>chang</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>outracoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>trincado</keyword>
+        <keyword>fit</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>99300</keyword>
+        <keyword>0</keyword>
+        <keyword>1010</keyword>
+      </step-keywords>
+    <step> change the company password to "netshoeS 123#" and do a logout and login again</step>
+      <step-keywords>
+        <keyword>chang</keyword>
+        <keyword>compani</keyword>
+        <keyword>password</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+        <keyword>do</keyword>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+      <step> add this CEP "06460-908" for shipping</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+        <keyword>ship</keyword>
+      </step-keywords>
+      <step> put into the cart the product "produto/rolo-p-exercicios-acte-sports-509-0087-150?" choosing another shipping address for PJ</step>
+      <step-keywords>
+        <keyword>put</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>rolo-p-exercicios-acte-sports-509-0087-150</keyword>
+        <keyword>choos</keyword>
+        <keyword>anoth</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>    
+    <step> buy with boleto PJ</step>
+      <step-keywords>
+        <keyword>bui</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>    
+    <step> delete one of the shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> all of the previous steps were done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>previou</keyword>
+        <keyword>step</keyword>
+        <keyword>were</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+  <scenario feature="Manages Pessoa Juridica" title="Pessoa Juridica (PJ)-29">
+    <Given>
+      <step> I have access to internet</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>have</keyword>
+        <keyword>access</keyword>
+        <keyword>internet</keyword>
+      </step-keywords>
+      <step> opened "http://netshoes.com.br" &lt;PJ&gt;</step>
+      <step-keywords>
+        <keyword>open</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+        </Given>
+  <When>
+      <step> i create a company with the details as 'razao social' as "Qualquercoisa" and 'nome fantasia' as "Fadiga Sports"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>creat</keyword>
+        <keyword>compani</keyword>
+        <keyword>detail</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>qualquercoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>fadiga</keyword>
+        <keyword>sport</keyword>
+      </step-keywords>    
+    <step> add this CEP "06460-908" for shipping</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+        <keyword>ship</keyword>
+      </step-keywords>
+    <step> i update'razao social' to "OutraCoisa" and 'nome fantasia' as "Trincado Fitness", phone to "(34) 3232-3232" and cellphone to "(34)99300 - 1010"</step>
+      <step-keywords>
+        <keyword>34</keyword>
+        <keyword>i</keyword>
+        <keyword>social</keyword>
+        <keyword>outracoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>trincado</keyword>
+        <keyword>fit</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>99300</keyword>
+        <keyword>0</keyword>
+        <keyword>1010</keyword>
+      </step-keywords>
+     <step> put into the cart the product "produto/rolo-p-exercicios-acte-sports-509-0087-150?" choosing another shipping address for PJ</step>
+      <step-keywords>
+        <keyword>put</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>rolo-p-exercicios-acte-sports-509-0087-150</keyword>
+        <keyword>choos</keyword>
+        <keyword>anoth</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+    <step> buy with boleto PJ</step>
+      <step-keywords>
+        <keyword>bui</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+        </When>
+      <Then>
+      <step> all of the previous steps were done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>previou</keyword>
+        <keyword>step</keyword>
+        <keyword>were</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="Manages Pessoa Juridica" title="Pessoa Juridica (PJ)-27">
+    <Given>
+      <step> I access web address "http://netshoes.com.br" &lt;PJ&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>web</keyword>
+        <keyword>address</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I register a companies with 'razao social' as "Qualquercoisa" and 'nome fantasia' as "Fadiga Sports"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>regist</keyword>
+        <keyword>compani</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>qualquercoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>fadiga</keyword>
+        <keyword>sport</keyword>
+      </step-keywords>    
+    <step> change 'razao social' to "Maria" and 'nome fantasia'  to "Trincado Fitness", phone to phone to "(34) 3232-3232" and cellphone to "(34)99300 - 1010"</step>
+      <step-keywords>
+        <keyword>phone</keyword>
+        <keyword>34</keyword>
+        <keyword>chang</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>maria</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>trincado</keyword>
+        <keyword>fit</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>cellphon</keyword>
+        <keyword>99300</keyword>
+        <keyword>0</keyword>
+        <keyword>1010</keyword>
+      </step-keywords>    
+    <step> reset change the company password to "netshoeS 123#"</step>
+      <step-keywords>
+        <keyword>reset</keyword>
+        <keyword>chang</keyword>
+        <keyword>compani</keyword>
+        <keyword>password</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> I logout and login again</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>logout</keyword>
+        <keyword>login</keyword>
+        <keyword>again</keyword>
+      </step-keywords>
+      <step> add missing shipping address as   CEP "06460-908"</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>miss</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>cep</keyword>
+        <keyword>06460-908</keyword>
+      </step-keywords>
+     <step> add to the cart a product with SKU "produto/rolo-p-exercicios-acte-sports-509-0087-150?" and chose another address to ship for PJ</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>cart</keyword>
+        <keyword>product</keyword>
+        <keyword>sku</keyword>
+        <keyword>produto</keyword>
+        <keyword>rolo-p-exercicios-acte-sports-509-0087-150</keyword>
+        <keyword>chose</keyword>
+        <keyword>anoth</keyword>
+        <keyword>address</keyword>
+        <keyword>ship</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+    <step> purchase with boleto PJ</step>
+      <step-keywords>
+        <keyword>purchas</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+    <step> delete one of my shipping addresses</step>
+      <step-keywords>
+        <keyword>delet</keyword>
+        <keyword>on</keyword>
+        <keyword>my</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+      </step-keywords>    
+    <step> all previous actions are done successfully</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>previou</keyword>
+        <keyword>action</keyword>
+        <keyword>done</keyword>
+        <keyword>successfulli</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Manages Pessoa Juridica" title="Pessoa Juridica (PJ)-24">
+    <Given>
+      <step> I am navigating "http://netshoes.com.br" site &lt;PJ&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>navig</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>site</keyword>
+        <keyword>pj</keyword>
+      </step-keywords>
+     </Given>
+  <When>
+      <step> I register companies "razao social" and "nome fantasia" as "Qualquercoisa" "Fadiga Sports" respectively</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>regist</keyword>
+        <keyword>compani</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>qualquercoisa</keyword>
+        <keyword>fadiga</keyword>
+        <keyword>sport</keyword>
+        <keyword>respect</keyword>
+      </step-keywords>    
+    <step> modify details for "razao social" to "OutraCoisa", "nome fantasia" modified to "Trincado Fitness", new contact phone as "(34)3232-3232", and "(34)99300-1010" as a mobile number</step>
+      <step-keywords>
+        <keyword>modifi</keyword>
+        <keyword>34</keyword>
+        <keyword>detail</keyword>
+        <keyword>razao</keyword>
+        <keyword>social</keyword>
+        <keyword>outracoisa</keyword>
+        <keyword>nome</keyword>
+        <keyword>fantasia</keyword>
+        <keyword>trincado</keyword>
+        <keyword>fit</keyword>
+        <keyword>new</keyword>
+        <keyword>contact</keyword>
+        <keyword>phone</keyword>
+        <keyword>3232-3232</keyword>
+        <keyword>99300-1010</keyword>
+        <keyword>mobil</keyword>
+        <keyword>number</keyword>
+      </step-keywords>
+     <step> have the company passcode changed to "netshoeS 123#" and sign out and re-sign in.</step>
+      <step-keywords>
+        <keyword>have</keyword>
+        <keyword>compani</keyword>
+        <keyword>passcod</keyword>
+        <keyword>chang</keyword>
+        <keyword>netsho</keyword>
+        <keyword>123</keyword>
+        <keyword>sign</keyword>
+        <keyword>out</keyword>
+        <keyword>re-sign</keyword>
+      </step-keywords>
+     <step> provide shipping details as "06460-908"</step>
+      <step-keywords>
+        <keyword>provid</keyword>
+        <keyword>ship</keyword>
+        <keyword>detail</keyword>
+        <keyword>06460-908</keyword>
+      </step-keywords>
+     <step> add item "produto/rolo-p-exercicios-acte-sports-509-0087-150?" into the cart to be shipped for PJ to a different address.</step>
+      <step-keywords>
+        <keyword>add</keyword>
+        <keyword>item</keyword>
+        <keyword>produto</keyword>
+        <keyword>rolo-p-exercicios-acte-sports-509-0087-150</keyword>
+        <keyword>cart</keyword>
+        <keyword>ship</keyword>
+        <keyword>pj</keyword>
+        <keyword>differ</keyword>
+        <keyword>address</keyword>
+      </step-keywords>    
+    <step> use boleto PJ to make a purchase</step>
+      <step-keywords>
+        <keyword>us</keyword>
+        <keyword>boleto</keyword>
+        <keyword>pj</keyword>
+        <keyword>make</keyword>
+        <keyword>purchas</keyword>
+      </step-keywords>
+    <step> have one of the shipping addresses removed</step>
+      <step-keywords>
+        <keyword>have</keyword>
+        <keyword>on</keyword>
+        <keyword>ship</keyword>
+        <keyword>address</keyword>
+        <keyword>remov</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> the previous actions were all successfully finalized</step>
+      <step-keywords>
+        <keyword>previou</keyword>
+        <keyword>action</keyword>
+        <keyword>were</keyword>
+        <keyword>all</keyword>
+        <keyword>successfulli</keyword>
+        <keyword>final</keyword>
+      </step-keywords>
+  </Then>
+  </scenario>
+    <scenario feature="Fardamento Futebol" title="Buy 'Fardamento Futebol Salao' with credit card (Simplified)">
+    <Given>
+      <step> I am at "http://netshoes.com.br"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>   
+    </Given>
+  <When>
+      <step> I am logged as "alexander" with "softbox.miro@gmail.com" and "abC 123#"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>log</keyword>
+        <keyword>alexand</keyword>
+        <keyword>softbox</keyword>
+        <keyword>miro</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+        <keyword>abc</keyword>
+        <keyword>123</keyword>
+      </step-keywords>    
+    <step> set Futsal team name as "SB Netshoes"</step>
+      <step-keywords>
+        <keyword>set</keyword>
+        <keyword>futsal</keyword>
+        <keyword>team</keyword>
+        <keyword>name</keyword>
+        <keyword>sb</keyword>
+        <keyword>netsho</keyword>
+      </step-keywords>
+     <step> pay with card: "Visa", "Testador Netshoes", "4440000000000000", "05/2018" and "888"</step>
+      <step-keywords>
+        <keyword>pai</keyword>
+        <keyword>card</keyword>
+        <keyword>visa</keyword>
+        <keyword>testador</keyword>
+        <keyword>netsho</keyword>
+        <keyword>4440000000000000</keyword>
+        <keyword>05</keyword>
+        <keyword>2018</keyword>
+        <keyword>888</keyword>
+      </step-keywords>
+        </When>
+   <Then>      
+    <step> my order will be finish with a successful message</step>
+      <step-keywords>
+        <keyword>my</keyword>
+        <keyword>order</keyword>
+        <keyword>finish</keyword>
+        <keyword>success</keyword>
+        <keyword>messag</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+    <scenario feature="Finish Orders" title="Discount with balance">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;Finish Orders&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>finish</keyword>
+        <keyword>order</keyword>
+      </step-keywords>
+        </Given>
+  <When>
+      <step> I am logged as "teste" with "softboxpf@qa.com.br" and "qa123456"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>log</keyword>
+        <keyword>test</keyword>
+        <keyword>softboxpf</keyword>
+        <keyword>qa</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>qa123456</keyword>
+      </step-keywords>
+    <step> buy the "produto/camisa-polo-flamengo-shape-basica-D40-0010-016?"</step>
+      <step-keywords>
+        <keyword>bui</keyword>
+        <keyword>produto</keyword>
+        <keyword>camisa-polo-flamengo-shape-basica-d40-0010-016</keyword>
+      </step-keywords>
+    <step> I choose my discount method "Cupom", "1@$@$C"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>choos</keyword>
+        <keyword>my</keyword>
+        <keyword>discount</keyword>
+        <keyword>method</keyword>
+        <keyword>cupom</keyword>
+        <keyword>1</keyword>
+        <keyword>c</keyword>
+      </step-keywords>    
+    <step> pay with card: "Visa", "Robert Bruce Banner", "4440000000000000", "10/2020" and "888"</step>
+      <step-keywords>
+        <keyword>pai</keyword>
+        <keyword>card</keyword>
+        <keyword>visa</keyword>
+        <keyword>robert</keyword>
+        <keyword>bruce</keyword>
+        <keyword>banner</keyword>
+        <keyword>4440000000000000</keyword>
+        <keyword>10</keyword>
+        <keyword>2020</keyword>
+        <keyword>888</keyword>
+      </step-keywords>
+        </When>
+  <Then>
+      <step> my order will be finished with a successful message</step>
+      <step-keywords>
+        <keyword>my</keyword>
+        <keyword>order</keyword>
+        <keyword>finish</keyword>
+        <keyword>success</keyword>
+        <keyword>messag</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+  <scenario feature="Login" title="Log in with an social account">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;login&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>login</keyword>
+      </step-keywords>
+        </Given>
+  <When>
+      <step> remove every social account from "Joao", "qanetshoes.sb@gmail.com" and "abC 123$"</step>
+      <step-keywords>
+        <keyword>remov</keyword>
+        <keyword>everi</keyword>
+        <keyword>social</keyword>
+        <keyword>account</keyword>
+        <keyword>from</keyword>
+        <keyword>joao</keyword>
+        <keyword>qanetsho</keyword>
+        <keyword>sb</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+        <keyword>abc</keyword>
+        <keyword>123</keyword>
+      </step-keywords>
+    <step> log in using "facebook", "qanetshoes.sb@gmail.com" and "abC 123$"</step>
+      <step-keywords>
+        <keyword>log</keyword>
+        <keyword>us</keyword>
+        <keyword>facebook</keyword>
+        <keyword>qanetsho</keyword>
+        <keyword>sb</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+        <keyword>abc</keyword>
+        <keyword>123</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> expect 'Minha Conta' page shows it is connect via social account</step>
+      <step-keywords>
+        <keyword>expect</keyword>
+        <keyword>minha</keyword>
+        <keyword>conta</keyword>
+        <keyword>page</keyword>
+        <keyword>show</keyword>
+        <keyword>connect</keyword>
+        <keyword>via</keyword>
+        <keyword>social</keyword>
+        <keyword>account</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+    <scenario feature="Multiplus" title="Multiplus">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;multiplus&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>multiplu</keyword>
+      </step-keywords>    
+    <step> I log in with "&lt;username&gt;" and "&lt;password&gt;" to finish my payment with a "&lt;multiplus product&gt;"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>log</keyword>
+        <keyword>usernam</keyword>
+        <keyword>password</keyword>
+        <keyword>finish</keyword>
+        <keyword>my</keyword>
+        <keyword>payment</keyword>
+        <keyword>multiplu</keyword>
+        <keyword>product</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I click to receive multiplus</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>click</keyword>
+        <keyword>receiv</keyword>
+        <keyword>multiplu</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> a successful message is display</step>
+      <step-keywords>
+        <keyword>success</keyword>
+        <keyword>messag</keyword>
+        <keyword>displai</keyword>
+      </step-keywords>    
+    <step> when I click on multiplus policies</step>
+      <step-keywords>
+        <keyword>when</keyword>
+        <keyword>i</keyword>
+        <keyword>click</keyword>
+        <keyword>multiplu</keyword>
+        <keyword>polici</keyword>
+      </step-keywords>
+    <step> a new page is shown with multiplus policies</step>
+      <step-keywords>
+        <keyword>new</keyword>
+        <keyword>page</keyword>
+        <keyword>shown</keyword>
+        <keyword>multiplu</keyword>
+        <keyword>polici</keyword>
+      </step-keywords>     
+    </Then>
+  </scenario>
+   <scenario feature="Product Size is Out Of Stock" title="Tell me about out of stock product">
+    <Given>
+      <step> I am at "http://netshoes.com.br" &lt;Out Of Stock&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>out</keyword>
+        <keyword>stock</keyword>
+      </step-keywords>
+      </Given>
+  <When>
+      <step> visit a product with size out of stock at this relative path: "&lt;PRODUCT_URL&gt;"</step>
+      <step-keywords>
+        <keyword>product</keyword>
+        <keyword>visit</keyword>
+        <keyword>size</keyword>
+        <keyword>out</keyword>
+        <keyword>stock</keyword>
+        <keyword>rel</keyword>
+        <keyword>path</keyword>
+        <keyword>url</keyword>
+      </step-keywords>
+      <step> select first size out of stock</step>
+      <step-keywords>
+        <keyword>select</keyword>
+        <keyword>first</keyword>
+        <keyword>size</keyword>
+        <keyword>out</keyword>
+        <keyword>stock</keyword>
+      </step-keywords>     
+    </When>
+  <Then>
+      <step> Contact me as "Alexander Miro" at "testador.site.netshoes@gmail.com" when it is available again</step>
+      <step-keywords>
+        <keyword>contact</keyword>
+        <keyword>me</keyword>
+        <keyword>alexand</keyword>
+        <keyword>miro</keyword>
+        <keyword>testador</keyword>
+        <keyword>site</keyword>
+        <keyword>netsho</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+        <keyword>when</keyword>
+        <keyword>avail</keyword>
+        <keyword>again</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+  <scenario feature="PDP" title="Verify if a product's Video view option works correctly">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;pdp&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pdp</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I access the product that contains video at this relative path: "produto/jogo-copa-do-mundo-da-fifa-brasil-2014-ps3-624-0016-092?lid=17:dbmrulecartridge:rc17:c04:t08:p10:l01:t01:2&amp;ppc=4"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>product</keyword>
+        <keyword>contain</keyword>
+        <keyword>video</keyword>
+        <keyword>rel</keyword>
+        <keyword>path</keyword>
+        <keyword>produto</keyword>
+        <keyword>jogo-copa-do-mundo-da-fifa-brasil-2014-ps3-624-0016-092</keyword>
+        <keyword>lid</keyword>
+        <keyword>17</keyword>
+        <keyword>dbmrulecartridg</keyword>
+        <keyword>rc17</keyword>
+        <keyword>c04</keyword>
+        <keyword>t08</keyword>
+        <keyword>p10</keyword>
+        <keyword>l01</keyword>
+        <keyword>t01</keyword>
+        <keyword>2</keyword>
+        <keyword>ppc</keyword>
+        <keyword>4</keyword>
+      </step-keywords>    
+    <step> click in the video icon</step>
+      <step-keywords>
+        <keyword>click</keyword>
+        <keyword>video</keyword>
+        <keyword>icon</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> video frame will be displayed</step>
+      <step-keywords>
+        <keyword>video</keyword>
+        <keyword>frame</keyword>
+        <keyword>displai</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="PDP" title="Table size">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;pdp&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pdp</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I access a shoes through its url "produto/bota-gonew-maximum-C62-0548-006?lid=110:dbmrulecartridge:rc110:c02:t08:p02:d00:1&amp;ppc=1"</step>
+      <step-keywords>
+        <keyword>1</keyword>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>shoe</keyword>
+        <keyword>through</keyword>
+        <keyword>it</keyword>
+        <keyword>url</keyword>
+        <keyword>produto</keyword>
+        <keyword>bota-gonew-maximum-c62-0548-006</keyword>
+        <keyword>lid</keyword>
+        <keyword>110</keyword>
+        <keyword>dbmrulecartridg</keyword>
+        <keyword>rc110</keyword>
+        <keyword>c02</keyword>
+        <keyword>t08</keyword>
+        <keyword>p02</keyword>
+        <keyword>d00</keyword>
+        <keyword>ppc</keyword>
+      </step-keywords>
+    <step> navigate through the size table options</step>
+      <step-keywords>
+        <keyword>navig</keyword>
+        <keyword>through</keyword>
+        <keyword>size</keyword>
+        <keyword>tabl</keyword>
+        <keyword>option</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> all selected brands should be displayed correctly</step>
+      <step-keywords>
+        <keyword>all</keyword>
+        <keyword>select</keyword>
+        <keyword>brand</keyword>
+        <keyword>should</keyword>
+        <keyword>displai</keyword>
+        <keyword>correctli</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="PDP" title="Power Reviews">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;pdp&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>pdp</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I access a product with power reviews comments through its url "produto/tenis-nike-capri-3-low-lthr-004-7608-240?lid=110:dbmrulecartridge:rc110:c02:t08:p02:d00:1&amp;ppc=2"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>product</keyword>
+        <keyword>power</keyword>
+        <keyword>review</keyword>
+        <keyword>comment</keyword>
+        <keyword>through</keyword>
+        <keyword>it</keyword>
+        <keyword>url</keyword>
+        <keyword>produto</keyword>
+        <keyword>tenis-nike-capri-3-low-lthr-004-7608-240</keyword>
+        <keyword>lid</keyword>
+        <keyword>110</keyword>
+        <keyword>dbmrulecartridg</keyword>
+        <keyword>rc110</keyword>
+        <keyword>c02</keyword>
+        <keyword>t08</keyword>
+        <keyword>p02</keyword>
+        <keyword>d00</keyword>
+        <keyword>1</keyword>
+        <keyword>ppc</keyword>
+        <keyword>2</keyword>
+      </step-keywords>    
+    <step> go to the power reviews section</step>
+      <step-keywords>
+        <keyword>go</keyword>
+        <keyword>power</keyword>
+        <keyword>review</keyword>
+        <keyword>section</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> power reviews information should be displayed correctly</step>
+      <step-keywords>
+        <keyword>power</keyword>
+        <keyword>review</keyword>
+        <keyword>inform</keyword>
+        <keyword>should</keyword>
+        <keyword>displai</keyword>
+        <keyword>correctli</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+    <scenario feature="Ofertas e Descontos" title="Registrar ofertas e descontos">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;registerOfertasDescontos&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>registerofertasdesconto</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I subscribe with a new random "&lt;email&gt;"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>subscrib</keyword>
+        <keyword>new</keyword>
+        <keyword>random</keyword>
+        <keyword>email</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> a successful message will be displayed</step>
+      <step-keywords>
+        <keyword>success</keyword>
+        <keyword>messag</keyword>
+        <keyword>displai</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+    <scenario feature="Search" title="Pagination Control">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br/"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I make a valid "trampolim"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>make</keyword>
+        <keyword>valid</keyword>
+        <keyword>trampolim</keyword>
+      </step-keywords>    
+    <step> check for page controls "no"</step>
+      <step-keywords>
+        <keyword>check</keyword>
+        <keyword>page</keyword>
+        <keyword>control</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> listing page should be correctly displayed</step>
+      <step-keywords>
+        <keyword>list</keyword>
+        <keyword>page</keyword>
+        <keyword>should</keyword>
+        <keyword>correctli</keyword>
+        <keyword>displai</keyword>
+      </step-keywords>
+    <step> navigate forwards</step>
+      <step-keywords>
+        <keyword>navig</keyword>
+        <keyword>forward</keyword>
+      </step-keywords>
+    <step> navigate to the last page, if exist</step>
+      <step-keywords>
+        <keyword>navig</keyword>
+        <keyword>last</keyword>
+        <keyword>page</keyword>
+        <keyword>exist</keyword>
+      </step-keywords>
+    <step> navigate backwards</step>
+      <step-keywords>
+        <keyword>navig</keyword>
+        <keyword>backward</keyword>
+      </step-keywords>
+    <step> navigate to the first page, if exist</step>
+      <step-keywords>
+        <keyword>navig</keyword>
+        <keyword>first</keyword>
+        <keyword>page</keyword>
+        <keyword>exist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Search" title="Auto-complete">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br/"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I type part of the "camis" that I'm looking for</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>type</keyword>
+        <keyword>part</keyword>
+        <keyword>cami</keyword>
+        <keyword>look</keyword>
+      </step-keywords>    
+    <step> click on one of the link suggestions</step>
+      <step-keywords>
+        <keyword>click</keyword>
+        <keyword>on</keyword>
+        <keyword>link</keyword>
+        <keyword>suggest</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> I'll be redirected successfully to the search page</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>redirect</keyword>
+        <keyword>successfulli</keyword>
+        <keyword>search</keyword>
+        <keyword>page</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="Search" title="Filter with different face types">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br/"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I make a valid "tenis"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>make</keyword>
+        <keyword>valid</keyword>
+        <keyword>teni</keyword>
+      </step-keywords>    
+    <step> select the first available filter</step>
+      <step-keywords>
+        <keyword>select</keyword>
+        <keyword>first</keyword>
+        <keyword>avail</keyword>
+        <keyword>filter</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> the result is filtrated and I remove it</step>
+      <step-keywords>
+        <keyword>result</keyword>
+        <keyword>filtrat</keyword>
+        <keyword>i</keyword>
+        <keyword>remov</keyword>
+      </step-keywords>
+       <step> select the second available filter</step>
+      <step-keywords>
+        <keyword>select</keyword>
+        <keyword>second</keyword>
+        <keyword>avail</keyword>
+        <keyword>filter</keyword>
+      </step-keywords>    
+    <step> the result is filtrated and I remove it</step>
+      <step-keywords>
+        <keyword>result</keyword>
+        <keyword>filtrat</keyword>
+        <keyword>i</keyword>
+        <keyword>remov</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="Search" title=": Back to the top">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br/"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I make a valid "moletom" and scroll down the page</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>make</keyword>
+        <keyword>valid</keyword>
+        <keyword>moletom</keyword>
+        <keyword>scroll</keyword>
+        <keyword>down</keyword>
+        <keyword>page</keyword>
+      </step-keywords>   
+    <step> click on Back to Top button</step>
+      <step-keywords>
+        <keyword>click</keyword>
+        <keyword>back</keyword>
+        <keyword>top</keyword>
+        <keyword>button</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> the page scrolls up automatically</step>
+      <step-keywords>
+        <keyword>page</keyword>
+        <keyword>scroll</keyword>
+        <keyword>up</keyword>
+        <keyword>automat</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Search" title="Run a valid search">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br/"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>   
+    </Given>
+  <When>
+      <step> I search for a valid "camiseta"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>search</keyword>
+        <keyword>valid</keyword>
+        <keyword>camiseta</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> a successful results will be displayed</step>
+      <step-keywords>
+        <keyword>success</keyword>
+        <keyword>result</keyword>
+        <keyword>displai</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="Search" title="Run an invalid search">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br/"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I search for an invalid "safsdfsd"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>search</keyword>
+        <keyword>invalid</keyword>
+        <keyword>safsdfsd</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> a message is shown warning the item does not exist</step>
+      <step-keywords>
+        <keyword>messag</keyword>
+        <keyword>shown</keyword>
+        <keyword>warn</keyword>
+        <keyword>item</keyword>
+        <keyword>doe</keyword>
+        <keyword>exist</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+    <scenario feature="Shopping cart" title="Verify if product is added to the cart">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;shopping_cart&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>shop</keyword>
+        <keyword>cart</keyword>
+      </step-keywords>    
+    <step> free shipping price is "R$ 99,90"</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>ship</keyword>
+        <keyword>price</keyword>
+        <keyword>r</keyword>
+        <keyword>99</keyword>
+        <keyword>90</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I login with "user_automation@hotmail.com" and "123456"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>login</keyword>
+        <keyword>user</keyword>
+        <keyword>autom</keyword>
+        <keyword>hotmail</keyword>
+        <keyword>com</keyword>
+        <keyword>123456</keyword>
+      </step-keywords>    
+    <step> navigate to the following product "produto/chuteira-nike-tiempo-rio-2-ic-futsal-004-4261-244?"</step>
+      <step-keywords>
+        <keyword>navig</keyword>
+        <keyword>follow</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>chuteira-nike-tiempo-rio-2-ic-futsal-004-4261-244</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> I add the product successfully to the shopping cart</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>add</keyword>
+        <keyword>product</keyword>
+        <keyword>successfulli</keyword>
+        <keyword>shop</keyword>
+        <keyword>cart</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="Shopping cart" title="Frete Gratis">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;shopping_cart&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>shop</keyword>
+        <keyword>cart</keyword>
+      </step-keywords>    
+    <step> free shipping price is "R$ 99,90"</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>ship</keyword>
+        <keyword>price</keyword>
+        <keyword>r</keyword>
+        <keyword>99</keyword>
+        <keyword>90</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I calculate the shipping value for product "produto/chuteira-umbro-gear-society-D21-0286-120?" and CEP "38408216"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>calcul</keyword>
+        <keyword>ship</keyword>
+        <keyword>valu</keyword>
+        <keyword>product</keyword>
+        <keyword>produto</keyword>
+        <keyword>chuteira-umbro-gear-society-d21-0286-120</keyword>
+        <keyword>cep</keyword>
+        <keyword>38408216</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> verify if the shipping value is "R$ 9,90"</step>
+      <step-keywords>
+        <keyword>verifi</keyword>
+        <keyword>ship</keyword>
+        <keyword>valu</keyword>
+        <keyword>r</keyword>
+        <keyword>9</keyword>
+        <keyword>90</keyword>
+      </step-keywords>   
+    <step> Delivery date is displayed: "7 a 9"</step>
+      <step-keywords>
+        <keyword>deliveri</keyword>
+        <keyword>date</keyword>
+        <keyword>displai</keyword>
+        <keyword>7</keyword>
+        <keyword>9</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="Stelo" title="Buy with Stelo">
+    <Given>
+      <step> I am at "http://netshoes.com.br"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+      </step-keywords>    
+    <step> I am logged as "Joao" with "qanetshoes.sb@gmail.com" and "abC 123$"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>log</keyword>
+        <keyword>joao</keyword>
+        <keyword>qanetsho</keyword>
+        <keyword>sb</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+        <keyword>abc</keyword>
+        <keyword>123</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I buy the "&lt;PRODUCT&gt;"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>bui</keyword>
+        <keyword>product</keyword>
+      </step-keywords>    
+    <step> I buy the "produto/trampolim-gonew--C62-0644-006?lid=4:dbmrulecartridge:rc04:c00:t08:p01:d00:9&amp;ppc=3"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>bui</keyword>
+        <keyword>produto</keyword>
+        <keyword>trampolim-gonew-c62-0644-006</keyword>
+        <keyword>lid</keyword>
+        <keyword>4</keyword>
+        <keyword>dbmrulecartridg</keyword>
+        <keyword>rc04</keyword>
+        <keyword>c00</keyword>
+        <keyword>t08</keyword>
+        <keyword>p01</keyword>
+        <keyword>d00</keyword>
+        <keyword>9</keyword>
+        <keyword>ppc</keyword>
+        <keyword>3</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> I will be redirected to the Stelo login page</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>redirect</keyword>
+        <keyword>stelo</keyword>
+        <keyword>login</keyword>
+        <keyword>page</keyword>
+      </step-keywords>    
+    <step> I am logged as "Joao" with "qanetshoes.sb@gmail.com" and "abC 123$"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>log</keyword>
+        <keyword>joao</keyword>
+        <keyword>qanetsho</keyword>
+        <keyword>sb</keyword>
+        <keyword>gmail</keyword>
+        <keyword>com</keyword>
+        <keyword>abc</keyword>
+        <keyword>123</keyword>
+      </step-keywords>   
+    <step> I will be redirected to the Stelo login page</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>redirect</keyword>
+        <keyword>stelo</keyword>
+        <keyword>login</keyword>
+        <keyword>page</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="Subpage" title="Verify if sub page loads correctly">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;sub_page&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>sub</keyword>
+        <keyword>page</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I access "sub/futebol"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>sub</keyword>
+        <keyword>futebol</keyword>
+      </step-keywords>   
+    </When>
+  <Then>
+      <step> the page is loaded correctly</step>
+      <step-keywords>
+        <keyword>page</keyword>
+        <keyword>load</keyword>
+        <keyword>correctli</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="Subpage" title="Verify if 'ops' message is displayed">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;sub_page&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>sub</keyword>
+        <keyword>page</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I access "/sdafsdfsd"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>sdafsdfsd</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> the page displays an 'ops' message</step>
+      <step-keywords>
+        <keyword>page</keyword>
+        <keyword>displai</keyword>
+        <keyword>op</keyword>
+        <keyword>messag</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="wishlist" title="Add and remove product - Wishlist logged">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;wishlist&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>wishlist</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I log in with "user_automation@hotmail.com" and "123456"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>log</keyword>
+        <keyword>user</keyword>
+        <keyword>autom</keyword>
+        <keyword>hotmail</keyword>
+        <keyword>com</keyword>
+        <keyword>123456</keyword>
+      </step-keywords>    
+    <step> I access my empty wishlist</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>access</keyword>
+        <keyword>my</keyword>
+        <keyword>empti</keyword>
+        <keyword>wishlist</keyword>
+      </step-keywords>    
+    <step> I wish a product through its "produto/tenis-everlast-atlantis-009-0135-852?lid=110:dbmrulecartridge:rc110:c02:t08:p02:d00:1&amp;ppc=2"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>wish</keyword>
+        <keyword>product</keyword>
+        <keyword>through</keyword>
+        <keyword>it</keyword>
+        <keyword>produto</keyword>
+        <keyword>tenis-everlast-atlantis-009-0135-852</keyword>
+        <keyword>lid</keyword>
+        <keyword>110</keyword>
+        <keyword>dbmrulecartridg</keyword>
+        <keyword>rc110</keyword>
+        <keyword>c02</keyword>
+        <keyword>t08</keyword>
+        <keyword>p02</keyword>
+        <keyword>d00</keyword>
+        <keyword>1</keyword>
+        <keyword>ppc</keyword>
+        <keyword>2</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> my products will be displayed successfully in the wishlist</step>
+      <step-keywords>
+        <keyword>my</keyword>
+        <keyword>product</keyword>
+        <keyword>displai</keyword>
+        <keyword>successfulli</keyword>
+        <keyword>wishlist</keyword>
+      </step-keywords>    
+    <step> I remove it from wishlist</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>remov</keyword>
+        <keyword>from</keyword>
+        <keyword>wishlist</keyword>
+      </step-keywords>    
+    <step> my wishlist will be empty</step>
+      <step-keywords>
+        <keyword>my</keyword>
+        <keyword>wishlist</keyword>
+        <keyword>empti</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+<scenario feature="wishlist" title="Add and remove product - Wishlist not logged">
+    <Given>
+      <step> I am at "http://www.netshoes.com.br" &lt;wishlist&gt;</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>http</keyword>
+        <keyword>www</keyword>
+        <keyword>netsho</keyword>
+        <keyword>com</keyword>
+        <keyword>br</keyword>
+        <keyword>wishlist</keyword>
+      </step-keywords>    
+    </Given>
+  <When>
+      <step> I add to the wishlist a product through its "produto/tenis-everlast-atlantis-009-0135-852?lid=110:dbmrulecartridge:rc110:c02:t08:p02:d00:1&amp;ppc=2"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>add</keyword>
+        <keyword>wishlist</keyword>
+        <keyword>product</keyword>
+        <keyword>through</keyword>
+        <keyword>it</keyword>
+        <keyword>produto</keyword>
+        <keyword>tenis-everlast-atlantis-009-0135-852</keyword>
+        <keyword>lid</keyword>
+        <keyword>110</keyword>
+        <keyword>dbmrulecartridg</keyword>
+        <keyword>rc110</keyword>
+        <keyword>c02</keyword>
+        <keyword>t08</keyword>
+        <keyword>p02</keyword>
+        <keyword>d00</keyword>
+        <keyword>1</keyword>
+        <keyword>ppc</keyword>
+        <keyword>2</keyword>
+      </step-keywords>    
+    <step> I put my "user_automation@hotmail.com" and "123456" in the login page</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>put</keyword>
+        <keyword>my</keyword>
+        <keyword>user</keyword>
+        <keyword>autom</keyword>
+        <keyword>hotmail</keyword>
+        <keyword>com</keyword>
+        <keyword>123456</keyword>
+        <keyword>login</keyword>
+        <keyword>page</keyword>
+      </step-keywords>    
+    </When>
+  <Then>
+      <step> my product will be displayed successfully in the wishlist</step>
+      <step-keywords>
+        <keyword>my</keyword>
+        <keyword>product</keyword>
+        <keyword>displai</keyword>
+        <keyword>successfulli</keyword>
+        <keyword>wishlist</keyword>
+      </step-keywords>   
+    <step> I remove it from wishlist</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>remov</keyword>
+        <keyword>from</keyword>
+        <keyword>wishlist</keyword>
+      </step-keywords>    
+    <step> my wishlist will be empty</step>
+      <step-keywords>
+        <keyword>my</keyword>
+        <keyword>wishlist</keyword>
+        <keyword>empti</keyword>
+      </step-keywords>    
+    </Then>
+  </scenario>
+</scenarios>

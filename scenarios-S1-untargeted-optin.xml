@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+  <scenario feature="Subscription Opt-in test cases" title="User with no profile sends optin keyword with active subscription with free week">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712001" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712001</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "SUBSCRIBE" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>subscrib</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "SUBSCRIPTION_WELCOME" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>welcom</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="A User with profile sends optin keyword with active subscription with free week">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712002" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712002</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "SUBSCRIBE" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>subscrib</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "SUBSCRIPTION_WELCOME" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>welcom</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="User with no profile sends optin keyword with no active subscription">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712005" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712005</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has no subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "INVALID_REQUEST" request</step>
+      <step-keywords>
+        <keyword>request</keyword>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>invalid</keyword>
+      </step-keywords>
+    <step> User receives the "INVALID_REQUEST" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="User with profile sends optin keyword with no active subscription">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712006" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712006</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "INVALID_REQUEST" request</step>
+      <step-keywords>
+        <keyword>request</keyword>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>invalid</keyword>
+      </step-keywords>
+    <step> User receives the "INVALID_REQUEST" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="User with profile sends optin keyword with active subscription with free week without active game">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712007" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712007</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has played today's game</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>plai</keyword>
+        <keyword>todai</keyword>
+        <keyword>game</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "SUBSCRIBE" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>subscrib</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "SUBSCRIPTION_WELCOME" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>welcom</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="Subscribed user sends with active game with no active subscription HELP keyword">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712010" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712010</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User sends sms with input "HELP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>help</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "INVALID_REQUEST" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "invalid_request" text from free short code for "INVALID_REQUEST" reply</step>
+      <step-keywords>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>text</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    </Given>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="Subscribed user sends without active game with no active subscription HELP keyword">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712011" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712011</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has played today's game</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>plai</keyword>
+        <keyword>todai</keyword>
+        <keyword>game</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User sends sms with input "HELP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>help</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "INVALID_REQUEST" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "invalid_request" text from free short code for "INVALID_REQUEST" reply</step>
+      <step-keywords>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>text</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    </Given>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="Subscribed user sends with active game with no active subscription SCORE keyword">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712012" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712012</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User sends sms with input "SCORE" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>score</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "INVALID_REQUEST" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "invalid_request" text from free short code for "INVALID_REQUEST" reply</step>
+      <step-keywords>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>text</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    </Given>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="Subscribed user sends without active game with no active subscription SCORE keyword">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712013" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712013</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has played today's game</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>plai</keyword>
+        <keyword>todai</keyword>
+        <keyword>game</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User sends sms with input "SCORE" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>score</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "INVALID_REQUEST" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "invalid_request" text from free short code for "INVALID_REQUEST" reply</step>
+      <step-keywords>
+        <keyword>invalid</keyword>
+        <keyword>request</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>text</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    </Given>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="Subscribed blacklisted user sends with active game with no active subscription HELP keyword">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712014" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712014</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "HELP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>help</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    </Given>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="Subscribed blacklisted user sends without active game with no active subscription HELP keyword">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712015" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712015</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has played today's game</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>plai</keyword>
+        <keyword>todai</keyword>
+        <keyword>game</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "HELP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>help</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    </Given>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="Subscribed blacklisted user sends with active game with no active subscription SCORE keyword">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712016" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712016</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "SCORE" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>score</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    </Given>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="Subscribed blacklisted user sends without active game with no active subscription SCORE keyword">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712017" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712017</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User has played today's game</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>plai</keyword>
+        <keyword>todai</keyword>
+        <keyword>game</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Inactive subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "0" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>inact</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>0</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "SCORE" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>score</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    </Given>
+  </scenario>
+<scenario feature="Subscription Opt-in test cases" title="User with profile sends optin keyword with active subscription which starts in the future">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355006712018" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006712018</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2020 00:00:00" and ends on "01/01/2021 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2020</keyword>
+        <keyword>end</keyword>
+        <keyword>2021</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+    <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is unsubscribed in subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>unsubscrib</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "PRE_LAUNCH" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>pre</keyword>
+        <keyword>launch</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "RESPONSE_SUBSCRIPTION_SERVICE" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>respons</keyword>
+        <keyword>subscript</keyword>
+        <keyword>servic</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+</scenarios>

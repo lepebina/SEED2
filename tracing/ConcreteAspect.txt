@@ -1,0 +1,111 @@
+package uk.ac.manchester.cs.img.seed.test.tracing;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.reflect.MethodSignature;
+
+@Aspect
+public class ConcreteLoggingAspect extends AbstractLoggingAspect {
+    String runningScenario=null;
+     String runningFeature=null;
+
+    @Pointcut("execution(* uk.ac.manchester.cs.img.seed.test.tracing.CustomFormatter.scenario(..))")
+    protected void executingScenario(){    
+    }
+
+    @Around("executingScenario()")
+    public Object recordScenarioInfo(final ProceedingJoinPoint firstJoinPoint) throws Throwable {
+        Object scenarioResult = firstJoinPoint.proceed();
+        Object target = firstJoinPoint.getTarget();
+        if (target instanceof CustomFormatter) {
+            runningScenario=((CustomFormatter) target).getScenarioName();
+        }
+        return scenarioResult;
+    }
+    
+    @Pointcut("execution(* uk.ac.manchester.cs.img.seed.test.tracing.CustomFormatter.feature(..))")
+protected void executingFeature(){	
+}
+
+@Around("executingFeature()")
+public Object recordFeatureInfo(final ProceedingJoinPoint secondJoinPoint) throws Throwable {
+Object featureResult = secondJoinPoint.proceed();
+//begin-get scenario name
+Object target = secondJoinPoint.getTarget();
+if (target instanceof CustomFormatter ) {
+ runningFeature=((CustomFormatter ) target).getFeatureName();
+ System.out.println("The running feature is "+runningFeature); 
+}
+//end-get scenario name
+
+return featureResult;
+}
+    
+
+    @Pointcut("execution(* *.ProdClass.*(..))")
+    protected void logging() {
+    }
+
+    @Around("logging()")
+    public Object collectClassAndMethodRunTimeInformation(final ProceedingJoinPoint thisJoinPoint) throws Throwable {
+        Object result = thisJoinPoint.proceed();
+        StringBuffer paramBuffer = new StringBuffer();
+        StringBuffer executedClass=new StringBuffer();
+        String parameterValues=new String();
+
+        if (thisJoinPoint.getThis() != null) {
+            String name = thisJoinPoint.getStaticPart().getSignature().getName();
+            if (!(name.startsWith("get"))
+                    && !(name.startsWith("set"))
+                    && !(name.equals("<init>"))) {
+                executedClass=paramBuffer.append(thisJoinPoint.getThis());
+            }
+        }
+
+        List<String> arglist = new LinkedList<String>();
+        Object[] arguments = thisJoinPoint.getArgs();
+        if (arguments.length > 0) {
+            int length = arguments.length;
+            for (int i = 0; i < length;i++) {
+                Object argument = arguments[i];
+                parameterValues=argument.toString();
+                arglist.add(parameterValues);       
+            }
+        }
+
+        StringBuilder combArgs=new StringBuilder();
+        for ( int i = 0; i< arglist.size(); i++){
+            combArgs.append(arglist.get(i));
+            if ( i != arglist.size()-1){
+                combArgs.append(", ");
+            }
+        }
+
+        String receiverObject = "";
+        String classInExecution = "";
+        if(thisJoinPoint.getThis() !=null) {
+            System.out.println("OBJECT:" +thisJoinPoint.getThis());
+            String obj = thisJoinPoint.getThis().toString();
+            String[] strDivide = obj.split("@", 2);
+            classInExecution = strDivide[0];
+            receiverObject ="@".concat(strDivide[1]);
+        }
+        else {
+            classInExecution = thisJoinPoint.getSignature().getDeclaringType().getName();
+            receiverObject = "static method call.No object";
+        }
+
+        String methodName=MethodSignature.class.cast(thisJoinPoint.getSignature()).getMethod().getName();
+        String returnValue=result.toString();
+        String combinedArguments=combArgs.toString();
+        WriteXmlTraceToFile xmlWriteObj=new WriteXmlTraceToFile();
+        xmlWriteObj.writeToXml(methodName,  classInExecution,receiverObject,combinedArguments, returnValue,runningScenario,runningFeature);
+        thisJoinPoint.proceed();
+        return result;
+    }
+}

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-9"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>3.817617770968977403</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>12.5</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>12.5</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Blacklisted user with no profile should not be charged for sending HELP message-4"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>1.479156232507438941</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>1.479156232507438941</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>12.5</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>12.5</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>12.5</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>12.5</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>12.5</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>12.5</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>1.479156232507438941</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>1.479156232507438941</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>12.5</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>12.5</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="No profile user sends pre-launch, mo to free short code-9"/>
+      <in feature="Campaign test cases"/>
+      <abstraction-distance>4.017617770968977403</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <abstraction-distance>2.199435952787159221</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <abstraction-distance>2.199435952787159221</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>14.181818181818181818</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>14.181818181818181818</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Send pre_launch_text_key reply when a non-user sends the PRE-LAUNCH text-4"/>
+      <in feature="Campaign test cases"/>
+      <abstraction-distance>2.199435952787159221</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <abstraction-distance>2.199435952787159221</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>14.181818181818181818</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>14.181818181818181818</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Creating requested profile for the user-3"/>
+      <in feature="Campaign test cases"/>
+      <abstraction-distance>2.199435952787159221</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.350951104302310736</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Subscription with free week,subscribed user and general failed charge request-9"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.128728882080088514</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.350951104302310736</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>18.333333333333333333</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>18.333333333333333333</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Do not charge subscribed user for the teaser-4-H2"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.350951104302310736</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.350951104302310736</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>18.333333333333333333</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>18.333333333333333333</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.350951104302310736</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.350951104302310736</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>4.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.350951104302310736</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>18.333333333333333333</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>18.333333333333333333</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>6.350951104302310736</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>9.381254134605341039</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>21.363636363636363636</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>21.363636363636363636</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>9.381254134605341039</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>9.381254134605341039</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>21.363636363636363636</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>21.363636363636363636</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>9.381254134605341039</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>9.381254134605341039</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>21.363636363636363636</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>21.363636363636363636</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>9.381254134605341039</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscription with no free week,subscribed user and failed charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>10.617617770968977403</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <abstraction-distance>9.381254134605341039</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <abstraction-distance>3.267617770968977403</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="User with no profile does not receives free content teaser-9"/>
+      <in feature="Content teaser test cases"/>
+      <abstraction-distance>3.199435952787159221</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <abstraction-distance>3.267617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>15.25</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>15.25</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <abstraction-distance>3.267617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+      <abstraction-distance>3.267617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>15.25</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>15.25</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+      <abstraction-distance>3.267617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Blacklisted with no profile customer sends mo with HELP keyword to free short code"/>
+      <in feature="FP"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>12.5</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>12.5</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+      <abstraction-distance>0.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="No profile user sends mo with SCORE to free short code-9-5"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>4.267617770968977403</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="No profile user sends mo with SCORE to free short code-keywords"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>2.017617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>2.017617770968977403</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>14</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>14</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>2.017617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>2.017617770968977403</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Invalid subscription-3"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>0.149048895697689264</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>3.926708680059886494</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>15.909090909090909091</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>15.909090909090909091</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>3.926708680059886494</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>3.926708680059886494</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>15.909090909090909091</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>15.909090909090909091</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>3.926708680059886494</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>3.926708680059886494</abstraction-distance>
+      <all-glue-statements-count>31286</all-glue-statements-count>
+      <average-statements-per-step>11.982382229031022597</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>15.909090909090909091</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>15.909090909090909091</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Subscribed user sends mo with value 1  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <abstraction-distance>3.926708680059886494</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Request of subscription information by a subscribed user.-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <abstraction-distance>5.317617770968977403</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <abstraction-distance>3.926708680059886494</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="A subscribed user sends a free short code messages-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <abstraction-distance>7.239839993191199625</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <abstraction-distance>5.517617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Free short code messages is sent by a subscribed user-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <abstraction-distance>9.392617770968977403</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="A Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <abstraction-distance>7.017617770968977403</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="User with no profile sends an sms for unsubscription-15"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <abstraction-distance>4.350951104302310736</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="No profile customer sends optout keyword with active subscription-target-output"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <abstraction-distance>0.43428443763564407</abstraction-distance>
+   </suggestion>
+</suggestions>

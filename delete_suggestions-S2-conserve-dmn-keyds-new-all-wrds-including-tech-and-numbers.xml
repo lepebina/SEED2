@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Use SPS child Service to add child user-10"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <keyword-count>13</keyword-count>
+      <keywords>add child service sps add child end point service child info receive response</keywords>
+      <and/>
+      <keep-scenario-with title="Add child user using sps child Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <keyword-count>14</keyword-count>
+      <keywords>add child service sps add calling child end point service child get info response</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add child user using sps child Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <keyword-count>14</keyword-count>
+      <keywords>add child service sps add calling child end point service child get info response</keywords>
+      <and/>
+      <keep-scenario-with title="Additional of child user through SPS service-8"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <keyword-count>16</keyword-count>
+      <keywords>add child service sps want add child end point process service start child info receive response</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add grade class size using sps GradeClassSize Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <keyword-count>14</keyword-count>
+      <keywords>add gradeclasssize service sps add calling end gradeclasssize point service gradeclasssize profile response see</keywords>
+      <and/>
+      <keep-scenario-with title="Use spsGradeClassSize Service to add grade class-10"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <keyword-count>17</keyword-count>
+      <keywords>add gradeclasssize service sps via class end grade point service size class grade info receive response size</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add grade class size using sps GradeClassSize Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <keyword-count>14</keyword-count>
+      <keywords>add gradeclasssize service sps add calling end gradeclasssize point service gradeclasssize profile response see</keywords>
+      <or/>
+      <delete-scenario-with title="Using SPS GradeClassSize to increase grade class size-8"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <keyword-count>14</keyword-count>
+      <keywords>gradeclasssize service sps add end gradeclasssize point service trigger gradeclasssize profile confirmation message receive</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Using lookup services to get all schools by zipcode-7-1"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <keyword-count>10</keyword-count>
+      <keywords>call code service sps code end point service code result</keywords>
+      <and/>
+      <keep-scenario-with title="Get all schools by zipcode from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <keyword-count>13</keyword-count>
+      <keywords>code get service sps calling code end get point service code get response</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Get all schools by zipcode from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <keyword-count>13</keyword-count>
+      <keywords>code get service sps calling code end get point service code get response</keywords>
+      <or/>
+      <delete-scenario-with title="Using zip code to search all schools which are looking for the services-6-1."/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <keyword-count>13</keyword-count>
+      <keywords>code enter field text code search button link code corresponding list must receive</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="All school teachers querying service-7-2"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <keyword-count>8</keyword-count>
+      <keywords>call service sps code end point service return</keywords>
+      <and/>
+      <keep-scenario-with title="Get all teachers of a school from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <keyword-count>10</keyword-count>
+      <keywords>get service sps calling end get point service get response</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Grasp payment from the payment Services-10"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>15</keyword-count>
+      <keywords>capture gain payment service sps capture end payment point service capture payment received result success</keywords>
+      <and/>
+      <keep-scenario-with title="Capture payment from the payment Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>17</keyword-count>
+      <keywords>capture get payment service sps calling capture end payment point service capture get payment response success suppose</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Tracking payment-8"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>14</keyword-count>
+      <keywords>payment service sps track use capture end payment point service payment confirmation message process</keywords>
+      <and/>
+      <keep-scenario-with title="Capture payment from the payment Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>17</keyword-count>
+      <keywords>capture get payment service sps calling capture end payment point service capture get payment response success suppose</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add credit card from the subscription service-5"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>11</keyword-count>
+      <keywords>card credit date expire online transactions add card credit subscription card</keywords>
+      <and/>
+      <keep-scenario-with title="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>19</keyword-count>
+      <keywords>add card credit service sps add calling card credit end point service subscription card credit get response success suppose</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="The process of adding credit card from the subscription Services-7"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>18</keyword-count>
+      <keywords>add card command credit issue service sps add card credit end point service subscription card credit notification success</keywords>
+      <and/>
+      <keep-scenario-with title="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>19</keyword-count>
+      <keywords>add card credit service sps add calling card credit end point service subscription card credit get response success suppose</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Payment services Credit card option"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>14</keyword-count>
+      <keywords>add card credit delete existing update links card credit option click message success transaction</keywords>
+      <and/>
+      <keep-scenario-with title="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <keyword-count>19</keyword-count>
+      <keywords>add card credit service sps add calling card credit end point service subscription card credit get response success suppose</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>21</keyword-count>
+      <keywords>change domestic edit existing international school service sps us calling domestic edit end international point school service international response school see</keywords>
+      <and/>
+      <keep-scenario-with title="changing US domestic school to international school using sps school edit services-5"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>24</keyword-count>
+      <keywords>edit running school sps authentic change information user database information school view database edit query school service sps database domestic international school applied see</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="The use of sps edit to change available US domestic school to available international school-7"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>19</keyword-count>
+      <keywords>change domestic edit existing international school service sps us domestic edit end international point school service international response school</keywords>
+      <and/>
+      <keep-scenario-with title="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>21</keyword-count>
+      <keywords>change domestic edit existing international school service sps us calling domestic edit end international point school service international response school see</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Alter school information using school profile in the main page-6"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>15</keyword-count>
+      <keywords>information profile school main menu modify profile school link action failure get information message success</keywords>
+      <and/>
+      <keep-scenario-with title="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>21</keyword-count>
+      <keywords>change domestic edit existing international school service sps us calling domestic edit end international point school service international response school see</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Replace current US domestic school to home School utilizing sps edit school services-10"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>17</keyword-count>
+      <keywords>domestic edit home school service sps us domestic edit end home point school service home response school</keywords>
+      <and/>
+      <keep-scenario-with title="Change existing US domestic school to home School using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>20</keyword-count>
+      <keywords>change domestic edit home school service sps us calling domestic edit end home point school service home response school see</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Change existing US domestic school to home School using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>20</keyword-count>
+      <keywords>change domestic edit home school service sps us calling domestic edit end home point school service home response school see</keywords>
+      <and/>
+      <keep-scenario-with title="Renaming existing Domestic school to home school using SPS school services editor-8"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <keyword-count>24</keyword-count>
+      <keywords>change domestic editor home school service sps us use want domestic edit end home initiate point school service home school action message response shown</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Upgrade consumer profile to teacher using sps user service-5"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <keyword-count>9</keyword-count>
+      <keywords>running sps user calling sps upgrade user consumer profile</keywords>
+      <and/>
+      <keep-scenario-with title="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <keyword-count>16</keyword-count>
+      <keywords>consumer service sps teacher upgrade user calling consumer end point service upgrade consumer profile response teacher</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <keyword-count>16</keyword-count>
+      <keywords>consumer service sps teacher upgrade user calling consumer end point service upgrade consumer profile response teacher</keywords>
+      <and/>
+      <keep-scenario-with title="Upgrade of  consumer user profile to teacher user profile using sps user services-7"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <keyword-count>18</keyword-count>
+      <keywords>consumer perform service sps teacher upgrade user consumer end point service upgrade consumer occur profile result teacher upgrade</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Update user information using user's profile page-6"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <keyword-count>12</keyword-count>
+      <keywords>information profile user profile update user click link information message receive user</keywords>
+      <and/>
+      <keep-scenario-with title="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <keyword-count>16</keyword-count>
+      <keywords>consumer service sps teacher upgrade user calling consumer end point service upgrade consumer profile response teacher</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="retrieve number of cards in a wallet and their info using sps wallet services-5"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <keyword-count>19</keyword-count>
+      <keywords>running sps wallet access right sps wallet card view wallet calling service sps wallet cards number along card information</keywords>
+      <and/>
+      <keep-scenario-with title="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <keyword-count>20</keyword-count>
+      <keywords>card crdit get info service sps wallet calling card credit end get point service card credit get info response wallet</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="The task to Get the number of cards in wallet and its Info using sps wallet services-7"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <keyword-count>19</keyword-count>
+      <keywords>card choice crdit get info service sps wallet card credit end get point service card credit info reply wallet</keywords>
+      <and/>
+      <keep-scenario-with title="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <keyword-count>20</keyword-count>
+      <keywords>card crdit get info service sps wallet calling card credit end get point service card credit get info response wallet</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User cards details-6"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <keyword-count>8</keyword-count>
+      <keywords>cards user link cards user cards number receive</keywords>
+      <and/>
+      <keep-scenario-with title="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <keyword-count>20</keyword-count>
+      <keywords>card crdit get info service sps wallet calling card credit end get point service card credit get info response wallet</keywords>
+   </suggestion>
+</suggestions>

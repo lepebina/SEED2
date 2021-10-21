@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenarios>
+  <scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile." title="Add child user using sps child Service">
+    <Given>
+      <step> I am Using SPS Child Service to "Add Child"</step>
+      <step-keywords>
+        <keyword>child</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>add</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Add Child Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>add</keyword>
+      <keyword>child</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should Get the "Added Child Info" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>get</keyword>
+      <keyword>ad</keyword>
+      <keyword>child</keyword>
+      <keyword>info</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile." title="Use SPS child Service to add child user-10">
+    <Given>
+      <step> I am required to "Add Child" Using SPS Child Service</step>
+      <step-keywords>
+        <keyword>child</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>requir</keyword>
+        <keyword>add</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Executing the Add Child Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>execut</keyword>
+      <keyword>add</keyword>
+      <keyword>child</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should receive a response of "Added Child Info"</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>receiv</keyword>
+      <keyword>respons</keyword>
+      <keyword>ad</keyword>
+      <keyword>child</keyword>
+      <keyword>info</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile." title="Additional of child user through SPS service-8">
+    <Given>
+      <step> I want to "add child service" using SPS child service</step>
+      <step-keywords>
+        <keyword>child</keyword>
+        <keyword>servic</keyword>
+        <keyword>i</keyword>
+        <keyword>want</keyword>
+        <keyword>add</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I start the Add Child Service End Point process</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>start</keyword>
+      <keyword>add</keyword>
+      <keyword>child</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>process</keyword>
+    </step-keywords>
+  <Then>
+      <step> I have to receive "Added Child Info" as a response</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>have</keyword>
+      <keyword>receiv</keyword>
+      <keyword>ad</keyword>
+      <keyword>child</keyword>
+      <keyword>info</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile." title="Add grade class size using sps GradeClassSize Service">
+    <Given>
+      <step> I am Using SPS GradeClassSize Service to "Add GradeClassSize"</step>
+      <step-keywords>
+        <keyword>gradeclasss</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>add</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Add GradeClassSize Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>add</keyword>
+      <keyword>gradeclasss</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should See the "Added GradeClassSize to the Profile" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>see</keyword>
+      <keyword>ad</keyword>
+      <keyword>gradeclasss</keyword>
+      <keyword>profil</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile." title="Use spsGradeClassSize Service to add grade class-10">
+    <Given>
+      <step> I have to " Add GradeClassSize " via SPS GradeClassSize Service</step>
+      <step-keywords>
+        <keyword>gradeclasss</keyword>
+        <keyword>i</keyword>
+        <keyword>have</keyword>
+        <keyword>add</keyword>
+        <keyword>via</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Executing the Grade Class Size Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>execut</keyword>
+      <keyword>grade</keyword>
+      <keyword>class</keyword>
+      <keyword>size</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should receive a response of " Added Grade Class Size Info"</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>receiv</keyword>
+      <keyword>respons</keyword>
+      <keyword>ad</keyword>
+      <keyword>grade</keyword>
+      <keyword>class</keyword>
+      <keyword>size</keyword>
+      <keyword>info</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile." title="Using SPS GradeClassSize to increase grade class size-8">
+    <Given>
+      <step> GradeClassSize is added using SPS GradeClassSize Service</step>
+      <step-keywords>
+        <keyword>gradeclasss</keyword>
+        <keyword>ad</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I trigger Add GradeClassSize Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>trigger</keyword>
+      <keyword>add</keyword>
+      <keyword>gradeclasss</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> GradeClassSize is added to the profile</step>
+    <step> I receive the confirmation message</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>receiv</keyword>
+        <keyword>confirm</keyword>
+        <keyword>messag</keyword>
+      </step-keywords>
+    </Then>
+    <step-keywords>
+      <keyword>gradeclasss</keyword>
+      <keyword>ad</keyword>
+      <keyword>profil</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a SPS User I want to verify all the lookup services." title="Get all schools by zipcode from the lookup Services">
+    <Given>
+      <step> I am Using SPS Service to Get "All Schools by Zip Code"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>get</keyword>
+        <keyword>all</keyword>
+        <keyword>school</keyword>
+        <keyword>zip</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling Get All Schools by Zip Code Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>get</keyword>
+      <keyword>all</keyword>
+      <keyword>school</keyword>
+      <keyword>zip</keyword>
+      <keyword>code</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should Get all Schools by Zip Code in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>get</keyword>
+      <keyword>all</keyword>
+      <keyword>school</keyword>
+      <keyword>zip</keyword>
+      <keyword>code</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a SPS User I want to verify all the lookup services." title="Using lookup services to get all schools by zipcode-7-1">
+    <Given>
+      <step> SPS Service has been used to call "All schools by Zip Code"</step>
+      <step-keywords>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>ha</keyword>
+        <keyword>been</keyword>
+        <keyword>us</keyword>
+        <keyword>call</keyword>
+        <keyword>all</keyword>
+        <keyword>school</keyword>
+        <keyword>zip</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> End Point Zip Code service issued</step>
+    </When>
+    <step-keywords>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>zip</keyword>
+      <keyword>code</keyword>
+      <keyword>servic</keyword>
+      <keyword>issu</keyword>
+    </step-keywords>
+  <Then>
+      <step> the result should be all schools by Zip Code</step>
+    </Then>
+    <step-keywords>
+      <keyword>result</keyword>
+      <keyword>should</keyword>
+      <keyword>all</keyword>
+      <keyword>school</keyword>
+      <keyword>zip</keyword>
+      <keyword>code</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a SPS User I want to verify all the lookup services." title="Using zip code to search all schools which are looking for the services-6-1.">
+    <Given>
+      <step> A text field to enter a "Zip code"</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>field</keyword>
+        <keyword>enter</keyword>
+        <keyword>zip</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am selecting search button/link of all schools using zip code</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>select</keyword>
+      <keyword>search</keyword>
+      <keyword>button</keyword>
+      <keyword>link</keyword>
+      <keyword>all</keyword>
+      <keyword>school</keyword>
+      <keyword>us</keyword>
+      <keyword>zip</keyword>
+      <keyword>code</keyword>
+    </step-keywords>
+  <Then>
+      <step> I must receive a list of schools corresponding to the zip code</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>must</keyword>
+      <keyword>receiv</keyword>
+      <keyword>list</keyword>
+      <keyword>school</keyword>
+      <keyword>correspond</keyword>
+      <keyword>zip</keyword>
+      <keyword>code</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a SPS User I want to verify all the lookup services." title="Get all teachers of a school from the lookup Services">
+    <Given>
+      <step> I am Using SPS Service to Get "All Teachers"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>get</keyword>
+        <keyword>all</keyword>
+        <keyword>teacher</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling Get All Teachers Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>get</keyword>
+      <keyword>all</keyword>
+      <keyword>teacher</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should Get all Teachers in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>get</keyword>
+      <keyword>all</keyword>
+      <keyword>teacher</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a SPS User I want to verify all the lookup services." title="All school teachers querying service-7-2">
+    <Given>
+      <step> SPS Service has been used to call "All Teachers"</step>
+      <step-keywords>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>ha</keyword>
+        <keyword>been</keyword>
+        <keyword>us</keyword>
+        <keyword>call</keyword>
+        <keyword>all</keyword>
+        <keyword>teacher</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am performing End Point Zip Code service</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>perform</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>zip</keyword>
+      <keyword>code</keyword>
+      <keyword>servic</keyword>
+    </step-keywords>
+  <Then>
+      <step> this should return all Teachers</step>
+    </Then>
+    <step-keywords>
+      <keyword>should</keyword>
+      <keyword>return</keyword>
+      <keyword>all</keyword>
+      <keyword>teacher</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." title="Capture payment from the payment Services">
+    <Given>
+      <step> I am Utilizing SPS Payment Service to Get "Capture Payment"</step>
+      <step-keywords>
+        <keyword>payment</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>util</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>get</keyword>
+        <keyword>captur</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling The Capture Payment Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>captur</keyword>
+      <keyword>payment</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I Should Suppose to Get "Success Capture Payment" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>suppos</keyword>
+      <keyword>get</keyword>
+      <keyword>success</keyword>
+      <keyword>captur</keyword>
+      <keyword>payment</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." title="Grasp payment from the payment Services-10">
+    <Given>
+      <step> SPS Payment Service is being executed to gain "Capture Payment"</step>
+      <step-keywords>
+        <keyword>payment</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>be</keyword>
+        <keyword>execut</keyword>
+        <keyword>gain</keyword>
+        <keyword>captur</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> The Capture Payment Service End Point is being invoked</step>
+    </When>
+    <step-keywords>
+      <keyword>captur</keyword>
+      <keyword>payment</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>be</keyword>
+      <keyword>invok</keyword>
+    </step-keywords>
+  <Then>
+      <step> "Success Capture Payment" is received as the result</step>
+    </Then>
+    <step-keywords>
+      <keyword>success</keyword>
+      <keyword>captur</keyword>
+      <keyword>payment</keyword>
+      <keyword>receiv</keyword>
+      <keyword>result</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." title="Tracking payment-8">
+    <Given>
+      <step> I use SPS Payment Service to track payment</step>
+      <step-keywords>
+        <keyword>payment</keyword>
+        <keyword>i</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>track</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> Capture payment Service end point is initiated</step>
+    </When>
+    <step-keywords>
+      <keyword>captur</keyword>
+      <keyword>payment</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>initi</keyword>
+    </step-keywords>
+  <Then>
+      <step> the payment is tracked</step>
+    <step> the process confirmation message is displayed</step>
+      <step-keywords>
+        <keyword>process</keyword>
+        <keyword>confirm</keyword>
+        <keyword>messag</keyword>
+        <keyword>displai</keyword>
+      </step-keywords>
+    </Then>
+    <step-keywords>
+      <keyword>payment</keyword>
+      <keyword>track</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." title="Add credit card from the subscription Services">
+    <Given>
+      <step> I am Utilizing SPS Service to "Add Credit Card".</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>util</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>add</keyword>
+        <keyword>credit</keyword>
+        <keyword>card</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling Add Credit Card to Subscription Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>add</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>subscript</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I Should Suppose to Get "Success - Credit Card Added" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>suppos</keyword>
+      <keyword>get</keyword>
+      <keyword>success</keyword>
+      <keyword>0</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>ad</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." title="Add credit card from the subscription service-5">
+    <Given>
+      <step> credit card expire date is not passed</step>
+      <step-keywords>
+        <keyword>credit</keyword>
+        <keyword>card</keyword>
+        <keyword>expir</keyword>
+        <keyword>date</keyword>
+        <keyword>pass</keyword>
+      </step-keywords>
+    <step> is enabled for online transactions</step>
+      <step-keywords>
+        <keyword>enabl</keyword>
+        <keyword>onlin</keyword>
+        <keyword>transact</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I add credit card from the subscription services</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>add</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>from</keyword>
+      <keyword>subscript</keyword>
+      <keyword>servic</keyword>
+    </step-keywords>
+  <Then>
+      <step> my card is added</step>
+    </Then>
+    <step-keywords>
+      <keyword>my</keyword>
+      <keyword>card</keyword>
+      <keyword>ad</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." title="The process of adding credit card from the subscription Services-7">
+    <Given>
+      <step> I issue SPS Service command to "Add Credit Card".</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>issu</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>command</keyword>
+        <keyword>add</keyword>
+        <keyword>credit</keyword>
+        <keyword>card</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> "Add Credit Card to Subscription Service End Point" called</step>
+    </When>
+    <step-keywords>
+      <keyword>add</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>subscript</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>call</keyword>
+    </step-keywords>
+  <Then>
+      <step> "Success - Credit Card Added" should be the notification</step>
+    </Then>
+    <step-keywords>
+      <keyword>success</keyword>
+      <keyword>0</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>ad</keyword>
+      <keyword>should</keyword>
+      <keyword>notif</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments." title="Payment services Credit card option">
+    <Given>
+      <step> Links to update existing credit card, add credit card and delete credit card-6</step>
+      <step-keywords>
+        <keyword>credit</keyword>
+        <keyword>card</keyword>
+        <keyword>link</keyword>
+        <keyword>updat</keyword>
+        <keyword>exist</keyword>
+        <keyword>add</keyword>
+        <keyword>delet</keyword>
+        <keyword>card-6</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I click credit card option</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>click</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>option</keyword>
+    </step-keywords>
+  <Then>
+      <step> The failed or Success message should be displayed after selected  transaction</step>
+    </Then>
+    <step-keywords>
+      <keyword>fail</keyword>
+      <keyword>success</keyword>
+      <keyword>messag</keyword>
+      <keyword>should</keyword>
+      <keyword>displai</keyword>
+      <keyword>after</keyword>
+      <keyword>select</keyword>
+      <keyword>transact</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information." title="Change existing US domestic school to existing international school using sps edit school services">
+    <Given>
+      <step> I am Using SPS Edit School Service to Change from US Domestic School to "Existing International School"</step>
+      <step-keywords>
+        <keyword>school</keyword>
+        <keyword>us</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>sp</keyword>
+        <keyword>edit</keyword>
+        <keyword>servic</keyword>
+        <keyword>chang</keyword>
+        <keyword>from</keyword>
+        <keyword>domest</keyword>
+        <keyword>exist</keyword>
+        <keyword>intern</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Edit Domestic To International School Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>edit</keyword>
+      <keyword>domest</keyword>
+      <keyword>intern</keyword>
+      <keyword>school</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should See the School changed to "International School" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>school</keyword>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>see</keyword>
+      <keyword>chang</keyword>
+      <keyword>intern</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information." title="changing US domestic school to international school using sps school edit services-5">
+    <Given>
+      <step> sps school edit services are up and running</step>
+      <step-keywords>
+        <keyword>sp</keyword>
+        <keyword>school</keyword>
+        <keyword>edit</keyword>
+        <keyword>servic</keyword>
+        <keyword>up</keyword>
+        <keyword>run</keyword>
+      </step-keywords>
+    <step> I am authentic user to change information in database</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>authent</keyword>
+        <keyword>user</keyword>
+        <keyword>chang</keyword>
+        <keyword>inform</keyword>
+        <keyword>databas</keyword>
+      </step-keywords>
+    <step> I am allowed to view school information in database</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>allow</keyword>
+        <keyword>view</keyword>
+        <keyword>school</keyword>
+        <keyword>inform</keyword>
+        <keyword>databas</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I query school database using sps edit school service</step>
+    </When>
+    <step-keywords>
+      <keyword>school</keyword>
+      <keyword>i</keyword>
+      <keyword>queri</keyword>
+      <keyword>databas</keyword>
+      <keyword>us</keyword>
+      <keyword>sp</keyword>
+      <keyword>edit</keyword>
+      <keyword>servic</keyword>
+    </step-keywords>
+  <Then>
+      <step> school is changed from domestic to international</step>
+    <step> I see changes applied.</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>see</keyword>
+        <keyword>chang</keyword>
+        <keyword>appli</keyword>
+      </step-keywords>
+    </Then>
+    <step-keywords>
+      <keyword>school</keyword>
+      <keyword>chang</keyword>
+      <keyword>from</keyword>
+      <keyword>domest</keyword>
+      <keyword>intern</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information." title="The use of sps edit to change available US domestic school to available international school-7">
+    <Given>
+      <step> that SPS Edit School Service is used to Change from US Domestic School to "Existing International School"</step>
+      <step-keywords>
+        <keyword>school</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>edit</keyword>
+        <keyword>servic</keyword>
+        <keyword>chang</keyword>
+        <keyword>from</keyword>
+        <keyword>domest</keyword>
+        <keyword>exist</keyword>
+        <keyword>intern</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> Edit Domestic To International School Service End Point  called</step>
+    </When>
+    <step-keywords>
+      <keyword>edit</keyword>
+      <keyword>domest</keyword>
+      <keyword>intern</keyword>
+      <keyword>school</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>call</keyword>
+    </step-keywords>
+  <Then>
+      <step> the response should be "International School"</step>
+    </Then>
+    <step-keywords>
+      <keyword>respons</keyword>
+      <keyword>should</keyword>
+      <keyword>intern</keyword>
+      <keyword>school</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information." title="Alter school information using school profile in the main page-6">
+    <Given>
+      <step> School profile information</step>
+      <step-keywords>
+        <keyword>school</keyword>
+        <keyword>profil</keyword>
+        <keyword>inform</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am selecting modify link in the main menu of school profile</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>select</keyword>
+      <keyword>modifi</keyword>
+      <keyword>link</keyword>
+      <keyword>main</keyword>
+      <keyword>menu</keyword>
+      <keyword>school</keyword>
+      <keyword>profil</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should get failure or success message of the action after altering information</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>get</keyword>
+      <keyword>failur</keyword>
+      <keyword>success</keyword>
+      <keyword>messag</keyword>
+      <keyword>action</keyword>
+      <keyword>after</keyword>
+      <keyword>alter</keyword>
+      <keyword>inform</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information." title="Change existing US domestic school to home School using sps edit school services">
+    <Given>
+      <step> I am Using SPS Edit School Service to Change from US Domestic School to "Home School"</step>
+      <step-keywords>
+        <keyword>school</keyword>
+        <keyword>us</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>sp</keyword>
+        <keyword>edit</keyword>
+        <keyword>servic</keyword>
+        <keyword>chang</keyword>
+        <keyword>from</keyword>
+        <keyword>domest</keyword>
+        <keyword>home</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Edit Domestic To Home School Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>edit</keyword>
+      <keyword>domest</keyword>
+      <keyword>home</keyword>
+      <keyword>school</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should See the School changed to "Home School" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>school</keyword>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>see</keyword>
+      <keyword>chang</keyword>
+      <keyword>home</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information." title="Replace current US domestic school to home School utilizing sps edit school services-10">
+    <Given>
+      <step> US Domestic Schools are replaced by "Home School" by utilizing SPS Edit School Service</step>
+      <step-keywords>
+        <keyword>school</keyword>
+        <keyword>us</keyword>
+        <keyword>domest</keyword>
+        <keyword>replac</keyword>
+        <keyword>home</keyword>
+        <keyword>util</keyword>
+        <keyword>sp</keyword>
+        <keyword>edit</keyword>
+        <keyword>servic</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> the Edit Domestic To Home School Service End Point is invoked</step>
+    </When>
+    <step-keywords>
+      <keyword>edit</keyword>
+      <keyword>domest</keyword>
+      <keyword>home</keyword>
+      <keyword>school</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>invok</keyword>
+    </step-keywords>
+  <Then>
+      <step> the School are replaced by "Home School" in response</step>
+    </Then>
+    <step-keywords>
+      <keyword>school</keyword>
+      <keyword>replac</keyword>
+      <keyword>home</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information." title="Renaming existing Domestic school to home school using SPS school services editor-8">
+    <Given>
+      <step> I want to change US domestic school to "home School" by the use of SPS school service editor</step>
+      <step-keywords>
+        <keyword>school</keyword>
+        <keyword>us</keyword>
+        <keyword>i</keyword>
+        <keyword>want</keyword>
+        <keyword>chang</keyword>
+        <keyword>domest</keyword>
+        <keyword>home</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>editor</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I initiate the Edit Domestic to Home School Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>initi</keyword>
+      <keyword>edit</keyword>
+      <keyword>domest</keyword>
+      <keyword>home</keyword>
+      <keyword>school</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> the school is changed to home school</step>
+    <step> the response message for the action is shown</step>
+      <step-keywords>
+        <keyword>respons</keyword>
+        <keyword>messag</keyword>
+        <keyword>action</keyword>
+        <keyword>shown</keyword>
+      </step-keywords>
+    </Then>
+    <step-keywords>
+      <keyword>school</keyword>
+      <keyword>chang</keyword>
+      <keyword>home</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile." title="Upgrade consumer profile to teacher using sps user services">
+    <Given>
+      <step> I am Having SPS User Service to "Upgrade Consumer To Teacher"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>have</keyword>
+        <keyword>sp</keyword>
+        <keyword>user</keyword>
+        <keyword>servic</keyword>
+        <keyword>upgrad</keyword>
+        <keyword>consum</keyword>
+        <keyword>teacher</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling The Service End Point of Upgrade Consumer</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>upgrad</keyword>
+      <keyword>consum</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should Have "Teacher Profile - Upgraded from Consumer" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>have</keyword>
+      <keyword>teacher</keyword>
+      <keyword>profil</keyword>
+      <keyword>0</keyword>
+      <keyword>upgrad</keyword>
+      <keyword>from</keyword>
+      <keyword>consum</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile." title="Upgrade consumer profile to teacher using sps user service-5">
+    <Given>
+      <step> sps user services are up and running</step>
+      <step-keywords>
+        <keyword>sp</keyword>
+        <keyword>user</keyword>
+        <keyword>servic</keyword>
+        <keyword>up</keyword>
+        <keyword>run</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> i am calling sps user upgrade services</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>sp</keyword>
+      <keyword>user</keyword>
+      <keyword>upgrad</keyword>
+      <keyword>servic</keyword>
+    </step-keywords>
+  <Then>
+      <step> consumer profile is upgraded to teachers profile</step>
+    </Then>
+    <step-keywords>
+      <keyword>profil</keyword>
+      <keyword>consum</keyword>
+      <keyword>upgrad</keyword>
+      <keyword>teacher</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile." title="Upgrade of  consumer user profile to teacher user profile using sps user services-7">
+    <Given>
+      <step> I perform "Upgrade Consumer To Teacher" SPS User Service</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>perform</keyword>
+        <keyword>upgrad</keyword>
+        <keyword>consum</keyword>
+        <keyword>teacher</keyword>
+        <keyword>sp</keyword>
+        <keyword>user</keyword>
+        <keyword>servic</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> The Service End Point of Upgrade Consumer has been issued</step>
+    </When>
+    <step-keywords>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+      <keyword>upgrad</keyword>
+      <keyword>consum</keyword>
+      <keyword>ha</keyword>
+      <keyword>been</keyword>
+      <keyword>issu</keyword>
+    </step-keywords>
+  <Then>
+      <step> upgrade to "Teacher Profile - Upgraded from Consumer" should occur as result</step>
+    </Then>
+    <step-keywords>
+      <keyword>upgrad</keyword>
+      <keyword>teacher</keyword>
+      <keyword>profil</keyword>
+      <keyword>0</keyword>
+      <keyword>from</keyword>
+      <keyword>consum</keyword>
+      <keyword>should</keyword>
+      <keyword>occur</keyword>
+      <keyword>result</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile." title="Update user information using user's profile page-6">
+    <Given>
+      <step> User profile information</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>profil</keyword>
+        <keyword>inform</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I click a link update user profile</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>click</keyword>
+      <keyword>link</keyword>
+      <keyword>updat</keyword>
+      <keyword>user</keyword>
+      <keyword>profil</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should receive a message "user information updated successfully" after editing user information</step>
+    </Then>
+    <step-keywords>
+      <keyword>user</keyword>
+      <keyword>inform</keyword>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>receiv</keyword>
+      <keyword>messag</keyword>
+      <keyword>updat</keyword>
+      <keyword>successfulli</keyword>
+      <keyword>after</keyword>
+      <keyword>edit</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" title="Get the number of cards in wallet and its Info using sps wallet services">
+    <Given>
+      <step> I am Using SPS Wallet Service to "Get Crdit Card Info"</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>wallet</keyword>
+        <keyword>servic</keyword>
+        <keyword>get</keyword>
+        <keyword>crdit</keyword>
+        <keyword>card</keyword>
+        <keyword>info</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Get Credit Card Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>get</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> Should Get the "Credit Card Info from the Wallet" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>should</keyword>
+      <keyword>get</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>info</keyword>
+      <keyword>from</keyword>
+      <keyword>wallet</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" title="retrieve number of cards in a wallet and their info using sps wallet services-5">
+    <Given>
+      <step> sps wallet services are up and running</step>
+      <step-keywords>
+        <keyword>sp</keyword>
+        <keyword>wallet</keyword>
+        <keyword>servic</keyword>
+        <keyword>up</keyword>
+        <keyword>run</keyword>
+      </step-keywords>
+    <step> i have right to access sps wallet services</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>have</keyword>
+        <keyword>right</keyword>
+        <keyword>access</keyword>
+        <keyword>sp</keyword>
+        <keyword>wallet</keyword>
+        <keyword>servic</keyword>
+      </step-keywords>
+    <step> i am authorised to view card and wallet details</step>
+      <step-keywords>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>authoris</keyword>
+        <keyword>view</keyword>
+        <keyword>card</keyword>
+        <keyword>wallet</keyword>
+        <keyword>detail</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> i am calling sps wallet service</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>sp</keyword>
+      <keyword>wallet</keyword>
+      <keyword>servic</keyword>
+    </step-keywords>
+  <Then>
+      <step> a number of cards is displayed</step>
+    <step> information of each card is printed along with it</step>
+      <step-keywords>
+        <keyword>inform</keyword>
+        <keyword>each</keyword>
+        <keyword>card</keyword>
+        <keyword>print</keyword>
+        <keyword>along</keyword>
+      </step-keywords>
+    </Then>
+    <step-keywords>
+      <keyword>number</keyword>
+      <keyword>card</keyword>
+      <keyword>displai</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" title="The task to Get the number of cards in wallet and its Info using sps wallet services-7">
+    <Given>
+      <step> SPS Wallet Service is the choice used to "Get Crdit Card Info"</step>
+      <step-keywords>
+        <keyword>sp</keyword>
+        <keyword>wallet</keyword>
+        <keyword>servic</keyword>
+        <keyword>choic</keyword>
+        <keyword>us</keyword>
+        <keyword>get</keyword>
+        <keyword>crdit</keyword>
+        <keyword>card</keyword>
+        <keyword>info</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am peforming the Get Credit Card Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>peform</keyword>
+      <keyword>get</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> my reply should be "Credit Card Info from the Wallet"</step>
+    </Then>
+    <step-keywords>
+      <keyword>my</keyword>
+      <keyword>repli</keyword>
+      <keyword>should</keyword>
+      <keyword>credit</keyword>
+      <keyword>card</keyword>
+      <keyword>info</keyword>
+      <keyword>from</keyword>
+      <keyword>wallet</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet" title="User cards details-6">
+    <Given>
+      <step> The link to user cards</step>
+      <step-keywords>
+        <keyword>link</keyword>
+        <keyword>user</keyword>
+        <keyword>card</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am requesting user cards</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>request</keyword>
+      <keyword>user</keyword>
+      <keyword>card</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should receive the number cards and their details</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>receiv</keyword>
+      <keyword>number</keyword>
+      <keyword>card</keyword>
+      <keyword>detail</keyword>
+    </step-keywords>
+  </scenario>
+    <scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile." title="Update child user using sps child Service">
+    <Given>
+      <step> I am Using SPS Child Service to "Update Child"</step>
+      <step-keywords>
+        <keyword>child</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>updat</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Update Child Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>updat</keyword>
+      <keyword>child</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should Get the "Updated Child Info" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>get</keyword>
+      <keyword>updat</keyword>
+      <keyword>child</keyword>
+      <keyword>info</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile." title="Delete child user using sps child Service">
+    <Given>
+      <step> I am Using SPS Child Service to "Delete Child"</step>
+      <step-keywords>
+        <keyword>child</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>delet</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Delete Child Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>delet</keyword>
+      <keyword>child</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should Get the "No Child Info - Deleted" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>get</keyword>
+      <keyword>child</keyword>
+      <keyword>info</keyword>
+      <keyword>0</keyword>
+      <keyword>delet</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+  <scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile." title="Update grade class size using sps GradeClassSize Service">
+    <Given>
+      <step> I am Using SPS GradeClassSize Service to "Update GradeClassSize"</step>
+      <step-keywords>
+        <keyword>gradeclasss</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>updat</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Update GradeClassSize Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>updat</keyword>
+      <keyword>gradeclasss</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should See the "Updated GradeClassSize to the Profile" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>see</keyword>
+      <keyword>updat</keyword>
+      <keyword>gradeclasss</keyword>
+      <keyword>profil</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+<scenario feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile." title="Delete grade class size using sps GradeClassSize Service">
+    <Given>
+      <step> I am Using SPS GradeClassSize Service to "Delete GradeClassSize"</step>
+      <step-keywords>
+        <keyword>gradeclasss</keyword>
+        <keyword>i</keyword>
+        <keyword>am</keyword>
+        <keyword>us</keyword>
+        <keyword>sp</keyword>
+        <keyword>servic</keyword>
+        <keyword>delet</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> I am Calling the Delete GradeClassSize Service End Point</step>
+    </When>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>am</keyword>
+      <keyword>call</keyword>
+      <keyword>delet</keyword>
+      <keyword>gradeclasss</keyword>
+      <keyword>servic</keyword>
+      <keyword>end</keyword>
+      <keyword>point</keyword>
+    </step-keywords>
+  <Then>
+      <step> I should See the "Deleted GradeClassSize from the Profile" in response.</step>
+    </Then>
+    <step-keywords>
+      <keyword>i</keyword>
+      <keyword>should</keyword>
+      <keyword>see</keyword>
+      <keyword>delet</keyword>
+      <keyword>gradeclasss</keyword>
+      <keyword>from</keyword>
+      <keyword>profil</keyword>
+      <keyword>respons</keyword>
+    </step-keywords>
+  </scenario>
+</scenarios>

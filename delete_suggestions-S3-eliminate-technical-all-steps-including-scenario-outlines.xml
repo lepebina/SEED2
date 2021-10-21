@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <tech-word-count>2</tech-word-count>
+      <tech-words>http icon</tech-words>
+      <or/>
+      <delete-scenario-with title="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <tech-word-count>2</tech-word-count>
+      <tech-words>http icon</tech-words>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <tech-word-count>2</tech-word-count>
+      <tech-words>http icon</tech-words>
+      <or/>
+      <delete-scenario-with title="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <tech-word-count>2</tech-word-count>
+      <tech-words>http icon</tech-words>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <tech-word-count>3</tech-word-count>
+      <tech-words>http site icon</tech-words>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <tech-word-count>2</tech-word-count>
+      <tech-words>http icon</tech-words>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <tech-word-count>1</tech-word-count>
+      <tech-words>http</tech-words>
+      <or/>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <tech-word-count>1</tech-word-count>
+      <tech-words>http</tech-words>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <tech-word-count>1</tech-word-count>
+      <tech-words>http</tech-words>
+      <or/>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <tech-word-count>1</tech-word-count>
+      <tech-words>http</tech-words>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <tech-word-count>2</tech-word-count>
+      <tech-words>http site</tech-words>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <tech-word-count>1</tech-word-count>
+      <tech-words>http</tech-words>
+   </suggestion>
+</suggestions>

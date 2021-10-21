@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with scenario="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>239.653167185877466251</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>183.74205607476635514</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>230.097611630321910696</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>183.44205607476635514</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>230.097611630321910696</abstraction-distance>
+      <all-glue-statements-count>50602</all-glue-statements-count>
+      <average-statements-per-step>236.45794392523364486</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>466.555555555555555556</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>466.555555555555555556</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>230.097611630321910696</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>229.097611630321910696</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>201.79205607476635514</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>229.097611630321910696</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>182.54205607476635514</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>229.097611630321910696</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>219.875389408099688473</abstraction-distance>
+   </suggestion>
+</suggestions>

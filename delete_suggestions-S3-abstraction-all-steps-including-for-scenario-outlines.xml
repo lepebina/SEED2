@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>3.705882352941176471</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>2.705882352941176471</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>3.705882352941176471</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>2.705882352941176471</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>2.705882352941176471</abstraction-distance>
+      <scenarios-count>34</scenarios-count>
+      <all-steps-count>214</all-steps-count>
+      <average-step-count>6.294117647058823529</average-step-count>
+      <scenario1-step-count>9</scenario1-step-count>
+      <scenario2-step-count>9</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <abstraction-distance>2.705882352941176471</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>2.705882352941176471</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>1.705882352941176471</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>3.705882352941176471</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>2.705882352941176471</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>2.705882352941176471</abstraction-distance>
+      <scenarios-count>34</scenarios-count>
+      <all-steps-count>214</all-steps-count>
+      <average-step-count>6.294117647058823529</average-step-count>
+      <scenario1-step-count>9</scenario1-step-count>
+      <scenario2-step-count>9</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <abstraction-distance>2.705882352941176471</abstraction-distance>
+   </suggestion>
+</suggestions>

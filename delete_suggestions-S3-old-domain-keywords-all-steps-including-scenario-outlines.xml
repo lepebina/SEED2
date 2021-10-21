@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <diff-given-when-keywords-usage-aggregate>14</diff-given-when-keywords-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <diff-given-when-keywords-usage-aggregate>25</diff-given-when-keywords-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <diff-given-when-then-keywords-usage-aggregate>18</diff-given-when-then-keywords-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <diff-given-when-then-keywords-usage-aggregate>27</diff-given-when-then-keywords-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <diff-given-when-then-keywords-usage-aggregate>9</diff-given-when-then-keywords-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <diff-given-when-then-keywords-usage-aggregate>27</diff-given-when-then-keywords-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <diff-given-when-keywords-usage-aggregate>16</diff-given-when-keywords-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <diff-given-when-keywords-usage-aggregate>26</diff-given-when-keywords-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <diff-given-when-then-keywords-usage-aggregate>18</diff-given-when-then-keywords-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <diff-given-when-then-keywords-usage-aggregate>30</diff-given-when-then-keywords-usage-aggregate>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <diff-given-when-then-keywords-usage-aggregate>9</diff-given-when-then-keywords-usage-aggregate>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <diff-given-when-then-keywords-usage-aggregate>30</diff-given-when-then-keywords-usage-aggregate>
+   </suggestion>
+</suggestions>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Add child user using sps child Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Use SPS child Service to add child user-10"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add child user using sps child Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Additional of child user through SPS service-8"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.          In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add grade class size using sps GradeClassSize Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Use spsGradeClassSize Service to add grade class-10"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Using SPS GradeClassSize to increase grade class size-8"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <abstraction-distance>0.714285714285714286</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Add grade class size using sps GradeClassSize Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile. In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Get all schools by zipcode from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Using lookup services to get all schools by zipcode-7-1"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Get all schools by zipcode from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Using zip code to search all schools which are looking for the services-6-1."/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Get all teachers of a school from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="All school teachers querying service-7-2"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Capture payment from the payment Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Grasp payment from the payment Services-10"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Tracking payment-8"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.714285714285714286</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Capture payment from the payment Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add credit card from the subscription service-5"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.714285714285714286</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="The process of adding credit card from the subscription Services-7"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Payment services Credit card option"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="changing US domestic school to international school using sps school edit services-5"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>2.714285714285714286</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="The use of sps edit to change available US domestic school to available international school-7"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Alter school information using school profile in the main page-6"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Change existing US domestic school to home School using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Replace current US domestic school to home School utilizing sps edit school services-10"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Renaming existing Domestic school to home school using SPS school services editor-8"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.714285714285714286</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Change existing US domestic school to home School using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or  send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.          In order to Validate the End to End Testing of edit user's school information."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Upgrade consumer profile to teacher using sps user service-5"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Upgrade of  consumer user profile to teacher user profile using sps user services-7"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="Update user information using user's profile page-6"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,          In order to Validate End to End Testing of SPS User Profile."/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="retrieve number of cards in a wallet and their info using sps wallet services-5"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>2.714285714285714286</abstraction-distance>
+      <and/>
+      <keep-scenario-with title="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="The task to Get the number of cards in wallet and its Info using sps wallet services-7"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+      <scenarios-count>35</scenarios-count>
+      <all-steps-count>115</all-steps-count>
+      <average-step-count>3.285714285714285714</average-step-count>
+      <scenario1-step-count>3</scenario1-step-count>
+      <scenario2-step-count>3</scenario2-step-count>
+      <or/>
+      <delete-scenario-with title="User cards details-6"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.285714285714285714</abstraction-distance>
+   </suggestion>
+</suggestions>

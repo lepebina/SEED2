@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com com softbox</keywords>
+      <or/>
+      <delete-scenario-with title="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com com softbox</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>1</keyword-count>
+      <keywords>com</keywords>
+      <or/>
+      <delete-scenario-with title="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>1</keyword-count>
+      <keywords>com</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>1</keyword-count>
+      <keywords>com</keywords>
+      <or/>
+      <delete-scenario-with title="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>1</keyword-count>
+      <keywords>com</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com social social</keywords>
+      <or/>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com social social</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com social social</keywords>
+      <or/>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com social social</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com social social</keywords>
+      <or/>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>3</keyword-count>
+      <keywords>com social social</keywords>
+   </suggestion>
+</suggestions>

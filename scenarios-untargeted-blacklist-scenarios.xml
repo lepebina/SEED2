@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+  <scenario feature="Blacklist test cases" title="Blacklisted with no profile customer sends mo with anything to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567890" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567890</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "anything" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>anyth</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Blacklist test cases" title="Blacklisted with no profile customer sends mo with YES to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567891" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567891</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has no subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Blacklist test cases" title="Blacklisted with no profile customer sends mo with SCORE keyword to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567892" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567892</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "SCORE" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>score</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has no subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Blacklist test cases" title="Blacklisted with profile customer sends mo with anything to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567896" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567896</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "anything" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>anyth</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the following texts/response types from free short code ordered by event time:</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>follow</keyword>
+        <keyword>text</keyword>
+        <keyword>respons</keyword>
+        <keyword>type</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>order</keyword>
+        <keyword>event</keyword>
+        <keyword>time</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Blacklist test cases" title="Blacklisted with profile customer sends mo with YES to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567897" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567897</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Blacklist test cases" title="Blacklisted with profile customer sends mo with SCORE keyword to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567898" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567898</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "SCORE" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>score</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Blacklist test cases" title="Blacklisted with  profile customer sends mo with HELP keyword to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567899" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567899</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "HELP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>help</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Blacklist test cases" title="Blacklisted with  profile customer sends mo with OPTOUT keyword to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567199" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567199</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "STOP" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>stop</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Blacklist test cases" title="Blacklisted with  profile customer sends mo with 1/2/3 keyword to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355004567399" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355004567399</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User is blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    <step> User sends sms with input "2" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>2</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User has subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "BLACKLISTED" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    <step> User receives the "BLACKLISTED" reply from free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>repli</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User receives the "text_key_blacklisted" text from free short code for "BLACKLISTED" reply</step>
+      <step-keywords>
+        <keyword>text</keyword>
+        <keyword>blacklist</keyword>
+        <keyword>user</keyword>
+        <keyword>receiv</keyword>
+        <keyword>kei</keyword>
+        <keyword>from</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>repli</keyword>
+      </step-keywords>
+    <step> User does not get charged for the sms</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>get</keyword>
+        <keyword>charg</keyword>
+        <keyword>sm</keyword>
+      </step-keywords>
+    <step> User is not blacklisted</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>blacklist</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+</scenarios>

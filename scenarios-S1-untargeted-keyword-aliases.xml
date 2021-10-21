@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+  <scenario feature="Keywords aliases test cases" title="Subscribed user sends mo with CANCEL to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006750004" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006750004</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User sends sms with input "CANCEL" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>cancel</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is unsubscribed in subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>unsubscrib</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "UNSUBSCRIBE" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>unsubscrib</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Keywords aliases test cases" title="Subscribed user sends mo with OFF to free short code">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2017 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2017</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> User has "355006760004" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355006760004</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> User sends sms with input "OFF" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>off</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> User is unsubscribed in subscription profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>unsubscrib</keyword>
+        <keyword>subscript</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Sms is being processed by the "UNSUBSCRIBE" request</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>be</keyword>
+        <keyword>process</keyword>
+        <keyword>unsubscrib</keyword>
+        <keyword>request</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+</scenarios>

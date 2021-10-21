@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-9"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user help send user get user user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user subscription user request free user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user subscription user request free user free key text user get user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted user with no profile should not be charged for sending HELP message-4"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>28</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free user user msisdn free help text user user subscription user request free text user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>25</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user request free user free key text user get user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user subscription user request free user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user subscription user request free user free key text user get user user</keywords>
+      <or/>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user request free user free key message text user get message user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn free help message service text subscription message request text key text message text</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user subscription user request free user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn free help message service text subscription message request text key message text text</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user subscription user request free user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user subscription user request free user free key text user get user user</keywords>
+      <or/>
+      <delete-scenario-with title="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user help user user subscription user request free user free key text user charge user blacklist user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>25</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free user user request free user free key text user get text user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>26</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free user user subscription user request free user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>24</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free user user request free user free key text user get user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>26</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free user user subscription user request free user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn free message service subscription free message request service text free key message text</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>26</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free user user subscription user request free user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code-9"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>15</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user register user yes get user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>28</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user telekomcampaign free user yes user launch pre request free launch pre user free key launch pre text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>28</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user telekomcampaign free user yes user launch pre request free launch pre user free key launch pre text user</keywords>
+      <or/>
+      <delete-scenario-with title="Send pre_launch_text_key reply when a non-user sends the PRE-LAUNCH text-4"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>28</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user telekomcampaign free user yes user launch pre request free launch pre user free key launch pre text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>28</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user telekomcampaign free user yes user launch pre request free launch pre user free key launch pre text user</keywords>
+      <and/>
+      <keep-scenario-with title="Creating requested profile for the user-3"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>30</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user end start telekomcampaign user yes user launch pre process request launch pre send user key launch pre send text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-9"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn use user user user get user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user charge event personalitysubscription subscription get user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user charge event personalitysubscription subscription get user</keywords>
+      <or/>
+      <delete-scenario-with title="Do not charge subscribed user for the teaser-4-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free user user msisdn user charge event personalitysubscription subscription get user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user charge event personalitysubscription subscription get user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user charge event personalitysubscription subscription get service user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>12</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn already free subscribe free</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user charge event personalitysubscription subscription get user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user charge event personalitysubscription subscription get user</keywords>
+      <or/>
+      <delete-scenario-with title="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user charge event personalitysubscription subscription charge user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>16</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free free messages already charge event personalitysubscription content get subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>24</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user free message personalitysubscription subscription welcome user user charge event personalitysubscription subscription content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>24</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user free message personalitysubscription subscription welcome user user charge event personalitysubscription subscription content receive subscription user</keywords>
+      <or/>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>24</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user free message personalitysubscription shortcode subscription user user charge event personalitysubscription subscription content get subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free free messages subscription text charge event subscription content get subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>24</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user free message personalitysubscription subscription welcome user user charge event personalitysubscription subscription content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>23</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user free personalitysubscription shortcode subscription user user charge event personalitysubscription subscription content get subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>24</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user free message personalitysubscription subscription welcome user user charge event personalitysubscription subscription content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes user content receive subscription user</keywords>
+      <or/>
+      <delete-scenario-with title="User with no profile does not receives free content teaser-9"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user text user user content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user yes create user content subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes user content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes user content receive subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>19</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free text user yes user content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+      <keyword-count>21</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn free help message service text subscription message request text key text message text</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code"/>
+      <in feature="FP"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user user free help user user subscription user request free user free key text user get user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends mo with SCORE to free short code-9-5"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free score text user user response subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends mo with SCORE to free short code-keywords"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>28</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free score user user invalid request free response service subscription user free invalid response service subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>27</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn free message score text invalid message request text free response service subscription free invalid message response service subscription text</keywords>
+      <and/>
+      <keep-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>29</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free score text user user invalid request free response service subscription user free invalid response service subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>29</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free score text user user invalid request free response service subscription user free invalid response service subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Invalid subscription-3"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>34</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user score user create user invalid request free response service subscription response service subscription user free invalid response service subscription text invalid subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>32</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes free help user user help request subscription free response service subscription user free help response service subscription text user</keywords>
+      <or/>
+      <delete-scenario-with title="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>32</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes free help user user help request subscription free response service subscription user free help message response service subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>32</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes free score user user request score subscription free response service subscription user free response score service subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>36</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free message text user yes free message score text user user score service subscription free response service subscription user free response score service subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>32</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes free score user user request score subscription free response service subscription user free response score service subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with value 1  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>33</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free text user yes free score user user request score subscription free response service subscription user free message response score service subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Request of subscription information by a subscribed user.-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>22</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user yes user help request subscription help message response service subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>31</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes free user user help request subscription free response service subscription user free help response service subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A subscribed user sends a free short code messages-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user yes user unsubscribed user request response unsubscribed</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes free user user subscription unsubscribed user request unsubscribe</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Free short code messages is sent by a subscribed user-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>13</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user yes user message request</keywords>
+      <and/>
+      <keep-scenario-with title="A Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user yes free user user request</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile sends an sms for unsubscription-15"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>23</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user subscription unsubscribed user request unsubscribe already response service subscription unsubscribed user charge user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile customer sends optout keyword with active subscription-target-output"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>33</keyword-count>
+      <keywords>telekomcampaign free message personalitysubscription subscription welcome free msisdn user user free user user subscription unsubscribed user request unsubscribe free response service subscription user already free response service subscription text unsubscribed user get user</keywords>
+   </suggestion>
+</suggestions>

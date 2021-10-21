@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-9"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>39</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input send sms user get user no user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted user with no profile should not be charged for sending HELP message-4"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>53</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms user no profile user 355004567893 msisdn help short sms text user profile user no subscription user request sms reply short text user key reply short text user get sms user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>50</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user request sms reply short user key reply short text user get sms user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>52</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user request sms reply short user key message reply short text user get message sent user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>46</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567892 id msisdn profile help message service text word profile system profile subscription message received request someone text reply key text message text list</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>57</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567892 id msisdn sophie profile sophie sophie help message service sophie text word profile sophie system profile sophie subscription message received request someone sophie text reply sophie key message sophie text sent sophie text sophie</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+      <and/>
+      <keep-scenario-with title="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>56</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input received sms user profile set user no profile subscription user request sms reply sent short user key received reply short text user sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>51</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567894 msisdn user no profile user user input short sms stop user profile user request sms reply short user key reply short text user get sent text user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567894 msisdn user no profile user user input short sms stop user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>50</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567892 msisdn user no profile user user input short sms user profile user request sms reply short user key reply short text user get input sent user user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>53</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567892 msisdn user no profile user user input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>53</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567892 msisdn user no profile user user input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+      <or/>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>53</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567892 id msisdn nick nick profile yet nick message nick number service nick profile nick profile subscription message nick request service someone text nick reply key message nick text nick nick</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code-9"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355001111110 msisdn user user 10 11 2016 2017 telekomcamapign register sms user yes get user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355001111110 msisdn user no profile user 10 11 15 2026 2027 22 23 langcode sq input short sms user yes profile user launch pre request sms launch pre reply short user key launch pre reply short text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send pre_launch_text_key reply when a non-user sends the PRE-LAUNCH text-4"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355001111110 msisdn user no system user 10 11 15 2026 2027 22 23 langcode sq short sms user value yes user launch pre request sms launch pre reply short user key launch pre reply short text user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355001111110 msisdn user no profile user 10 11 15 2026 2027 22 23 langcode sq input short sms user yes profile user launch pre request sms launch pre reply short user key launch pre reply short text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355001111110 msisdn user no profile user 10 11 15 2026 2027 22 23 langcode sq input short sms user yes profile user launch pre request sms launch pre reply short user key launch pre reply short text user</keywords>
+      <and/>
+      <keep-scenario-with title="Creating requested profile for the user-3"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>64</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355001111110 msisdn user no profile user 10 11 15 2026 2027 22 23 langcode sq start input received sms user yes profile set user launch pre process request sms launch pre reply send user key launch pre reply send short text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-9"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn use no profile user user personaltysubcription user get teaser user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>40</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn user no profile user user 0.5 personalitysubscription point status subscription get teaser user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>40</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn user no profile user user 0.5 personalitysubscription point status subscription get teaser user</keywords>
+      <or/>
+      <delete-scenario-with title="Do not charge subscribed user for the teaser-4-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>40</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms no profile user user 355006718008 msisdn user 0.5 personalitysubscription point status subscription get teaser user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>40</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn user no profile user user 0.5 personalitysubscription point status subscription get teaser user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>41</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn user no user userinfo member user 0.5 personalitysubscription point status subscription get service user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>36</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn no profile scheme subscribe wants week phone scheme week</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>40</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn user no profile user user 0.5 personalitysubscription point status subscription get teaser user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>39</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn user no profile user user 0.5 personalitysubscription point status subscription teaser user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>40</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718008 msisdn user no profile user user 0.5 personalitysubscription point status subscription get teaser user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>52</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718001 msisdn user 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome refresh cache no profile user user 0.5 personalitysubscription point status subscription receive subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>53</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718001 mark msidn 2020 mark messages new personality scheme subscripion week without someone system cache mark profile mark 0.5 mark personalitysubscription point scheme status get mark subscription summary</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>51</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718001 msisdn user 00 01 2015 2020 id invitation message personalitysubscription shortcode subscription update refresh cache no profile user user 0.5 personalitysubscription subscription get subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>52</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718001 msisdn user 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome refresh cache no profile user user 0.5 personalitysubscription point status subscription receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>52</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718002 msisdn user 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome refresh cache no profile user user 0.5 personalitysubscription point status subscription receive subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718002 mary msidn telecom 1st 2020 january mary messages no personality scheme subscription text valid week someone system cache mary profile mary 0.5 mary personality point scheme status subscription get mary new scheme subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>48</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718002 msisdn user 00 01 2015 2020 greeting id note personalitysubscription shortcode subscription no user user 0.5 group personalitysubscription subscription get subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>52</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 55577 short sms 355006718002 msisdn user 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome refresh cache no profile user user 0.5 personalitysubscription point status subscription receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>44</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome 55577 short sms refresh cache 355123123000 msisdn user no profile user 26 time input short sms user yes teaser profile user time receive subscription user</keywords>
+      <or/>
+      <delete-scenario-with title="User with no profile does not receives free content teaser-9"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>44</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome 55577 short sms refresh cache 355123123000 msisdn user no profile user 26 time user sms teaser text user profile user time update receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>44</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome 55577 short sms refresh cache 355123123000 msisdn user no profile user 26 time input short sms user yes teaser profile user time receive subscription user</keywords>
+      <or/>
+      <delete-scenario-with title="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>44</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome 55577 short sms refresh cache 355123123000 msisdn user no profile user 26 time input sent sms user yes teaser profile user time received subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>42</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome 55577 short sms refresh cache 355123123000 msisdn user no user 26 time short sms text user yes teaser user time receive subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>44</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome 55577 short sms refresh cache 355123123000 msisdn user no profile user 26 time input short sms user yes teaser profile user time receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+      <keyword-count>46</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567892 id msisdn profile help message service text word profile system profile subscription message received request someone text reply key text message text list</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code"/>
+      <in feature="FP"/>
+      <keyword-count>54</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567893 msisdn user no profile user user help input short sms user profile user no profile subscription user request sms reply short user key reply short text user get sms user user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends mo with SCORE to free short code-9-5"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms msisdn user no profile user score short sms text user profile user response subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends mo with SCORE to free short code-keywords"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>52</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710002 msisdn user no profile user input score short sms user profile user invalid request sms reply response service short subscription user invalid reply response service short subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>50</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710002 msisdn no profile yet message score short text word profile invalid message request text reply response service short subscription invalid message reply response service short subscription text</keywords>
+      <and/>
+      <keep-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>51</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710002 msisdn user no user score short text user words profile user invalid request sms reply response service short subscription user invalid reply response service short subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>51</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710002 msisdn user no user score short text user words profile user invalid request sms reply response service short subscription user invalid reply response service short subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Invalid subscription-3"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710002 msisdn user no profile user input score sent sms user profile user invalid request sms reply response service short subscription received reply response service subscription user invalid reply response service short subscription text invalid subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>58</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710003 msisdn user no profile user input short sms user yes help input short sms user profile user help request sms subscription reply response service short subscription user help reply response service short subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710003 msisdn user no profile user input short submit user yes help input short submit user profile user generate help request sms subscription respond response service short subscription user help message reply response service short subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>58</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710004 msisdn user no profile user input short sms user yes input score short sms user profile user request score sms subscription reply response service short subscription user reply response score service short subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710004 id msisdn user profile user input message short text user word yes message score short text user profile user score service sms subscription reply response service short subscription user reply response score service short subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with value 1  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>57</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710004 msisdn user no profile user input short text user yes input score short user value profile user request score sms subscription response service short subscription user message reply response score service short subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>58</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710004 msisdn user no profile user input short sms user yes input score short sms user profile user request score sms subscription reply response service short subscription user reply response score service short subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Request of subscription information by a subscribed user.-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>48</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710023 msisdn no profile user sent sms user yes info sent sms user profile help request subscription help message received response service subscription subscrition text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>58</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006710023 msisdn user no profile user input short sms user yes info input short sms user profile user help request sms subscription reply response service short subscription user help reply response service short subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A subscribed user sends a free short code messages-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>44</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006740004 identification msisdn no profile user sent sms user yes quit sms user profile profile unsubscribed user request response sent sms unsubscribed</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>47</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006740004 msisdn user no profile user input short sms user yes input quit short sms user profile user profile subscription unsubscribed user request sms unsubscribe</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Free short code messages is sent by a subscribed user-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006770004 identification msisdn unprofiled user sent sms yes sent sms profile user message request sent</keywords>
+      <and/>
+      <keep-scenario-with title="A Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>41</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2017 id message personalitysubscription shorcode subscription welcome 55577 short sms 355006770004 msisdn user no profile user input short sms user yes input short sms user profile user request sms</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile sends an sms for unsubscription-15"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>47</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567821 msisdn no profile user sent sms stop user profile subscription unsubscribed user request sms unsubscribe received reply response service subscription unsubscribed user no user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile customer sends optout keyword with active subscription-target-output"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>10 11 15 2015 2027 22 23 langcode sq 00 01 2015 2020 id message personalitysubscription shorcode subscription welcome 55577 short sms 355004567821 msisdn user no profile user input short sms stop user profile user profile subscription unsubscribed user request sms unsubscribe reply response service short subscription user reply response service short subscription text unsubscribed user get sms user</keywords>
+   </suggestion>
+</suggestions>

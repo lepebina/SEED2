@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<duplicates>
+   <duplicate>
+      <hit scenario="Add child user using sps child Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.
+         In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <is-duplicate-of/>
+      <hitd scenario="Use SPS child Service to add child user-10"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.
+         In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Add child user using sps child Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.
+         In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+      <is-duplicate-of/>
+      <hitd scenario="Additional of child user through SPS service-8"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.
+         In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Add grade class size using sps GradeClassSize Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile.
+In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <is-duplicate-of/>
+      <hitd scenario="Use spsGradeClassSize Service to add grade class-10"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile.
+In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Add grade class size using sps GradeClassSize Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile.
+In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+      <is-duplicate-of/>
+      <hitd scenario="Using SPS GradeClassSize to increase grade class size-8"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile.
+In order to Validate the End to End Testing of Create Complete Teacher Profile."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Get all schools by zipcode from the lookup Services"/>
+      <in feature=" As a SPS User I want to verify all the lookup services."/>
+      <is-duplicate-of/>
+      <hitd scenario="Using lookup services to get all schools by zipcode-7-1"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Get all schools by zipcode from the lookup Services"/>
+      <in feature=" As a SPS User I want to verify all the lookup services."/>
+      <is-duplicate-of/>
+      <hitd scenario="Using zip code to search all schools which are looking for the services-6-1."/>
+      <in feature=" As a SPS User I want to verify all the lookup services."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Get all teachers of a school from the lookup Services"/>
+      <in feature=" As a SPS User I want to verify all the lookup services."/>
+      <is-duplicate-of/>
+      <hitd scenario="All school teachers querying service-7-2"/>
+      <in feature=" As a SPS User I want to verify all the lookup services."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Capture payment from the payment Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <is-duplicate-of/>
+      <hitd scenario="Grasp payment from the payment Services-10"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Capture payment from the payment Services"/>
+      <in feature=" As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <is-duplicate-of/>
+      <hitd scenario="Tracking payment-8"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Add credit card from the subscription Services"/>
+      <in feature=" As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <is-duplicate-of/>
+      <hitd scenario="Add credit card from the subscription service-5"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Add credit card from the subscription Services"/>
+      <in feature=" As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <is-duplicate-of/>
+      <hitd scenario="The process of adding credit card from the subscription Services-7"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Add credit card from the subscription Services"/>
+      <in feature=" As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <is-duplicate-of/>
+      <hitd scenario="Payment services Credit card option"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+      <is-duplicate-of/>
+      <hitd scenario="changing US domestic school to international school using sps school edit services-5"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+      <is-duplicate-of/>
+      <hitd scenario="The use of sps edit to change available US domestic school to available international school-7"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+      <is-duplicate-of/>
+      <hitd scenario="Alter school information using school profile in the main page-6"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Change existing US domestic school to home School using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+      <is-duplicate-of/>
+      <hitd scenario="Replace current US domestic school to home School utilizing sps edit school services-10"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Change existing US domestic school to home School using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+      <is-duplicate-of/>
+      <hitd scenario="Renaming existing Domestic school to home school using SPS school services editor-8"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or 
+send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.
+         In order to Validate the End to End Testing of edit user's school information."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,
+         In order to Validate End to End Testing of SPS User Profile."/>
+      <is-duplicate-of/>
+      <hitd scenario="Upgrade consumer profile to teacher using sps user service-5"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,
+         In order to Validate End to End Testing of SPS User Profile."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,
+         In order to Validate End to End Testing of SPS User Profile."/>
+      <is-duplicate-of/>
+      <hitd scenario="Upgrade of  consumer user profile to teacher user profile using sps user services-7"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,
+         In order to Validate End to End Testing of SPS User Profile."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,
+         In order to Validate End to End Testing of SPS User Profile."/>
+      <is-duplicate-of/>
+      <hitd scenario="Update user information using user's profile page-6"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,
+         In order to Validate End to End Testing of SPS User Profile."/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <is-duplicate-of/>
+      <hitd scenario="retrieve number of cards in a wallet and their info using sps wallet services-5"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <is-duplicate-of/>
+      <hitd scenario="The task to Get the number of cards in wallet and its Info using sps wallet services-7"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+   </duplicate>
+   <duplicate>
+      <hit scenario="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <is-duplicate-of/>
+      <hitd scenario="User cards details-6"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+   </duplicate>   
+ </duplicates>
+

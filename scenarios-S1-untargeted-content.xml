@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+  <scenario feature="Content teaser test cases" title="User with profile receives free content teaser">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355123123000" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355123123000</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "-26"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>026</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "0"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Content teaser test cases" title="User with profile receives billed content teaser">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355123123000" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355123123000</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "-192"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0192</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> Freeing teaser "4" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>4</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "0"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Content teaser test cases" title="User with no profile does not receives billed content teaser">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355123123000" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355123123000</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "-192"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0192</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> Freeing teaser "4" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>4</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "0"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0</keyword>
+      </step-keywords>
+    <step> User does not receive subscription content</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>content</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Content teaser test cases" title="User with no profile does not receives billed content teaser in free period">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355123123000" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355123123000</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "-192"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0192</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "0"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0</keyword>
+      </step-keywords>
+    <step> User does not receive subscription content</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>doe</keyword>
+        <keyword>receiv</keyword>
+        <keyword>subscript</keyword>
+        <keyword>content</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+<scenario feature="Content teaser test cases" title="User with profile receives correct content regarding the subscription day">
+    <Given>
+      <step> Edit campaign "TelekomCampaign" begin on "10/10/2015 22:23:15" and ends on "10/11/2027 22:23:15" with langCode "sq"</step>
+      <step-keywords>
+        <keyword>10</keyword>
+        <keyword>22</keyword>
+        <keyword>23</keyword>
+        <keyword>15</keyword>
+        <keyword>edit</keyword>
+        <keyword>campaign</keyword>
+        <keyword>telekomcampaign</keyword>
+        <keyword>begin</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>11</keyword>
+        <keyword>2027</keyword>
+        <keyword>langcod</keyword>
+        <keyword>sq</keyword>
+      </step-keywords>
+      <step> Edit subscription "PersonalitySubscription" with id "PersonalitySubscription" starts on "01/01/2015 00:00:00" and ends on "01/01/2020 00:00:00" with "7" free days and welcome message from free shorcode</step>
+      <step-keywords>
+        <keyword>00</keyword>
+        <keyword>01</keyword>
+        <keyword>personalitysubscript</keyword>
+        <keyword>free</keyword>
+        <keyword>edit</keyword>
+        <keyword>subscript</keyword>
+        <keyword>id</keyword>
+        <keyword>start</keyword>
+        <keyword>2015</keyword>
+        <keyword>end</keyword>
+        <keyword>2020</keyword>
+        <keyword>7</keyword>
+        <keyword>dai</keyword>
+        <keyword>welcom</keyword>
+        <keyword>messag</keyword>
+        <keyword>from</keyword>
+        <keyword>shorcod</keyword>
+      </step-keywords>
+      <step> Sms free short code is "55577"</step>
+      <step-keywords>
+        <keyword>sm</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+        <keyword>55577</keyword>
+      </step-keywords>
+      <step> Refresh cache</step>
+      <step-keywords>
+        <keyword>refresh</keyword>
+        <keyword>cach</keyword>
+      </step-keywords>
+      <step> User has "355123123000" msisdn</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>355123123000</keyword>
+        <keyword>msisdn</keyword>
+      </step-keywords>
+    <step> User has no profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "-192"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0192</keyword>
+      </step-keywords>
+    </Given>
+  <When>
+      <step> User sends sms with input "YES" to free short code</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>send</keyword>
+        <keyword>sm</keyword>
+        <keyword>input</keyword>
+        <keyword>ye</keyword>
+        <keyword>free</keyword>
+        <keyword>short</keyword>
+        <keyword>code</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    <step> Freeing teaser "5" is triggered</step>
+      <step-keywords>
+        <keyword>free</keyword>
+        <keyword>teaser</keyword>
+        <keyword>5</keyword>
+        <keyword>trigger</keyword>
+      </step-keywords>
+    </When>
+  <Then>
+      <step> User has profile</step>
+      <step-keywords>
+        <keyword>user</keyword>
+        <keyword>ha</keyword>
+        <keyword>profil</keyword>
+      </step-keywords>
+    <step> Current time is "-168"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0168</keyword>
+      </step-keywords>
+    <step> Current time is "-144"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0144</keyword>
+      </step-keywords>
+    <step> Current time is "-120"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0120</keyword>
+      </step-keywords>
+    <step> Current time is "-96"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>096</keyword>
+      </step-keywords>
+    <step> Current time is "-72"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>072</keyword>
+      </step-keywords>
+    <step> Current time is "-48"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>048</keyword>
+      </step-keywords>
+    <step> Current time is "-24"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>024</keyword>
+      </step-keywords>
+    <step> Current time is "0"</step>
+      <step-keywords>
+        <keyword>current</keyword>
+        <keyword>time</keyword>
+        <keyword>0</keyword>
+      </step-keywords>
+    </Then>
+  </scenario>
+</scenarios>

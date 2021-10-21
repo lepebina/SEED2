@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with scenario="Add child user using sps child Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile."/>
+      <abstraction-distance>0.829201101928374655</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Use SPS child Service to add child user-10"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile."/>
+      <abstraction-distance>0.495867768595041322</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Add child user using sps child Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile."/>
+      <abstraction-distance>0.829201101928374655</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>3.333333333333333333</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>3.333333333333333333</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Additional of child user through SPS service-8"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile."/>
+      <abstraction-distance>0.829201101928374655</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Add grade class size using sps GradeClassSize Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile."/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>2</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>2</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Use spsGradeClassSize Service to add grade class-10"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile."/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Using SPS GradeClassSize to increase grade class size-8"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile."/>
+      <abstraction-distance>1.004132231404958678</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Add grade class size using sps GradeClassSize Service"/>
+      <in feature="As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile."/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Get all schools by zipcode from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>2.170798898071625345</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>0.333333333333333333</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>0.333333333333333333</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Using lookup services to get all schools by zipcode-7-1"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>2.170798898071625345</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Get all schools by zipcode from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>2.170798898071625345</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>0.333333333333333333</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>0.333333333333333333</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Using zip code to search all schools which are looking for the services-6-1."/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>2.170798898071625345</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Get all teachers of a school from the lookup Services"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>2.170798898071625345</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>0.333333333333333333</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>0.333333333333333333</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="All school teachers querying service-7-2"/>
+      <in feature="As a SPS User I want to verify all the lookup services."/>
+      <abstraction-distance>2.170798898071625345</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Capture payment from the payment Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>1.837465564738292011</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>0.666666666666666667</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>0.666666666666666667</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Grasp payment from the payment Services-10"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>1.837465564738292011</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Tracking payment-8"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>2.004132231404958678</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Capture payment from the payment Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>1.837465564738292011</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Add credit card from the subscription service-5"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>2.004132231404958678</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>1.837465564738292011</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>1.837465564738292011</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>0.666666666666666667</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>0.666666666666666667</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="The process of adding credit card from the subscription Services-7"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>1.837465564738292011</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Add credit card from the subscription Services"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>1.837465564738292011</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>0.666666666666666667</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>0.666666666666666667</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Payment services Credit card option"/>
+      <in feature="As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments."/>
+      <abstraction-distance>1.837465564738292011</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="changing US domestic school to international school using sps school edit services-5"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>1.170798898071625345</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.162534435261707989</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.162534435261707989</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>2.666666666666666667</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>2.666666666666666667</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="The use of sps edit to change available US domestic school to available international school-7"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.162534435261707989</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Change existing US domestic school to existing international school using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.162534435261707989</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>2.666666666666666667</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>2.666666666666666667</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Alter school information using school profile in the main page-6"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.162534435261707989</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Change existing US domestic school to home School using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.829201101928374655</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>3.333333333333333333</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>3.333333333333333333</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Replace current US domestic school to home School utilizing sps edit school services-10"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.829201101928374655</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Change existing US domestic school to home School using sps edit school services"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.829201101928374655</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Renaming existing Domestic school to home school using SPS school services editor-8"/>
+      <in feature="As QA Engineer I want to change user's existing school to existing International School, Home school, Manual School or"/>
+      <abstraction-distance>0.004132231404958678</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>2</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>2</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Upgrade consumer profile to teacher using sps user service-5"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Upgrade of  consumer user profile to teacher user profile using sps user services-7"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,"/>
+      <abstraction-distance>1.170798898071625345</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Upgrade consumer profile to teacher using sps user services"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>2</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>2</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="Update user information using user's profile page-6"/>
+      <in feature="As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="retrieve number of cards in a wallet and their info using sps wallet services-5"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>1.504132231404958678</abstraction-distance>
+      <and/>
+      <keep-scenario-with scenario="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>2</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>2</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="The task to Get the number of cards in wallet and its Info using sps wallet services-7"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with scenario="Get the number of cards in wallet and its Info using sps wallet services"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+      <all-glue-statements-count>303</all-glue-statements-count>
+      <average-statements-per-step>2.504132231404958678</average-statements-per-step>
+      <scenario1-avg-glue-statements-per-step>2</scenario1-avg-glue-statements-per-step>
+      <scenario2-avg-glue-statements-per-step>2</scenario2-avg-glue-statements-per-step>
+      <or/>
+      <delete-scenario-with scenario="User cards details-6"/>
+      <in feature="As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet"/>
+      <abstraction-distance>0.504132231404958678</abstraction-distance>
+   </suggestion>
+</suggestions>

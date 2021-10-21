@@ -1,0 +1,100 @@
+package uk.ac.manchester.cs.img.seed.test.tracing;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+
+public class WriteXmlTraceToFile {
+
+    public void writeToXml(String method,String executedClass,String callObj, String prms, String mtdReturnValue,String scenario, String feature){
+
+		DocumentBuilderFactory icFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder icBuilder;
+		FileInputStream fin;
+		try {
+			icBuilder = icFactory.newDocumentBuilder();
+			Document doc = icBuilder.newDocument();
+			Element mainRootElement;
+			/*read the existing xml file.
+			 * If it is empty,create root element and initial contents.
+			 * Otherwise read root element and update it with new nodes
+			 */
+			// check if results.xml exists.If not, create it
+			File f=new File("trace.xml");
+			if(!f.exists()){
+				f.createNewFile();
+			}
+
+			fin=new FileInputStream("trace.xml");
+			if(fin.read()==-1){
+				mainRootElement = doc.createElement("traces");
+				doc.appendChild(mainRootElement);
+
+
+				// append child elements to root element
+
+				mainRootElement.appendChild(getTrace(doc, method,executedClass,callObj,prms,mtdReturnValue,scenario,feature));
+
+
+				// output DOM XML to console
+				Transformer transformer = TransformerFactory.newInstance().newTransformer();
+				transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+				DOMSource source = new DOMSource(doc);
+				//StreamResult console = new StreamResult(System.out);
+				StreamResult file = new StreamResult("trace.xml");
+				transformer.transform(source, file);
+
+				System.out.println("\nXML DOM Created Successfully..");
+			}else{
+				doc=icBuilder.parse(new File("trace.xml"));
+				mainRootElement=doc.getDocumentElement();
+				mainRootElement.appendChild(getTrace(doc, method,executedClass,callObj,prms,mtdReturnValue,scenario,feature));
+
+				// output DOM XML to console
+				Transformer transformer = TransformerFactory.newInstance().newTransformer();
+				transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+				DOMSource source = new DOMSource(doc);
+				//StreamResult console = new StreamResult(System.out);
+				StreamResult file = new StreamResult("trace.xml");
+				transformer.transform(source, file);
+
+				System.out.println("\nXML DOM Created Successfully..");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+
+
+	public static Node getTrace(Document doc, String executedMethod, String execClass, String rvcObj,String paramValues, String returnValue, String executedScenario, String executedFeature) {
+		Element traceElement = doc.createElement("trace");
+		traceElement.setAttribute("scenario", executedScenario);
+		traceElement.setAttribute("feature", executedFeature);
+		traceElement.appendChild(getTraceElements(doc, traceElement, "class", execClass));
+		traceElement.appendChild(getTraceElements(doc, traceElement, "object", rvcObj));
+		traceElement.appendChild(getTraceElements(doc, traceElement, "method", executedMethod));
+		traceElement.appendChild(getTraceElements(doc, traceElement, "args", paramValues)); 
+		traceElement.appendChild(getTraceElements(doc,traceElement, "returned", returnValue));        
+		return traceElement;
+	}
+
+	// utility method to create text node
+	public static Node getTraceElements(Document doc, Element element, String name, String value) {
+		Element node = doc.createElement(name);
+		node.appendChild(doc.createTextNode(value));
+		return node;
+	}
+
+}

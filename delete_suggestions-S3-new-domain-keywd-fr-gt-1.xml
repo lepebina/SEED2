@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF) - For checking confirmation e-mail (not a random email)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>22</keyword-count>
+      <keywords>br com netshoes com name ns softbox user change name netshoes change netshoes password address shipping address cart product sb shipping shipping</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (account registration)-29"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>23</keyword-count>
+      <keywords>br com netshoes account com email name ns softbox account name netshoes address shipping account netshoes password address choose shipping product sb shipping</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)-27"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>16</keyword-count>
+      <keywords>address br com netshoes name change name netshoes address shipping address cart product sb ship shipping</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>18</keyword-count>
+      <keywords>br com netshoes name user change name change netshoes password address shipping address cart product sb shipping shipping</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Fisica (PF)-24"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>17</keyword-count>
+      <keywords>br com netshoes site account name name account netshoes password sign address shipping address sb use shipping</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Fisica (PF)"/>
+      <in feature="Manages Pessoa Fisica"/>
+      <keyword-count>18</keyword-count>
+      <keywords>br com netshoes name user change name change netshoes password address shipping address cart product sb shipping shipping</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-29"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>13</keyword-count>
+      <keywords>br com netshoes company social shipping social address cart pj product shipping pj</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>19</keyword-count>
+      <keywords>br com netshoes company social change social change company netshoes password shipping address cart pj product shipping pj shipping</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>19</keyword-count>
+      <keywords>br com netshoes company social change social change company netshoes password shipping address cart pj product shipping pj shipping</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)-27"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>20</keyword-count>
+      <keywords>address br com netshoes social change social change company netshoes password address shipping address cart pj product ship pj shipping</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Pessoa Juridica (PJ)-24"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>18</keyword-count>
+      <keywords>br com netshoes site social modify number social company netshoes sign shipping address cart pj pj use shipping</keywords>
+      <and/>
+      <keep-scenario-with title="Pessoa Juridica (PJ)"/>
+      <in feature="Manages Pessoa Juridica"/>
+      <keyword-count>19</keyword-count>
+      <keywords>br com netshoes company social change social change company netshoes password shipping address cart pj product shipping pj shipping</keywords>
+   </suggestion>
+</suggestions>

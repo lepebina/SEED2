@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-9"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free help send get</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free free help subscription free reply free key reply text get</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free free help subscription free reply free key reply text get</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted user with no profile should not be charged for sending HELP message-4"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>16</keyword-count>
+      <keywords>free message subscription free free help text subscription free reply text free key reply text get</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>13</keyword-count>
+      <keywords>free message subscription free free help free reply free key reply text get</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free free help subscription free reply free key reply text get</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free free help subscription free reply free key reply text get</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>15</keyword-count>
+      <keywords>free message subscription free free help free reply free key message reply text get message</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free free help subscription free reply free key reply text get</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free help message service text subscription message text reply key text message text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free free help subscription free reply free key reply text get</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free help message service text subscription message text reply key message text text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free free help subscription free reply free key reply text get</keywords>
+      <or/>
+      <delete-scenario-with title="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free help subscription free reply free key reply text charge blacklist</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>13</keyword-count>
+      <keywords>free message subscription free free subscription free reply free key reply text get</keywords>
+      <or/>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>13</keyword-count>
+      <keywords>free message subscription free free free reply free key reply text get text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>12</keyword-count>
+      <keywords>free message subscription free free free reply free key reply text get</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>13</keyword-count>
+      <keywords>free message subscription free free subscription free reply free key reply text get</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>13</keyword-count>
+      <keywords>free message subscription free free subscription free reply free key reply text get</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free message service subscription free message service text free reply key message text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code-9"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>6</keyword-count>
+      <keywords>free message subscription free register get</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free launch pre free launch pre reply free key launch pre reply text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free launch pre free launch pre reply free key launch pre reply text</keywords>
+      <or/>
+      <delete-scenario-with title="Send pre_launch_text_key reply when a non-user sends the PRE-LAUNCH text-4"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free launch pre free launch pre reply free key launch pre reply text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free launch pre free launch pre reply free key launch pre reply text</keywords>
+      <and/>
+      <keep-scenario-with title="Creating requested profile for the user-3"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>19</keyword-count>
+      <keywords>free message subscription free end start launch pre process launch pre reply send key launch pre reply send text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-9"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>6</keyword-count>
+      <keywords>free message subscription free use get</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free charge subscription get</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free charge subscription get</keywords>
+      <or/>
+      <delete-scenario-with title="Do not charge subscribed user for the teaser-4-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free charge subscription get</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free charge subscription get</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>8</keyword-count>
+      <keywords>free message subscription free charge subscription get service</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free charge subscription get</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>8</keyword-count>
+      <keywords>free message subscription free already free subscribe free</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free charge subscription get</keywords>
+      <or/>
+      <delete-scenario-with title="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free charge subscription charge</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>9</keyword-count>
+      <keywords>free message subscription free free already charge get subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>11</keyword-count>
+      <keywords>free message subscription free free message subscription charge subscription receive subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>11</keyword-count>
+      <keywords>free message subscription free free message subscription charge subscription receive subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>11</keyword-count>
+      <keywords>free message subscription free free message subscription charge subscription get subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>11</keyword-count>
+      <keywords>free message subscription free free message subscription charge subscription receive subscription</keywords>
+      <or/>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>11</keyword-count>
+      <keywords>free message subscription free free subscription text charge subscription get subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>10</keyword-count>
+      <keywords>free message subscription free free subscription charge subscription get subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>11</keyword-count>
+      <keywords>free message subscription free free message subscription charge subscription receive subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free free receive subscription</keywords>
+      <or/>
+      <delete-scenario-with title="User with no profile does not receives free content teaser-9"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free text receive subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>6</keyword-count>
+      <keywords>free message subscription free create subscription</keywords>
+      <and/>
+      <keep-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free free receive subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free free receive subscription</keywords>
+      <and/>
+      <keep-scenario-with title="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>8</keyword-count>
+      <keywords>free message subscription free free text receive subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code"/>
+      <in feature="FP"/>
+      <keyword-count>14</keyword-count>
+      <keywords>free message subscription free free help subscription free reply free key reply text get</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free help message service text subscription message text reply key text message text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends mo with SCORE to free short code-9-5"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>9</keyword-count>
+      <keywords>free message subscription free free score text response subscription</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends mo with SCORE to free short code-keywords"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>17</keyword-count>
+      <keywords>free message subscription free free score free reply response service subscription free reply response service subscription text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>free message subscription free free score text free reply response service subscription free reply response service subscription text</keywords>
+      <and/>
+      <keep-scenario-with title="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>22</keyword-count>
+      <keywords>free message subscription free free message score text message text free reply response service subscription free message reply response service subscription text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>18</keyword-count>
+      <keywords>free message subscription free free score text free reply response service subscription free reply response service subscription text</keywords>
+      <and/>
+      <keep-scenario-with title="Invalid subscription-3"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>23</keyword-count>
+      <keywords>free message subscription free score create free reply response service subscription reply response service subscription free reply response service subscription text subscription text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>20</keyword-count>
+      <keywords>free message subscription free free free help help subscription free response service subscription free help message reply response service subscription</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>free message subscription free free free help help subscription free reply response service subscription free help reply response service subscription text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>free message subscription free free free score score subscription free reply response service subscription free reply response score service subscription text</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>26</keyword-count>
+      <keywords>free message subscription free free message text free message score text score service subscription free reply response service subscription free reply response score service subscription text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>free message subscription free free free score score subscription free reply response service subscription free reply response score service subscription text</keywords>
+      <or/>
+      <delete-scenario-with title="Subscribed user sends mo with value 1  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>free message subscription free free text free score score subscription free response service subscription free message reply response score service subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Request of subscription information by a subscribed user.-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>12</keyword-count>
+      <keywords>free message subscription free help subscription help message response service subscription text</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>20</keyword-count>
+      <keywords>free message subscription free free free help subscription free reply response service subscription free help reply response service subscription text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A subscribed user sends a free short code messages-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>7</keyword-count>
+      <keywords>free message subscription free unsubscribed response unsubscribed</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>8</keyword-count>
+      <keywords>free message subscription free free free subscription unsubscribed</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Free short code messages is sent by a subscribed user-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>5</keyword-count>
+      <keywords>free message subscription free message</keywords>
+      <and/>
+      <keep-scenario-with title="A Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>6</keyword-count>
+      <keywords>free message subscription free free free</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile sends an sms for unsubscription-15"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>13</keyword-count>
+      <keywords>free message subscription free subscription unsubscribed already reply response service subscription unsubscribed charge</keywords>
+      <and/>
+      <keep-scenario-with title="No profile customer sends optout keyword with active subscription-target-output"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>21</keyword-count>
+      <keywords>free message subscription free free subscription unsubscribed free reply response service subscription already free reply response service subscription text unsubscribed get</keywords>
+   </suggestion>
+</suggestions>

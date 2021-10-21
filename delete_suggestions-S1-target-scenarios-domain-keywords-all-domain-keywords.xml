@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggestions>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-9"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>35</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user help input send sms user get user user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted user with no profile should not be charged for sending HELP message-4"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms blacklisted user profile user msisdn code free help short sms text user profile user subscription user blacklisted request sms blacklisted code free reply short text user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>57</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP message to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user blacklisted request sms blacklisted code free reply short user blacklisted code free key message reply short text user charged get message sent user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>63</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms customer id msisdn customer profile blacklisted customer copmpany customer free help message service text word company customer profile system customer profile subscription blacklisted customer message received request someone text company customer reply blacklisted company customer key text charged customer message text blacklisted customer list</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code STOP- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>67</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms id msisdn sophie company profile sophie blacklisted sophie code copmpany free help message service sophie text word company profile sophie system company profile sophie subscription blacklisted message received request someone sophie text company reply sophie blacklisted company key message sophie text charged sent sophie text anymore blacklisted sophie</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code-blacklist"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+      <or/>
+      <delete-scenario-with title="Allowing user for free sms-3"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user help input received sms user profile set user profile subscription user blacklisted request sms blacklisted code free reply sent short user blacklisted code free key received reply short text user charge sms user blacklist user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with STOP text to free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>58</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free input short sms stop user profile user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sent text user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with OPTOUT keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free input short sms stop user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1 as input for free short code- mbaxqna9-31"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>57</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free input short sms user profile user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get input sent user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with 1/2/3 keyword to free short code"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code 1- mbax9ie2-30"/>
+      <in feature="Blacklist test cases"/>
+      <keyword-count>73</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms customer id msisdn nick nick nick nick profile yet blacklisted nick nick code free message nick nick number service nick nick profile nick nick profile subscription blacklisted free message nick nick request service someone text code free nick nick reply blacklisted company key message nick nick text charged nick nick anymore blacklisted nick nick</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code-9"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>31</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user user begin edit telekomcamapign register sms user yes get user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>58</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user begin campaign edit langcode sq telekomcampaign code free input short sms user yes profile user launch pre request sms code free launch pre reply short user code free key launch pre reply short text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>58</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user begin campaign edit langcode sq telekomcampaign code free input short sms user yes profile user launch pre request sms code free launch pre reply short user code free key launch pre reply short text user</keywords>
+      <and/>
+      <keep-scenario-with title="Send pre_launch_text_key reply when a non-user sends the PRE-LAUNCH text-4"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>59</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user account system user begin campaign edit langcode sq telekomcampaign code free short sms user value yes account user launch pre request sms code free launch pre reply short user code free key launch pre reply short text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Creating requested profile for the user-3"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>57</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user campaign edit end langcode sq start telekomcampaign input received sms user yes profile set user launch pre process request sms launch pre reply send user code key launch pre reply send short text user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends pre-launch, mo to free short code"/>
+      <in feature="Campaign test cases"/>
+      <keyword-count>58</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user begin campaign edit langcode sq telekomcampaign code free input short sms user yes profile user launch pre request sms code free launch pre reply short user code free key launch pre reply short text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-9"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>34</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn use profile user user charged personaltysubcription user charged get teaser user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user profile user user charge event personalitysubscription point status subscription charged get teaser user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user profile user user charge event personalitysubscription point status subscription charged get teaser user</keywords>
+      <or/>
+      <delete-scenario-with title="Do not charge subscribed user for the teaser-4-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms profile user user msisdn user charge event personalitysubscription point status subscription charged get teaser user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user profile user user charge event personalitysubscription point status subscription charged get teaser user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>38</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user user userinfo member user charge event personalitysubscription point status subscription charged get service user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user profile user user charge event personalitysubscription point status subscription charged get teaser user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>43</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms customer msisdn company customer profile already company customer customer free scheme subscribe wants week customer free phone scheme week charged customer</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Free teaser for the user-3"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>36</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user profile user user charge event personalitysubscription point status subscription charge teaser user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with free week,subscribed user and general failed charge request-H2"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>37</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user profile user user charge event personalitysubscription point status subscription charged get teaser user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>46</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user days edit free id message personalitysubscription shorcode subscription welcome profile user user charge event personalitysubscription point status subscription content receive subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>52</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms customer mark msidn free mark new personality scheme subscripion week without someone system mark profile already mark charge charged event mark personalitysubscription point scheme status content get mark subscription summary</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>46</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user days edit free id message personalitysubscription shorcode subscription welcome profile user user charge event personalitysubscription point status subscription content receive subscription user</keywords>
+      <or/>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed-no balance charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>46</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user days free id invitation message personalitysubscription shortcode subscription update profile user user category charge commence event personalitysubscription subscription content get subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>46</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user days edit free id message personalitysubscription shorcode subscription welcome profile user user charge event personalitysubscription point status subscription content receive subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request- mbax9ie2-30"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>55</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms customer mary msidn telecom free january mary personality scheme subscription text valid week someone system mary profile company mary charge event mary personality point scheme status subscription content get mary new scheme subscription</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscription with no free week,subscribed user and failed charge request"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>46</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user days edit free id message personalitysubscription shorcode subscription welcome profile user user charge event personalitysubscription point status subscription content receive subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscription with no free week,subscribed user and failed charge request-mbaxqna9-31"/>
+      <in feature="Charge test cases"/>
+      <keyword-count>47</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code short sms msisdn user commence days edit expire free greeting id note personalitysubscription shortcode subscription user contract user charge event group personalitysubscription subscription content get subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser-9"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>39</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user current time user sms teaser text user profile user current time update content receive subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>41</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user current time code free input short sms user yes teaser profile user current time content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Not sending subscription content-3"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>40</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user current time input sent sms user yes teaser create profile user current time content received subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="User with no profile does not receives free content teaser"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>41</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user current time code free input short sms user yes teaser profile user current time content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile does not receives free content teaser in billed period"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>41</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user current time code free input short sms user yes teaser profile user current time content receive subscription user</keywords>
+      <or/>
+      <delete-scenario-with title="None users should not receive free content-4"/>
+      <in feature="Content teaser test cases"/>
+      <keyword-count>41</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user account user current time code free short sms text user yes teaser account user current time content receive subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Blacklisted with no profile customer sends mo with HELP keyword to free short code"/>
+      <in feature="FP"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user blacklisted user code free help input short sms user profile user profile subscription user blacklisted request sms blacklisted code free reply short user blacklisted code free key reply short text user charged get sms user blacklisted user</keywords>
+      <and/>
+      <keep-scenario-with title="A blacklisted customer that doesn't have a profile requests a profile with the code HELP- mbax9ie2"/>
+      <in feature="FP"/>
+      <keyword-count>63</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms customer id msisdn customer profile blacklisted customer copmpany customer free help message service text word company customer profile system customer profile subscription blacklisted customer message received request someone text company customer reply blacklisted company customer key text charged customer message text blacklisted customer list</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="No profile user sends mo with SCORE to free short code-9-5"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>35</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free score short sms text user profile user response subscription user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile user sends mo with SCORE to free short code-keywords"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>53</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input score short sms user profile user invalid request sms code free reply response service short subscription user code free invalid reply response service short subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>53</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user account user code free score short text user words profile user invalid request sms code free reply response service short subscription user code free invalid reply response service short subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile customer sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>57</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms customer msisdn customer profile yet code customer free message score short text word customer profile invalid message request text code customer free reply response service short subscription code customer free invalid message reply response service short subscription text</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Send subscription_1_invalidt reply to an invalid user"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>53</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user account user code free score short text user words profile user invalid request sms code free reply response service short subscription user code free invalid reply response service short subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Invalid subscription-3"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>60</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user input score sent sms user create profile user invalid request sms code free reply response service short subscription received reply response service subscription user code free invalid reply response service short subscription text invalid subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with HELP to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>61</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input short sms user yes code free help input short sms user profile user help request sms subscription code free reply response service short subscription user code free help reply response service short subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with STOP  to free short code-mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>62</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input short submit user yes code free help input short submit user profile user generate help request sms subscription code free respond response service short subscription user code free help message reply response service short subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>61</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input short sms user yes code free input score short sms user profile user request score sms subscription code free reply response service short subscription user code free reply response score service short subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with SCORE to free short code- mbax9ie2-30"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>64</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms id msisdn user profile user code free input message short text user word yes code free message score short text user profile user score service sms subscription code free reply response service short subscription user code free reply response score service short subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Subscribed user sends mo with SCORE to free short code"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>61</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input short sms user yes code free input score short sms user profile user request score sms subscription code free reply response service short subscription user code free reply response score service short subscription text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with value 1  to free short code- mbaxqna9-31"/>
+      <in feature="Keywords test cases"/>
+      <keyword-count>65</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code enter free input short text user yes code enter free input score short user value profile user request score sms subscription transmit code free obtain response service short subscription user code free message obtain reply response score service short subscription user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Request of subscription information by a subscribed user.-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>43</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn profile user sent sms user yes info sent sms user profile help request subscription help message received response service subscription subscrition text user</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with INFO alias to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>61</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input short sms user yes code free info input short sms user profile user help request sms subscription code free reply response service short subscription user code free help reply response service short subscription text user</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="A subscribed user sends a free short code messages-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>40</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms code identification msisdn profile user sent sms user yes quit sms user profile profile unsubscribed user request response sent sms unsubscribed</keywords>
+      <and/>
+      <keep-scenario-with title="Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>46</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input short sms user yes code free input quit short sms user profile user profile subscription unsubscribed user request sms unsubscribe</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="Free short code messages is sent by a subscribed user-15"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>39</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms identification msisdn unprofiled user code following sent sms yes act code following sent sms profile user activity message request sent</keywords>
+      <and/>
+      <keep-scenario-with title="A Subscribed user sends mo with QUIT to free short code"/>
+      <in feature="Keywords aliases test cases"/>
+      <keyword-count>42</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input short sms user yes act code free input short sms user profile user activity request sms</keywords>
+   </suggestion>
+   <suggestion>
+      <delete-scenario-with title="User with no profile sends an sms for unsubscription-15"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>43</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn profile user sent sms stop user profile subscription unsubscribed user request sms unsubscribe already received reply response service subscription unsubscribed user charge user</keywords>
+      <and/>
+      <keep-scenario-with title="No profile customer sends optout keyword with active subscription-target-output"/>
+      <in feature="Subscription Opt-out test cases"/>
+      <keyword-count>62</keyword-count>
+      <keywords>begin campaign edit langcode sq telekomcampaign days edit free id message personalitysubscription shorcode subscription welcome code free short sms msisdn user profile user code free input short sms stop user profile user profile subscription unsubscribed user request sms unsubscribe code free reply response service short subscription user already code free reply response service short subscription text unsubscribed user charged get sms user</keywords>
+   </suggestion>
+</suggestions>

@@ -1,0 +1,28 @@
+package uk.ac.manchester.cs.img.seed.test.tracing;
+
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public abstract class AbstractLoggingAspect {
+
+    private final int width = 2;
+    private int indent = 0;
+
+    @Pointcut
+    protected abstract void logging();
+
+    @Before("logging()")
+    public void increaseIndent(){
+        this.indent++;
+    }
+
+    @After("logging()")
+    public void decreaseIndent() {
+        this.indent--;
+    }
+    
+}
+
